@@ -1,0 +1,3325 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Start Booking\n"
+"POT-Creation-Date: 2023-04-22 10:25-0600\n"
+"PO-Revision-Date: 2023-04-22 10:25-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: start-booking.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#: admin/404.php:1
+msgid "Content not found."
+msgstr "404 Λάθος - Η σελίδα δεν βρέθηκε."
+
+#: admin/connected/header.php:26 public/js/admin/index.js:63635
+#: public/js/admin/index.js:65541 public/js/admin/index.js:70707
+#: public/js/admin/index.js:70870
+msgid "Dashboard"
+msgstr "Πίνακας Ελέγχου"
+
+#: admin/connected/header.php:29 inc/content.php:26 inc/copy.php:47
+#: inc/copy.php:83 inc/widgets/single-service.php:54
+#: public/js/admin/index.js:62328 public/js/admin/index.js:63656
+#: public/js/admin/index.js:65562 public/js/admin/index.js:67420
+#: public/js/admin/index.js:67424 public/js/admin/index.js:67570
+#: public/js/admin/index.js:67574 public/js/admin/index.js:68821
+#: public/js/admin/index.js:69146 public/js/admin/index.js:70747
+#: public/js/admin/index.js:70912 public/js/blocks/default-appointment.js:2192
+#: public/js/blocks/default-appointment.js:2273
+#: public/js/blocks/single-service.js:2087
+#: public/js/flows/default-appointment.js:14180
+#: public/js/flows/default-classes.js:15106
+#: public/js/flows/single-service.js:13065
+#: resources/assets/js/front-end/utils/translate.js:95
+msgid "Services"
+msgstr "Υπηρεσίες"
+
+#: admin/connected/header.php:32 inc/content.php:43
+#: public/js/admin/index.js:68984 public/js/admin/index.js:69190
+#: public/js/admin/index.js:70768 public/js/blocks/default-classes.js:5180
+#: public/js/blocks/default-classes.js:5423
+#: public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:111
+msgid "Classes"
+msgstr "Τάξεις"
+
+#: admin/connected/header.php:35
+msgid "Form Editor"
+msgstr "Επεξεργαστής Φόρμας"
+
+#: admin/connected/header.php:38 public/js/admin/index.js:69628
+#: public/js/admin/index.js:70079 public/js/admin/index.js:70785
+#: public/js/admin/index.js:70933
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: admin/connected/header.php:42
+msgid "Go to Start Booking"
+msgstr "Πηγαίνετε στην Έναρξη κράτησης"
+
+#: inc/admin-connect.php:52
+msgid "Processing"
+msgstr "Σε επεξεργασία"
+
+#: inc/admin-connect.php:56 inc/admin-connect.php:255 inc/partners/wpcom.php:92
+#: inc/partners/wpcom.php:96
+msgid "Invalid response from startbooking.com."
+msgstr "Άκυρη απάντηση από το startbooking.com."
+
+#: inc/admin-connect.php:111 inc/admin-connect.php:179
+msgid "Invalid Credentials"
+msgstr "Μη έγκυρα διαπιστευτήρια"
+
+#: inc/admin-connect.php:112 inc/admin-connect.php:180
+msgid "Invalid Password"
+msgstr "Λανθασμένος κωδικός"
+
+#: inc/admin-connect.php:119 inc/admin-connect.php:187
+msgid "Invalid Authentication."
+msgstr "Μη έγκυρη πιστοποίηση."
+
+#: inc/admin-connect.php:131 inc/admin-connect.php:210
+#: inc/admin-connect.php:251 inc/partners/wpcom.php:88
+msgid "Connection Established."
+msgstr "Η σύνδεση εγκαθιδρύθηκε."
+
+#: inc/admin-connect.php:135 inc/admin-connect.php:214
+msgid "Invalid credentials. Contact Support at startbooking.com"
+msgstr ""
+"Μη έγκυρα διαπιστευτήρια. Επικοινωνήστε με την Υποστήριξη στο startbooking."
+"com"
+
+#: inc/admin-connect.php:471
+msgid "would like access to use Start Booking in the WordPress admin."
+msgstr "θα ήθελε να έχει πρόσβαση στη χρήση Start Booking στο WordPress admin."
+
+#: inc/admin-connect.php:473
+msgid "Click link to grant access, otherwise do nothing."
+msgstr ""
+"Κάντε κλικ στο σύνδεσμο για να χορηγήσετε πρόσβαση, διαφορετικά μην κάνετε "
+"τίποτα."
+
+#: inc/admin-connect.php:477
+msgid "requesting access to Start Booking"
+msgstr "ζητώντας πρόσβαση στο Start Booking"
+
+#: inc/admin-connect.php:480
+msgid "has been sent an email requesting access."
+msgstr ""
+"έχει αποσταλεί ένα μήνυμα ηλεκτρονικού ταχυδρομείου με αίτημα πρόσβασης."
+
+#: inc/admin-connect.php:482
+msgid "Unable to send email to request access."
+msgstr "Δεν είναι δυνατή η αποστολή email για να ζητήσετε πρόσβαση."
+
+#: inc/admin-connect.php:504
+msgid "granted access."
+msgstr "χορηγείται πρόσβαση."
+
+#: inc/admin-connect.php:505
+msgid "has granted access to"
+msgstr "έχει παραχωρήσει πρόσβαση στο"
+
+#: inc/admin-connect.php:511 inc/admin-connect.php:517
+msgid "Access granted to"
+msgstr "Πρόσβαση που χορηγείται σε"
+
+#: inc/admin-connect.php:512
+msgid "You have granted access to"
+msgstr "Έχετε χορηγήσει πρόσβαση σε"
+
+#: inc/admin-connect.php:513
+msgid "If this is not your intention please contact Start Booking support."
+msgstr ""
+"Εάν δεν είναι αυτή η πρόθεσή σας, επικοινωνήστε με την υποστήριξη Start "
+"Booking."
+
+#: inc/admin-connect.php:529
+msgid "Unable to grant access to"
+msgstr "Αδυναμία χορήγησης πρόσβασης σε"
+
+#: inc/base.php:198
+msgid "Get started with online scheduling from"
+msgstr "Ξεκινήστε με τον online προγραμματισμό από"
+
+#: inc/base.php:199
+msgid ""
+"Great news, your booking page is live! Activate your account to ensure you "
+"don't miss appointments."
+msgstr ""
+"Υπέροχα νέα, η σελίδα κράτησής σας είναι ζωντανή! Ενεργοποιήστε το "
+"λογαριασμό σας για να διασφαλίσετε ότι δεν θα χάσετε ραντεβού."
+
+#: inc/base.php:201
+msgid "Activate"
+msgstr "Ενεργοποίηση"
+
+#: inc/base.php:202
+msgid "Continue setup"
+msgstr "Συνεχίστε την εγκατάσταση"
+
+#: inc/base.php:258
+msgid "Booking Page Created."
+msgstr "Δημιουργήθηκε σελίδα κράτησης."
+
+#: inc/base.php:260
+msgid "Unable to create page."
+msgstr "Αδυναμία δημιουργίας σελίδας."
+
+#: inc/base.php:608 public/js/admin/index.js:11556
+#: public/js/admin/index.js:14036 public/js/admin/index.js:25761
+#: public/js/admin/index.js:32859 public/js/admin/index.js:48249
+#: public/js/admin/index.js:61891 public/js/admin/index.js:61969
+#: public/js/admin/index.js:62639 public/js/admin/index.js:64783
+#: public/js/admin/index.js:67948 public/js/blocks/single-service.js:2137
+#: public/js/flows/default-appointment.js:5097
+#: public/js/flows/default-classes.js:8734
+#: public/js/flows/default-classes.js:10897
+#: public/js/flows/single-service.js:5049
+msgid "Loading"
+msgstr "Φόρτωση"
+
+#: inc/base.php:707 public/js/blocks/single-service.js:2306
+#: public/js/flows/default-appointment.js:3874
+#: public/js/flows/default-appointment.js:13965
+#: public/js/flows/default-classes.js:6557
+#: public/js/flows/single-service.js:3826
+#: public/js/flows/single-service.js:12850
+#: resources/assets/js/front-end/utils/time.js:12
+msgid "hour"
+msgstr "ώρα"
+
+#: inc/base.php:709 public/js/blocks/single-service.js:2308
+#: public/js/flows/default-appointment.js:3876
+#: public/js/flows/default-appointment.js:13967
+#: public/js/flows/default-classes.js:6559
+#: public/js/flows/single-service.js:3828
+#: public/js/flows/single-service.js:12852
+#: resources/assets/js/front-end/utils/time.js:14
+msgid "hours"
+msgstr "ώρες"
+
+#: inc/base.php:713 public/js/blocks/single-service.js:2314
+#: public/js/flows/default-appointment.js:3882
+#: public/js/flows/default-appointment.js:13973
+#: public/js/flows/default-classes.js:6565
+#: public/js/flows/single-service.js:3834
+#: public/js/flows/single-service.js:12858
+#: resources/assets/js/front-end/utils/time.js:18
+msgid "minute"
+msgstr "λεπτό"
+
+#: inc/base.php:715 public/js/blocks/single-service.js:2317
+#: public/js/flows/default-appointment.js:3885
+#: public/js/flows/default-appointment.js:13976
+#: public/js/flows/default-classes.js:6568
+#: public/js/flows/single-service.js:3837
+#: public/js/flows/single-service.js:12861
+#: resources/assets/js/front-end/utils/time.js:21
+msgid "minutes"
+msgstr "λεπτά"
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+#: inc/blocks.php:11 inc/routes.php:7
+msgid "Start Booking"
+msgstr "Έναρξη κράτησης"
+
+#: inc/content.php:3 public/js/flows/default-appointment.js:14157
+#: public/js/flows/default-classes.js:15083
+#: public/js/flows/single-service.js:13042
+#: resources/assets/js/front-end/utils/translate.js:72
+msgid "Select Service Type"
+msgstr "Επιλέξτε Τύπος υπηρεσίας"
+
+#: inc/content.php:4 inc/widgets/single-service.php:56
+#: public/js/flows/default-appointment.js:14158
+#: public/js/flows/default-classes.js:15084
+#: public/js/flows/single-service.js:13043
+#: resources/assets/js/front-end/utils/translate.js:73
+msgid "Select a Service"
+msgstr "Επιλέξτε μια υπηρεσία"
+
+#: inc/content.php:5 public/js/flows/default-appointment.js:14159
+#: public/js/flows/default-classes.js:15085
+#: public/js/flows/single-service.js:13044
+#: resources/assets/js/front-end/utils/translate.js:74
+msgid "Select a Provider"
+msgstr "Επιλέξτε έναν πάροχο"
+
+#: inc/content.php:6 inc/content.php:41 public/js/admin/index.js:61788
+#: public/js/flows/default-appointment.js:14160
+#: public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15086
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13045
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:75
+#: resources/assets/js/front-end/utils/translate.js:109
+msgid "Additional Options"
+msgstr "Επιπλέον επιλογές"
+
+#: inc/content.php:7 public/js/blocks/default-classes.js:5203
+#: public/js/flows/default-appointment.js:3742
+#: public/js/flows/default-appointment.js:4010
+#: public/js/flows/default-appointment.js:7702
+#: public/js/flows/default-appointment.js:14161
+#: public/js/flows/default-classes.js:6425
+#: public/js/flows/default-classes.js:6693
+#: public/js/flows/default-classes.js:9707
+#: public/js/flows/default-classes.js:15087
+#: public/js/flows/single-service.js:3694
+#: public/js/flows/single-service.js:3962
+#: public/js/flows/single-service.js:7340
+#: public/js/flows/single-service.js:13046
+#: resources/assets/js/front-end/utils/translate.js:76
+msgid "Select"
+msgstr "Επιλέξτε"
+
+#: inc/content.php:8 public/js/flows/default-appointment.js:3743
+#: public/js/flows/default-appointment.js:4011
+#: public/js/flows/default-appointment.js:14162
+#: public/js/flows/default-classes.js:6426
+#: public/js/flows/default-classes.js:6694
+#: public/js/flows/default-classes.js:15088
+#: public/js/flows/single-service.js:3695
+#: public/js/flows/single-service.js:3963
+#: public/js/flows/single-service.js:13047
+#: resources/assets/js/front-end/utils/translate.js:77
+msgid "Selected"
+msgstr "Επιλεγμένο"
+
+#: inc/content.php:9 public/js/flows/default-appointment.js:14163
+#: public/js/flows/default-classes.js:15089
+#: public/js/flows/single-service.js:13048
+#: resources/assets/js/front-end/utils/translate.js:78
+msgid "Select a Date & Time"
+msgstr "Επιλέξτε ημερομηνία και ώρα"
+
+#: inc/content.php:10 public/js/blocks/default-appointment.js:2226
+#: public/js/blocks/default-classes.js:5195
+#: public/js/flows/default-appointment.js:14164
+#: public/js/flows/default-classes.js:15090
+#: public/js/flows/single-service.js:13049
+#: resources/assets/js/front-end/utils/translate.js:79
+msgid "Available times for"
+msgstr "Διαθέσιμοι χρόνοι για"
+
+#: inc/content.php:11 inc/content.php:38
+#: public/js/flows/default-appointment.js:10032
+#: public/js/flows/default-appointment.js:14165
+#: public/js/flows/default-classes.js:15091
+#: public/js/flows/single-service.js:9670
+#: public/js/flows/single-service.js:13050
+#: resources/assets/js/front-end/utils/translate.js:80
+msgid "Searching Availability"
+msgstr "Αναζήτηση διαθεσιμότητας"
+
+#: inc/content.php:12 public/js/flows/default-appointment.js:14166
+#: public/js/flows/default-classes.js:15092
+#: public/js/flows/single-service.js:13051
+#: resources/assets/js/front-end/utils/translate.js:81
+msgid "There are no available times for this date"
+msgstr "Δεν υπάρχουν διαθέσιμες ώρες για αυτή την ημερομηνία"
+
+#: inc/content.php:13 public/js/flows/default-appointment.js:14167
+#: public/js/flows/default-classes.js:15093
+#: public/js/flows/single-service.js:13052
+#: resources/assets/js/front-end/utils/translate.js:82
+msgid "Morning"
+msgstr "Πρωί"
+
+#: inc/content.php:14 public/js/flows/default-appointment.js:14168
+#: public/js/flows/default-classes.js:15094
+#: public/js/flows/single-service.js:13053
+#: resources/assets/js/front-end/utils/translate.js:83
+msgid "Afternoon"
+msgstr "Απόγευμα"
+
+#: inc/content.php:15 public/js/flows/default-appointment.js:14169
+#: public/js/flows/default-classes.js:15095
+#: public/js/flows/single-service.js:13054
+#: resources/assets/js/front-end/utils/translate.js:84
+msgid "Evening"
+msgstr "Απογευματινή"
+
+#: inc/content.php:16 public/js/flows/default-appointment.js:14170
+#: public/js/flows/default-classes.js:15096
+#: public/js/flows/single-service.js:13055
+#: resources/assets/js/front-end/utils/translate.js:85
+msgid "Complete Appointment"
+msgstr "Πλήρες ραντεβού"
+
+#: inc/content.php:17 inc/copy.php:18 public/js/admin/index.js:17386
+#: public/js/admin/index.js:17862 public/js/flows/default-appointment.js:14171
+#: public/js/flows/default-classes.js:15097
+#: public/js/flows/single-service.js:13056
+#: resources/assets/js/front-end/utils/translate.js:86
+msgid "Email"
+msgstr "Ηλεκτρονικό ταχυδρομείο"
+
+#: inc/content.php:18 inc/copy.php:19 public/js/admin/index.js:17834
+#: public/js/admin/index.js:17839 public/js/flows/default-appointment.js:14172
+#: public/js/flows/default-classes.js:15098
+#: public/js/flows/single-service.js:13057
+#: resources/assets/js/front-end/utils/translate.js:87
+msgid "First Name"
+msgstr "Όνομα"
+
+#: inc/content.php:19 inc/copy.php:20 public/js/admin/index.js:17850
+#: public/js/admin/index.js:17851 public/js/flows/default-appointment.js:14173
+#: public/js/flows/default-classes.js:15099
+#: public/js/flows/single-service.js:13058
+#: resources/assets/js/front-end/utils/translate.js:88
+msgid "Last Name"
+msgstr "Επώνυμο"
+
+#: inc/content.php:20 public/js/admin/index.js:63454
+#: public/js/flows/default-appointment.js:14174
+#: public/js/flows/default-classes.js:15100
+#: public/js/flows/single-service.js:13059
+#: resources/assets/js/front-end/utils/translate.js:89
+msgid "Phone"
+msgstr "Τηλέφωνο"
+
+#: inc/content.php:21 public/js/flows/default-appointment.js:4302
+#: public/js/flows/default-appointment.js:14175
+#: public/js/flows/default-classes.js:7121
+#: public/js/flows/default-classes.js:15101
+#: public/js/flows/single-service.js:4254
+#: public/js/flows/single-service.js:13060
+#: resources/assets/js/front-end/utils/translate.js:90
+msgid "Submit"
+msgstr "Υποβολή"
+
+#: inc/content.php:22 public/js/flows/default-appointment.js:14176
+#: public/js/flows/default-classes.js:15102
+#: public/js/flows/single-service.js:13061
+#: resources/assets/js/front-end/utils/translate.js:91
+msgid "Card Number"
+msgstr "Αριθμός Κάρτας"
+
+#: inc/content.php:23 public/js/flows/default-appointment.js:14177
+#: public/js/flows/default-classes.js:15103
+#: public/js/flows/single-service.js:13062
+#: resources/assets/js/front-end/utils/translate.js:92
+msgid "Expiration"
+msgstr "Λήξη"
+
+#: inc/content.php:24 public/js/flows/default-appointment.js:14178
+#: public/js/flows/default-classes.js:15104
+#: public/js/flows/single-service.js:13063
+#: resources/assets/js/front-end/utils/translate.js:93
+msgid "Book and Pay Later"
+msgstr "Κάντε κράτηση και πληρώστε αργότερα"
+
+#: inc/content.php:25 public/js/flows/default-appointment.js:14179
+#: public/js/flows/default-classes.js:15105
+#: public/js/flows/single-service.js:13064
+#: resources/assets/js/front-end/utils/translate.js:94
+msgid "Review Booking"
+msgstr "Αναθεώρηση κράτησης"
+
+#: inc/content.php:27 inc/content.php:44
+#: public/js/flows/default-appointment.js:14181
+#: public/js/flows/default-classes.js:15107
+#: public/js/flows/single-service.js:13066
+#: resources/assets/js/front-end/utils/translate.js:96
+msgid "Addons"
+msgstr "Πρόσθετα"
+
+#: inc/content.php:28 public/js/flows/default-appointment.js:14182
+#: public/js/flows/default-classes.js:15108
+#: public/js/flows/single-service.js:13067
+#: resources/assets/js/front-end/utils/translate.js:97
+msgid "Date & Time"
+msgstr "Ημερομηνία & Ώρα"
+
+#: inc/content.php:29 inc/copy.php:29 inc/copy.php:75
+#: public/js/admin/index.js:64234 public/js/admin/index.js:64813
+#: public/js/admin/index.js:65766 public/js/flows/default-appointment.js:14183
+#: public/js/flows/default-classes.js:15109
+#: public/js/flows/single-service.js:13068
+#: resources/assets/js/front-end/utils/translate.js:98
+msgid "Duration"
+msgstr "Διάρκεια"
+
+#: inc/content.php:30 public/js/flows/default-appointment.js:4646
+#: public/js/flows/default-appointment.js:14184
+#: public/js/flows/default-classes.js:7426
+#: public/js/flows/default-classes.js:15110
+#: public/js/flows/single-service.js:4598
+#: public/js/flows/single-service.js:13069
+#: resources/assets/js/front-end/utils/translate.js:99
+msgid "Total"
+msgstr "Σύνολο"
+
+#: inc/content.php:31 public/js/flows/default-appointment.js:14185
+#: public/js/flows/default-classes.js:15111
+#: public/js/flows/single-service.js:13070
+#: resources/assets/js/front-end/utils/translate.js:100
+msgid "Thank you for booking!"
+msgstr "Σας ευχαριστούμε για την κράτηση!"
+
+#: inc/content.php:32 public/js/flows/default-appointment.js:14186
+#: public/js/flows/default-classes.js:15112
+#: public/js/flows/single-service.js:13071
+#: resources/assets/js/front-end/utils/translate.js:101
+msgid "We look forward to seeing you soon"
+msgstr "Ανυπομονούμε να σας δούμε σύντομα"
+
+#: inc/content.php:33 public/js/flows/default-appointment.js:14187
+#: public/js/flows/default-classes.js:15113
+#: public/js/flows/single-service.js:13072
+#: resources/assets/js/front-end/utils/translate.js:102
+msgid "Return back"
+msgstr "Επιστροφή πίσω"
+
+#: inc/content.php:34 public/js/flows/default-appointment.js:14188
+#: public/js/flows/default-classes.js:10129
+#: public/js/flows/default-classes.js:15114
+#: public/js/flows/single-service.js:13073
+#: resources/assets/js/front-end/utils/translate.js:103
+msgid "Day"
+msgstr "Ημέρα"
+
+#: inc/content.php:35 public/js/flows/default-appointment.js:14189
+#: public/js/flows/default-classes.js:10130
+#: public/js/flows/default-classes.js:15115
+#: public/js/flows/single-service.js:13074
+#: resources/assets/js/front-end/utils/translate.js:104
+msgid "Range"
+msgstr "Εύρος"
+
+#: inc/content.php:36 public/js/flows/default-appointment.js:14190
+#: public/js/flows/default-classes.js:15116
+#: public/js/flows/single-service.js:13075
+#: resources/assets/js/front-end/utils/translate.js:105
+msgid "There are no available classes for the selected dates"
+msgstr "Δεν υπάρχουν διαθέσιμα μαθήματα για τις επιλεγμένες ημερομηνίες"
+
+#: inc/content.php:37 public/js/flows/default-appointment.js:14191
+#: public/js/flows/default-classes.js:15117
+#: public/js/flows/single-service.js:13076
+#: resources/assets/js/front-end/utils/translate.js:106
+msgid "Filter"
+msgstr "Φίλτρο"
+
+#: inc/content.php:39 public/js/blocks/default-classes.js:5291
+#: public/js/flows/default-appointment.js:14192
+#: public/js/flows/default-classes.js:15118
+#: public/js/flows/single-service.js:13077
+#: resources/assets/js/front-end/utils/translate.js:107
+msgid "Remaining"
+msgstr "Απομένουν"
+
+#: inc/content.php:40
+msgid "Sole Out"
+msgstr "Sole Out"
+
+#: inc/content.php:42 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:110
+msgid "Complete Booking"
+msgstr "Πλήρης κράτηση"
+
+#: inc/content.php:45 inc/copy.php:22 inc/copy.php:71 inc/shortcodes.php:161
+#: public/js/blocks/default-appointment.js:2234
+#: public/js/blocks/default-classes.js:5239
+#: public/js/blocks/single-service.js:1914
+#: public/js/blocks/single-service.js:1950
+#: public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:112
+msgid "Continue"
+msgstr "Συνέχεια"
+
+#: inc/content.php:46 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:113
+msgid "Back"
+msgstr "Πίσω"
+
+#: inc/content.php:47 public/js/blocks/call-to-action.js:2227
+#: public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:114
+msgid "Book Now"
+msgstr "Κράτηση Τώρα"
+
+#: inc/content.php:48 public/js/flows/default-appointment.js:4304
+#: public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:7123
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:4256
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:115
+msgid ""
+"By clicking checkout you agree to our Terms of Service and Privacy Policy."
+msgstr ""
+"Κάνοντας κλικ στο checkout συμφωνείτε με τους Όρους χρήσης και την Πολιτική "
+"απορρήτου."
+
+#: inc/content.php:49 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:116
+msgid "home"
+msgstr "αρχική σελίδα"
+
+#: inc/content.php:50 inc/copy.php:79
+#: public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:117
+msgid "services"
+msgstr "υπηρεσίες"
+
+#: inc/content.php:51 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:118
+msgid "classes"
+msgstr "τάξεις"
+
+#: inc/content.php:52 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:119
+msgid "packages"
+msgstr "πακέτα"
+
+#: inc/content.php:53 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:120
+msgid "login"
+msgstr "σύνδεση"
+
+#: inc/content.php:54 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:121
+msgid "my account"
+msgstr "ο λογαριασμός μου"
+
+#: inc/content.php:55 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:122
+msgid "about us"
+msgstr "σχετικά με εμάς"
+
+#: inc/content.php:56
+msgid "continue"
+msgstr "συνέχεια"
+
+#: inc/content.php:57
+msgid "select"
+msgstr "επιλέξτε"
+
+#: inc/content.php:58 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:123
+msgid "remove"
+msgstr "αφαίρεση"
+
+#: inc/content.php:59
+msgid "back"
+msgstr "πίσω"
+
+#: inc/content.php:60 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:124
+msgid "skip"
+msgstr "παραλείπω"
+
+#: inc/content.php:61
+msgid "selected"
+msgstr "επιλεγμένα"
+
+#: inc/content.php:62 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:125
+msgid "free"
+msgstr "δωρεάν"
+
+#: inc/content.php:63 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:126
+msgid "forgot password"
+msgstr "ξέχασα τον κωδικό πρόσβασης"
+
+#: inc/content.php:64 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:127
+msgid "remember me"
+msgstr "θυμήσου με"
+
+#: inc/content.php:65 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:128
+msgid "password"
+msgstr "κωδικός πρόσβασης"
+
+#: inc/content.php:66 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:129
+msgid "next"
+msgstr "επόμενο"
+
+#: inc/content.php:67 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:130
+msgid "enter a valid address"
+msgstr "εισάγετε μια έγκυρη διεύθυνση"
+
+#: inc/content.php:68 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:131
+msgid "email address"
+msgstr "διεύθυνση Email"
+
+#: inc/content.php:69 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:132
+msgid "customer information"
+msgstr "πληροφορίες πελατών"
+
+#: inc/content.php:70 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:133
+msgid "customers"
+msgstr "πελάτες"
+
+#: inc/content.php:71 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:134
+msgid "sign in to your account"
+msgstr "συνδεθείτε στο λογαριασμό σας"
+
+#: inc/content.php:72 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:135
+msgid "reset password"
+msgstr "επαναφορά κωδικού"
+
+#: inc/content.php:73 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:136
+msgid "enter your email and we'll send you a link to reset your password"
+msgstr ""
+"εισάγετε το email σας και θα σας στείλουμε έναν σύνδεσμο για να επαναφέρετε "
+"τον κωδικό πρόσβασής σας"
+
+#: inc/content.php:74 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:137
+msgid "we have securely populated a profile that matches this email address"
+msgstr ""
+"έχουμε συμπληρώσει με ασφάλεια ένα προφίλ που ταιριάζει με αυτή τη διεύθυνση "
+"ηλεκτρονικού ταχυδρομείου"
+
+#: inc/content.php:75 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:138
+msgid "booking"
+msgstr "κράτηση"
+
+#: inc/content.php:76 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:139
+#, fuzzy
+msgid "cancel"
+msgstr "ακύρωση"
+
+#: inc/content.php:77 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:140
+msgid "book again"
+msgstr "κλείστε ξανά"
+
+#: inc/content.php:78 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:141
+msgid "booking cancelled"
+msgstr "ακύρωση κράτησης"
+
+#: inc/content.php:79 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:142
+msgid "service"
+msgstr "υπηρεσία"
+
+#: inc/content.php:80 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:143
+msgid "class"
+msgstr "Κατηγορία γκαλερί / αναγνωριστικό"
+
+#: inc/content.php:81 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:144
+msgid "date"
+msgstr "ημερομηνία"
+
+#: inc/content.php:82 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:145
+msgid "zoom"
+msgstr "ζουμ"
+
+#: inc/content.php:83 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:146
+msgid "join zoom"
+msgstr "ενταχθείτε στο ζουμ"
+
+#: inc/content.php:84 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:147
+msgid "charges"
+msgstr "χρεώσεις"
+
+#: inc/content.php:85 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:148
+msgid "paid"
+msgstr "Εξωφλημένο"
+
+#: inc/content.php:86 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:149
+msgid "view receipt"
+msgstr "δείτε την απόδειξη"
+
+#: inc/content.php:87 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:150
+msgid "ending in"
+msgstr "τελειωνει σε"
+
+#: inc/content.php:88 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:151
+msgid "user"
+msgstr "χρήστης"
+
+#: inc/content.php:89 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:152
+msgid "first name"
+msgstr "όνομα"
+
+#: inc/content.php:90 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:153
+msgid "last name"
+msgstr "επώνυμο"
+
+#: inc/content.php:91 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:154
+msgid "mobile phone"
+msgstr "κινητό τηλέφωνο"
+
+#: inc/content.php:92 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:155
+msgid "password requirements"
+msgstr "απαιτήσεις κωδικού πρόσβασης"
+
+#: inc/content.php:93 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:156
+msgid "minimum 6 characters in length"
+msgstr "τουλάχιστον 6 χαρακτήρες"
+
+#: inc/content.php:94 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:157
+msgid "must contain at least one number"
+msgstr "πρέπει να περιέχει τουλάχιστον έναν αριθμό"
+
+#: inc/content.php:95 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:158
+msgid "continue without registering"
+msgstr "συνεχίστε χωρίς εγγραφή"
+
+#: inc/content.php:96 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:159
+msgid "continue without email"
+msgstr "συνεχίστε χωρίς email"
+
+#: inc/content.php:97 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:160
+msgid "checkout"
+msgstr "πληρωμή"
+
+#: inc/copy.php:6
+msgid "Select a Date and Time"
+msgstr "Επιλέξτε ημερομηνία και ώρα"
+
+#: inc/copy.php:7
+msgid "Available Times for"
+msgstr "Διαθέσιμοι χρόνοι για"
+
+#: inc/copy.php:8
+msgid "No appointments available on selected day."
+msgstr "Δεν υπάρχουν διαθέσιμα ραντεβού την επιλεγμένη ημέρα."
+
+#: inc/copy.php:9
+msgid "Looking for available appointments."
+msgstr "Ψάχνει για διαθέσιμα ραντεβού."
+
+#: inc/copy.php:11
+msgid "Selected date is in the past."
+msgstr "Η επιλεγμένη ημερομηνία βρίσκεται στο παρελθόν."
+
+#: inc/copy.php:12
+msgid "Please select a date and time."
+msgstr "Παρακαλούμε επιλέξτε ημερομηνία και ώρα."
+
+#: inc/copy.php:16
+msgid "Your Details"
+msgstr "Τα στοιχεία σας"
+
+#: inc/copy.php:17
+msgid "Secure Profile Loaded from StartBooking.com"
+msgstr "Ασφαλές προφίλ φορτωμένο από το StartBooking.com"
+
+#: inc/copy.php:21 public/js/admin/index.js:10968
+msgid "Phone Number"
+msgstr "Αριθμός Τηλεφώνου"
+
+#: inc/copy.php:25
+msgid "Review & Confirm"
+msgstr "Επανεξέταση & επιβεβαίωση"
+
+#: inc/copy.php:26 public/js/admin/index.js:64156
+#: public/js/admin/index.js:66766 public/js/admin/index.js:67010
+msgid "Name"
+msgstr "Όνομα"
+
+#: inc/copy.php:27
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: inc/copy.php:28 inc/copy.php:85 public/js/admin/index.js:38840
+#: public/js/admin/index.js:40329
+msgid "Time"
+msgstr "Ώρα"
+
+#: inc/copy.php:30
+msgid "Service(s)"
+msgstr "Υπηρεσία(ες)"
+
+#: inc/copy.php:31
+msgid "Confirm Appointment"
+msgstr "Επιβεβαίωση διορισμού"
+
+#: inc/copy.php:34
+msgid "Select Services"
+msgstr "Επιλέξτε υπηρεσίες"
+
+#: inc/copy.php:35
+msgid "Select Another Service"
+msgstr "Επιλέξτε άλλη υπηρεσία"
+
+#: inc/copy.php:36
+msgid "Select a Service Type"
+msgstr "Επιλέξτε έναν τύπο υπηρεσίας"
+
+#: inc/copy.php:37
+msgid "Loading service types..."
+msgstr "Φόρτωση τύπων υπηρεσιών..."
+
+#: inc/copy.php:39
+msgid "Please select a service to continue."
+msgstr "Παρακαλούμε επιλέξτε μια υπηρεσία για να συνεχίσετε."
+
+#: inc/copy.php:43
+msgid "Summary"
+msgstr "Περίληψη"
+
+#: inc/copy.php:44
+msgid "Payment Information"
+msgstr "Πληροφορίες Πληρωμής"
+
+#: inc/copy.php:45 inc/copy.php:60 inc/copy.php:84
+msgid "Appointment"
+msgstr "Ραντεβού"
+
+#: inc/copy.php:46 public/js/admin/index.js:64809
+#: public/js/admin/index.js:66530 public/js/admin/index.js:67422
+#: public/js/admin/index.js:67572 public/js/blocks/call-to-action.js:2393
+#: public/js/blocks/single-service.js:2092
+#: public/js/blocks/single-service.js:2127
+msgid "Service"
+msgstr "Υπηρεσία"
+
+#: inc/copy.php:48
+msgid "Total Amount Due"
+msgstr "Συνολικό οφειλόμενο ποσό"
+
+#: inc/copy.php:49
+msgid "Credit Card"
+msgstr "Πιστωτική Κάρτα"
+
+#: inc/copy.php:50
+msgid "Month / Year"
+msgstr "Μήνας / Έτος"
+
+#: inc/copy.php:51
+msgid "CVC"
+msgstr "CVC"
+
+#: inc/copy.php:52
+msgid "Postal Code"
+msgstr "Ταχυδρομικός κώδικας"
+
+#: inc/copy.php:53
+msgid "Pay Now"
+msgstr "Πληρώστε τώρα"
+
+#: inc/copy.php:54
+msgid "Loading Secure Checkout"
+msgstr "Φόρτωση Ασφαλές Ταμείο"
+
+#: inc/copy.php:57
+msgid "Thank You!"
+msgstr "Ευχαριστούμε!"
+
+#: inc/copy.php:58
+msgid "We have confirmed your appointment on "
+msgstr "Επιβεβαιώσαμε το ραντεβού σας στις"
+
+#: inc/copy.php:59
+msgid "Customer"
+msgstr "Πελάτης"
+
+#: inc/copy.php:61 public/js/admin/index.js:17969
+#: public/js/admin/index.js:62100
+msgid "Address"
+msgstr "Διεύθυνση"
+
+#: inc/copy.php:62
+msgid "We look forward to seeing you!"
+msgstr "Ανυπομονούμε να σας δούμε!"
+
+#: inc/copy.php:63
+msgid "Done"
+msgstr "Ολοκληρώθηκε"
+
+#: inc/copy.php:66
+msgid "Booking Currently Unavailable"
+msgstr "Κράτηση προς το παρόν μη διαθέσιμη"
+
+#: inc/copy.php:67
+msgid ""
+"Booking appointments is currently unavailable. Please check again later."
+msgstr ""
+"Η κράτηση ραντεβού δεν είναι προς το παρόν διαθέσιμη. Παρακαλούμε ελέγξτε "
+"ξανά αργότερα."
+
+#: inc/copy.php:74 public/js/admin/index.js:64315
+#: public/js/admin/index.js:64817 public/js/admin/index.js:66008
+msgid "Price"
+msgstr "Τιμή"
+
+#: inc/copy.php:76 public/js/admin/index.js:64252
+#: public/js/admin/index.js:64307 public/js/admin/index.js:65795
+#: public/js/admin/index.js:65858
+msgid "Minutes"
+msgstr "Λεπτά"
+
+#: inc/copy.php:86
+msgid "Details"
+msgstr "Λεπτομέρειες"
+
+#: inc/copy.php:87
+msgid "Booked"
+msgstr "Κράτηθηκε"
+
+#: inc/widgets/address.php:6 inc/widgets/address.php:8
+msgid "Start Booking Location Address"
+msgstr "Έναρξη κράτησης Τοποθεσία Διεύθυνση"
+
+#: inc/widgets/address.php:55 inc/widgets/classes.php:32
+#: inc/widgets/hours.php:50 inc/widgets/services.php:30
+#: inc/widgets/single-service.php:49
+msgid "Title"
+msgstr "Τίτλος"
+
+#: inc/widgets/address.php:60
+msgid "Map Type"
+msgstr "Τύπος Χάρτη"
+
+#: inc/widgets/address.php:62
+msgid "Road Map"
+msgstr "Οδικός χάρτης"
+
+#: inc/widgets/address.php:63
+msgid "Satellite"
+msgstr "Μέσω δορυφόρου"
+
+#: inc/widgets/address.php:68
+msgid "Map Zoom"
+msgstr "Μεγέθυνση χάρτη"
+
+#: inc/widgets/address.php:70
+msgid "No Zoom"
+msgstr "Χωρίς ζουμ"
+
+#: inc/widgets/address.php:71
+msgid "Level 1"
+msgstr "Επίπεδο 1"
+
+#: inc/widgets/address.php:72
+msgid "Level 2"
+msgstr "Επίπεδο 2"
+
+#: inc/widgets/address.php:73
+msgid "Level 3"
+msgstr "Επίπεδο 3"
+
+#: inc/widgets/address.php:74
+msgid "Level 4"
+msgstr "Επίπεδο 4"
+
+#: inc/widgets/address.php:79
+msgid "Marker Color"
+msgstr "Χρώμα Marker"
+
+#: inc/widgets/address.php:81
+msgid "Red"
+msgstr "Κόκκινο"
+
+#: inc/widgets/address.php:82
+msgid "Blue"
+msgstr "Μπλε"
+
+#: inc/widgets/address.php:83
+msgid "Green"
+msgstr "Πράσινο"
+
+#: inc/widgets/address.php:87
+msgid ""
+"Location address is loaded from your account profile at StartBooking.com."
+msgstr ""
+"Η διεύθυνση τοποθεσίας φορτώνεται από το προφίλ του λογαριασμού σας στο "
+"StartBooking.com."
+
+#: inc/widgets/address.php:87
+msgid "account"
+msgstr "λογαριασμός"
+
+#: inc/widgets/address.php:87
+msgid "Update Address"
+msgstr "Ενημέρωση διεύθυνσης"
+
+#: inc/widgets/classes.php:6 inc/widgets/classes.php:8
+msgid "Start Booking Classes"
+msgstr "Έναρξη κράτησης μαθημάτων"
+
+#: inc/widgets/classes.php:35
+msgid ""
+"Please use the Start Booking dashboard for class schedules and configuration."
+msgstr ""
+"Παρακαλούμε χρησιμοποιήστε το ταμπλό Start Booking για τα προγράμματα "
+"μαθημάτων και τη διαμόρφωση των παραμέτρων."
+
+#: inc/widgets/hours.php:6 inc/widgets/hours.php:8
+msgid "Start Booking Hours"
+msgstr "Έναρξη ωρών κράτησης"
+
+#: inc/widgets/hours.php:37
+msgid "Closed"
+msgstr "Κλειστό"
+
+#: inc/widgets/hours.php:54
+msgid "Hide Icon"
+msgstr "Απόκρυψη εικονιδίου"
+
+#: inc/widgets/hours.php:57
+msgid ""
+"Your hours are loaded from your account availability at Start Booking.com."
+msgstr ""
+"Οι ώρες σας φορτώνονται από τη διαθεσιμότητα του λογαριασμού σας στο Start "
+"Booking.com."
+
+#: inc/widgets/hours.php:57
+msgid "account/availability"
+msgstr "λογαριασμός/διαθεσιμότητα"
+
+#: inc/widgets/hours.php:57
+msgid "Manage Availability Hours"
+msgstr "Διαχείριση ωρών διαθεσιμότητας"
+
+#: inc/widgets/services.php:6 inc/widgets/services.php:8
+msgid "Start Booking Services"
+msgstr "Έναρξη κράτησης υπηρεσιών"
+
+#: inc/widgets/services.php:33
+msgid "To edit the booking form experience, please use the "
+msgstr ""
+"Για να επεξεργαστείτε την εμπειρία της φόρμας κράτησης, παρακαλούμε "
+"χρησιμοποιήστε το"
+
+#: inc/widgets/services.php:33
+msgid "form editor"
+msgstr "συντάκτης φόρμας"
+
+#: inc/widgets/single-service.php:6 inc/widgets/single-service.php:8
+msgid "Start Booking Single Service"
+msgstr "Έναρξη κράτησης μεμονωμένης υπηρεσίας"
+
+#: inc/widgets/single-service.php:68
+msgid "Service Details"
+msgstr "Λεπτομέρειες υπηρεσίας"
+
+#: inc/widgets/single-service.php:70
+msgid "Show Details"
+msgstr "Εμφάνιση Λεπτομερειών"
+
+#: inc/widgets/single-service.php:71
+msgid "Skip Details"
+msgstr "Παραλείψτε λεπτομέρειες"
+
+#: public/js/admin/index.js:4371 public/js/flows/default-appointment.js:124
+#: public/js/flows/default-classes.js:3075
+#: public/js/flows/single-service.js:124
+msgid "+"
+msgstr "+"
+
+#: public/js/admin/index.js:6436 public/js/admin/index.js:6524
+#: public/js/admin/index.js:7452 public/js/admin/index.js:7471
+#: public/js/admin/index.js:7490 public/js/admin/index.js:7509
+#: public/js/admin/index.js:7528 public/js/admin/index.js:7582
+#: public/js/admin/index.js:71009 public/js/admin/index.js:72677
+#: public/js/admin/index.js:72689 public/js/admin/index.js:72701
+#: public/js/admin/index.js:72721 public/js/admin/index.js:72741
+#: public/js/admin/index.js:73084 public/js/blocks/call-to-action.js:2074
+#: public/js/blocks/default-appointment.js:2074
+#: public/js/blocks/default-classes.js:5056
+#: public/js/flows/default-appointment.js:2362
+#: public/js/flows/default-classes.js:5313
+#: public/js/flows/single-service.js:2362
+#: resources/assets/js/admin/actions/account/accountActions.js:173
+#: resources/assets/js/admin/actions/account/accountOptionActions.js:53
+#: resources/assets/js/admin/actions/appointmentActions.js:34
+#: resources/assets/js/admin/actions/appointmentActions.js:49
+#: resources/assets/js/admin/actions/appointmentActions.js:62
+#: resources/assets/js/admin/actions/appointmentActions.js:75
+#: resources/assets/js/admin/actions/appointmentActions.js:88
+#: resources/assets/js/admin/actions/appointmentActions.js:127
+#: resources/assets/js/admin/reducers/account/accountOptionsReducer.js:28
+#: resources/assets/js/admin/reducers/customFieldsReducer.js:22
+#: resources/assets/js/admin/reducers/customFieldsReducer.js:38
+#: resources/assets/js/admin/reducers/customFieldsReducer.js:53
+#: resources/assets/js/admin/reducers/customFieldsReducer.js:77
+#: resources/assets/js/admin/reducers/customFieldsReducer.js:101
+#: resources/assets/js/admin/reducers/editorReducer.js:45
+msgid "Saved"
+msgstr "Αποθηκεύτηκε"
+
+#: public/js/admin/index.js:7921 public/js/admin/index.js:8086
+#: resources/assets/js/admin/actions/chargeActions.js:34
+#: resources/assets/js/admin/actions/chargeActions.js:160
+msgid "Payment successful"
+msgstr "Επιτυχής πληρωμή"
+
+#: public/js/admin/index.js:7930
+#: resources/assets/js/admin/actions/chargeActions.js:38
+msgid "Payment requires action"
+msgstr "Η πληρωμή απαιτεί δράση"
+
+#: public/js/admin/index.js:8095
+#: resources/assets/js/admin/actions/chargeActions.js:163
+msgid "Payment error."
+msgstr "Σφάλμα πληρωμής."
+
+#: public/js/admin/index.js:10004 public/js/admin/index.js:10030
+#: public/js/admin/index.js:10053 public/js/admin/index.js:10086
+#: public/js/admin/index.js:10105 public/js/admin/index.js:10128
+#: public/js/admin/index.js:72562 public/js/admin/index.js:72571
+#: resources/assets/js/admin/actions/upsellActions.js:43
+#: resources/assets/js/admin/actions/upsellActions.js:59
+#: resources/assets/js/admin/actions/upsellActions.js:75
+#: resources/assets/js/admin/actions/upsellActions.js:98
+#: resources/assets/js/admin/actions/upsellActions.js:110
+#: resources/assets/js/admin/actions/upsellActions.js:126
+#: resources/assets/js/admin/reducers/classScheduleReducer.js:51
+#: resources/assets/js/admin/reducers/classScheduleReducer.js:61
+msgid "Success"
+msgstr "Επιτυχία"
+
+#: public/js/admin/index.js:10749 public/js/flows/default-appointment.js:8463
+#: public/js/flows/default-classes.js:11600
+#: public/js/flows/single-service.js:8101
+msgid "First name is required"
+msgstr "Το όνομα είναι υποχρεωτικό"
+
+#: public/js/admin/index.js:10754 public/js/flows/default-appointment.js:8468
+#: public/js/flows/default-classes.js:11605
+#: public/js/flows/single-service.js:8106
+msgid "Last name is required"
+msgstr "Το επώνυμο είναι υποχρεωτικό"
+
+#: public/js/admin/index.js:10759 public/js/flows/default-appointment.js:8458
+#: public/js/flows/default-classes.js:11595
+#: public/js/flows/single-service.js:8096
+msgid "Email is required"
+msgstr "Απαιτείται διεύθυνση ηλεκτρονικού ταχυδρομείου"
+
+#: public/js/admin/index.js:10764
+msgid "Password is required"
+msgstr "Ο κωδικός χρήστη απαιτείται"
+
+#: public/js/admin/index.js:10769
+msgid "Password must be more then 6 characters"
+msgstr "Ο κωδικός πρόσβασης πρέπει να είναι πάνω από 6 χαρακτήρες"
+
+#: public/js/admin/index.js:10774
+msgid "Timezone is required"
+msgstr "Απαιτείται ζώνη ώρας"
+
+#: public/js/admin/index.js:10855 public/js/admin/index.js:13403
+#: public/js/admin/index.js:61432 public/js/admin/index.js:61433
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: public/js/admin/index.js:10880
+msgid "First name *"
+msgstr "Όνομα *"
+
+#: public/js/admin/index.js:10903
+msgid "Last name *"
+msgstr "Επώνυμο *"
+
+#: public/js/admin/index.js:10926
+msgid "Email *"
+msgstr "Email *"
+
+#: public/js/admin/index.js:10946
+msgid "Password *"
+msgstr "Κωδικός *"
+
+#: public/js/admin/index.js:10987
+msgid "Account Timezone"
+msgstr "Χρονική ζώνη λογαριασμού"
+
+#: public/js/admin/index.js:11006 public/js/admin/index.js:11063
+#: public/js/admin/index.js:11261 public/js/admin/index.js:62663
+msgid "Activate Account"
+msgstr "Ενεργοποίηση Λογαριασμού"
+
+#: public/js/admin/index.js:11027
+msgid "Activating"
+msgstr "Γίνεται ενεργοποίηση"
+
+#: public/js/admin/index.js:11036
+msgid "By activating your account, you agree to the "
+msgstr "Με την ενεργοποίηση του λογαριασμού σας, συμφωνείτε με τα εξής"
+
+#: public/js/admin/index.js:11039
+msgid "Terms"
+msgstr "Όροι"
+
+#: public/js/admin/index.js:11040 public/js/flows/default-appointment.js:5343
+#: public/js/flows/single-service.js:5295
+msgid "and"
+msgstr "και"
+
+#: public/js/admin/index.js:11043
+msgid "Privacy Policy"
+msgstr "Πολιτική Απορρήτου"
+
+#: public/js/admin/index.js:11061 public/js/admin/index.js:11258
+#: public/js/admin/index.js:62660
+msgid "Confirm your account details with Start Booking.com"
+msgstr "Επιβεβαιώστε τα στοιχεία του λογαριασμού σας με το Start Booking.com"
+
+#: public/js/admin/index.js:11062 public/js/admin/index.js:11259
+msgid "Enter your account details below to activate your account."
+msgstr ""
+"Εισάγετε τα στοιχεία του λογαριασμού σας παρακάτω για να ενεργοποιήσετε το "
+"λογαριασμό σας."
+
+#: public/js/admin/index.js:11563 public/js/admin/index.js:61776
+msgid "Booking Page"
+msgstr "Σελίδα Κρατήσεων"
+
+#: public/js/admin/index.js:11581
+msgid "Booking Pages"
+msgstr "Σελίδες κρατήσεων"
+
+#: public/js/admin/index.js:11592
+msgid "Open options"
+msgstr "Ανοικτές επιλογές"
+
+#: public/js/admin/index.js:12654
+msgid "Pick a plan for your online scheduling"
+msgstr "Διαλέξτε ένα σχέδιο για τον online προγραμματισμό σας"
+
+#: public/js/admin/index.js:12659 public/js/admin/index.js:12707
+msgid "You are"
+msgstr "Είστε"
+
+#: public/js/admin/index.js:12660
+msgid "currently on a free trial"
+msgstr "επί του παρόντος σε δωρεάν δοκιμή"
+
+#: public/js/admin/index.js:12667
+msgid ""
+"With a free trial, you get the benefits of testing multiple users, classes, "
+"custom fields, text messages, etc. It's a lot! To continue using these "
+"features you need to select a plan or your account will be downgraded at the "
+"end of your trial."
+msgstr ""
+"Με μια δωρεάν δοκιμή, έχετε τα πλεονεκτήματα της δοκιμής πολλαπλών χρηστών, "
+"κλάσεων, προσαρμοσμένων πεδίων, μηνυμάτων κειμένου κ.λπ. Είναι πολλά! Για να "
+"συνεχίσετε να χρησιμοποιείτε αυτές τις δυνατότητες, πρέπει να επιλέξετε ένα "
+"πρόγραμμα, διαφορετικά ο λογαριασμός σας θα υποβαθμιστεί στο τέλος της "
+"δοκιμής σας."
+
+#: public/js/admin/index.js:12678 public/js/admin/index.js:12726
+msgid "View Plans"
+msgstr "Προβολή σχεδίων"
+
+#: public/js/admin/index.js:12682
+msgid "Days Remaining"
+msgstr "Υπολειπόμενες ημέρες"
+
+#: public/js/admin/index.js:12702
+msgid "Your account is limited"
+msgstr "Ο λογαριασμός σας είναι περιορισμένος"
+
+#: public/js/admin/index.js:12708
+msgid "currently on the limited plan"
+msgstr "επί του παρόντος στο περιορισμένο πρόγραμμα"
+
+#: public/js/admin/index.js:12715
+msgid ""
+"With the limited plan, you are missing out on multiple users, classes, 2-way "
+"Google Calendar, custom fields, advanced reporting just to name a few "
+"features. Upgrade today to get access to premium functionality."
+msgstr ""
+"Με το περιορισμένο πακέτο, χάνετε πολλαπλούς χρήστες, τάξεις, ημερολόγιο "
+"Google 2 κατευθύνσεων, προσαρμοσμένα πεδία, προηγμένες αναφορές, για να "
+"αναφέρουμε μόνο μερικά χαρακτηριστικά. Αναβαθμίστε σήμερα για να αποκτήσετε "
+"πρόσβαση σε premium λειτουργίες."
+
+#: public/js/admin/index.js:12852 public/js/admin/index.js:33697
+#: public/js/admin/index.js:64122
+msgid "Close panel"
+msgstr "Κλείσιμο πίνακα"
+
+#: public/js/admin/index.js:13658 public/js/admin/index.js:13780
+msgid "Your free trial has started"
+msgstr "Η δωρεάν δοκιμή σας έχει ξεκινήσει"
+
+#: public/js/admin/index.js:13658 public/js/admin/index.js:13719
+#: public/js/admin/index.js:13780
+msgid "days left in trial"
+msgstr "ημέρες που απομένουν για τη δίκη"
+
+#: public/js/admin/index.js:13660 public/js/admin/index.js:13721
+#: public/js/admin/index.js:13782
+msgid "You have"
+msgstr "Έχετε"
+
+#: public/js/admin/index.js:13660 public/js/admin/index.js:13721
+#: public/js/admin/index.js:13782
+msgid "days left in your free trial"
+msgstr "ημέρες που απομένουν για τη δωρεάν δοκιμή σας"
+
+#: public/js/admin/index.js:13662 public/js/admin/index.js:13723
+#: public/js/admin/index.js:13784
+msgid ""
+"Your free trial expires today! Pick a plan to continue using your premium "
+"features."
+msgstr ""
+"Η δωρεάν δοκιμή σας λήγει σήμερα! Επιλέξτε ένα πρόγραμμα για να συνεχίσετε "
+"να χρησιμοποιείτε τα premium χαρακτηριστικά σας."
+
+#: public/js/admin/index.js:13673 public/js/admin/index.js:13680
+#: public/js/admin/index.js:13734 public/js/admin/index.js:13741
+#: public/js/admin/index.js:13795 public/js/admin/index.js:13802
+msgid "Select a plan"
+msgstr "Επιλέξτε ένα σχέδιο"
+
+#: public/js/admin/index.js:13719
+msgid "Your free trial has started."
+msgstr "Η δωρεάν δοκιμή σας έχει ξεκινήσει."
+
+#: public/js/admin/index.js:14000
+msgid "Welcome!"
+msgstr "Καλώς ήλθατε!"
+
+#: public/js/admin/index.js:14003
+msgid "It's time to Start Booking."
+msgstr "Ήρθε η ώρα να ξεκινήσετε τις κρατήσεις."
+
+#: public/js/admin/index.js:14008
+msgid "Hold tight while we load your new online booking experience."
+msgstr "Κρατηθείτε όσο φορτώνουμε τη νέα εμπειρία online κρατήσεων."
+
+#: public/js/admin/index.js:14042
+msgid ""
+"Get started with unlimited appointments, multiple users, text message "
+"reminders and powerful integrations."
+msgstr ""
+"Ξεκινήστε με απεριόριστα ραντεβού, πολλαπλούς χρήστες, υπενθυμίσεις μέσω "
+"μηνυμάτων κειμένου και ισχυρές ενσωματώσεις."
+
+#: public/js/admin/index.js:14048
+msgid "Get Started"
+msgstr "Ξεκινήστε"
+
+#: public/js/admin/index.js:14051 public/js/admin/index.js:46667
+#: public/js/admin/index.js:47117 public/js/admin/index.js:47170
+msgid "Or"
+msgstr "ή"
+
+#: public/js/admin/index.js:14057
+msgid "Connect existing account"
+msgstr "Σύνδεση υπάρχοντος λογαριασμού"
+
+#: public/js/admin/index.js:14224 public/js/admin/index.js:14242
+#: public/js/admin/index.js:14304
+msgid "Include"
+msgstr "Ενσωμάτωση"
+
+#: public/js/admin/index.js:14265
+msgid ""
+"If you include a Zoom link, your customers will receive a Zoom link with "
+"their appointment confirmation emails."
+msgstr ""
+"Εάν συμπεριλάβετε έναν σύνδεσμο Zoom, οι πελάτες σας θα λάβουν έναν σύνδεσμο "
+"Zoom μαζί με τα email επιβεβαίωσης ραντεβού."
+
+#: public/js/admin/index.js:14273 public/js/admin/index.js:14280
+#: public/js/admin/index.js:65978
+msgid "Yes"
+msgstr "Ναι"
+
+#: public/js/admin/index.js:14276 public/js/admin/index.js:14283
+#: public/js/admin/index.js:65981 public/js/admin/index.js:65988
+msgid "No"
+msgstr "Όχι"
+
+#: public/js/admin/index.js:14327
+msgid ""
+"Connecting Zoom will provide you with the ability to include a Zoom link "
+"with your appointments."
+msgstr ""
+"Η σύνδεση Zoom θα σας δώσει τη δυνατότητα να συμπεριλάβετε έναν σύνδεσμο "
+"Zoom στα ραντεβού σας."
+
+#: public/js/admin/index.js:14339 public/js/admin/index.js:46643
+#: public/js/admin/index.js:46651 public/js/admin/index.js:46734
+#: public/js/admin/index.js:46739 public/js/admin/index.js:47096
+#: public/js/admin/index.js:47101
+msgid "Connect"
+msgstr "Σύνδεση"
+
+#: public/js/admin/index.js:14764 public/js/admin/index.js:14768
+#: public/js/admin/index.js:18060 public/js/admin/index.js:26629
+#: public/js/admin/index.js:63312 public/js/admin/index.js:63468
+#: public/js/admin/index.js:64479 public/js/admin/index.js:66803
+#: public/js/admin/index.js:67047 public/js/admin/index.js:67465
+#: public/js/admin/index.js:67615 public/js/admin/index.js:68528
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: public/js/admin/index.js:15841 public/js/admin/index.js:15908
+msgid "am"
+msgstr "πμ"
+
+#: public/js/admin/index.js:15847 public/js/admin/index.js:15914
+msgid "pm"
+msgstr "μμ"
+
+#: public/js/admin/index.js:17377 public/js/admin/index.js:17870
+#: public/js/admin/index.js:17872 public/js/admin/index.js:17876
+msgid "Mobile Phone"
+msgstr "Κινητό τηλέφωνο"
+
+#: public/js/admin/index.js:17380 public/js/admin/index.js:17887
+#: public/js/admin/index.js:17889 public/js/admin/index.js:17893
+msgid "Home Phone"
+msgstr "Οικιακό τηλέφωνο"
+
+#: public/js/admin/index.js:17383 public/js/admin/index.js:17903
+#: public/js/admin/index.js:17905 public/js/admin/index.js:17909
+msgid "Work Phone"
+msgstr "Τηλέφωνο εργασίας"
+
+#: public/js/admin/index.js:17397
+msgid "United States"
+msgstr "Ηνωμένες Πολιτείες"
+
+#: public/js/admin/index.js:17405
+msgid "Male"
+msgstr "Άνδρας"
+
+#: public/js/admin/index.js:17408
+msgid "Female"
+msgstr "Γυναίκα"
+
+#: public/js/admin/index.js:17411
+msgid "Undisclosed"
+msgstr "Μη ανακοινώσιμο"
+
+#: public/js/admin/index.js:17523
+msgid "Invalid email"
+msgstr "Μη έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου"
+
+#: public/js/admin/index.js:17530
+msgid "First name must not be empty"
+msgstr "Το όνομα δεν πρέπει να είναι κενό"
+
+#: public/js/admin/index.js:17537
+msgid "Last name must not be empty"
+msgstr "Το επώνυμο δεν πρέπει να είναι κενό"
+
+#: public/js/admin/index.js:17811
+msgid "Customer Details"
+msgstr "Στοιχεία Πελάτη"
+
+#: public/js/admin/index.js:17916 public/js/admin/index.js:17920
+msgid "Contact Preference"
+msgstr "Προτίμηση επικοινωνίας"
+
+#: public/js/admin/index.js:17928
+msgid "Receieve Emails"
+msgstr "Λήψη emails"
+
+#: public/js/admin/index.js:17936
+msgid "Receieve SMS"
+msgstr "Λήψη SMS"
+
+#: public/js/admin/index.js:17944
+msgid "Emergency Contact"
+msgstr "Επικοινωνία έκτακτης ανάγκης"
+
+#: public/js/admin/index.js:17955 public/js/admin/index.js:17957
+#: public/js/admin/index.js:17962
+msgid "Emergency Phone"
+msgstr "Τηλέφωνο έκτακτης ανάγκης"
+
+#: public/js/admin/index.js:17971 public/js/admin/index.js:63221
+msgid "Street"
+msgstr "Οδός"
+
+#: public/js/admin/index.js:17976
+msgid "Street name"
+msgstr "Όνομα οδού"
+
+#: public/js/admin/index.js:17983
+msgid "Suite, Apt #, etc"
+msgstr "Σουίτα, Apt #, κ.λπ"
+
+#: public/js/admin/index.js:17986 public/js/admin/index.js:17991
+#: public/js/admin/index.js:63251
+msgid "City"
+msgstr "Πόλη"
+
+#: public/js/admin/index.js:17994 public/js/admin/index.js:17999
+#: public/js/admin/index.js:63266
+msgid "State"
+msgstr "Νομός"
+
+#: public/js/admin/index.js:18002 public/js/admin/index.js:18007
+msgid "Zip Code"
+msgstr "Ταχυδρομικός κώδικας"
+
+#: public/js/admin/index.js:18010 public/js/admin/index.js:18014
+#: public/js/admin/index.js:23596 public/js/admin/index.js:63296
+#: public/js/flows/default-appointment.js:7235
+#: public/js/flows/default-classes.js:9020
+#: public/js/flows/single-service.js:6873
+msgid "Country"
+msgstr "Χώρα"
+
+#: public/js/admin/index.js:18018
+msgid "Demographis"
+msgstr "Demographis"
+
+#: public/js/admin/index.js:18020 public/js/admin/index.js:18025
+msgid "Birthday"
+msgstr "Γενέθλια"
+
+#: public/js/admin/index.js:18028 public/js/admin/index.js:18033
+msgid "Occupation"
+msgstr "Επάγγελμα"
+
+#: public/js/admin/index.js:18036
+msgid "Gender"
+msgstr "Φύλο"
+
+#: public/js/admin/index.js:18040
+msgid "Select customer's gender"
+msgstr "Επιλέξτε το φύλο του πελάτη"
+
+#: public/js/admin/index.js:18046
+msgid "Show Less"
+msgstr "λιγότερα"
+
+#: public/js/admin/index.js:18046
+#, fuzzy
+msgid "Show More"
+msgstr "Περισσότερα"
+
+#: public/js/admin/index.js:18056 public/js/admin/index.js:20650
+#: public/js/admin/index.js:24783 public/js/admin/index.js:64456
+#: public/js/admin/index.js:66322 public/js/admin/index.js:67053
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: public/js/admin/index.js:20440 public/js/admin/index.js:20500
+#: public/js/admin/index.js:20547
+msgid ""
+"Rooms are resources that this requires. For example, if you need to ensure "
+"that a specific room is available in order to perform this service, attach "
+"the room and we will check before displaying your availability."
+msgstr ""
+"Τα δωμάτια είναι πόροι που απαιτούνται γι' αυτό. Για παράδειγμα, αν πρέπει "
+"να διασφαλίσετε ότι ένα συγκεκριμένο δωμάτιο είναι διαθέσιμο για να "
+"εκτελέσετε αυτή την υπηρεσία, επισυνάψτε το δωμάτιο και θα το ελέγξουμε πριν "
+"εμφανίσουμε τη διαθεσιμότητά σας."
+
+#: public/js/admin/index.js:20463 public/js/admin/index.js:24596
+#: public/js/admin/index.js:67485 public/js/admin/index.js:67630
+msgid "Upgrade"
+msgstr "Αναβάθμιση"
+
+#: public/js/admin/index.js:20465
+msgid "to add rooms"
+msgstr "για να προσθέσετε δωμάτια"
+
+#: public/js/admin/index.js:20512 public/js/admin/index.js:24645
+msgid "No Rooms"
+msgstr "Οχι Δωμάτια"
+
+#: public/js/admin/index.js:20577 public/js/admin/index.js:24710
+#: public/js/admin/index.js:25286 public/js/admin/index.js:26070
+msgid "Remove small option"
+msgstr "Αφαίρεση μικρής επιλογής"
+
+#: public/js/admin/index.js:20644 public/js/admin/index.js:24777
+msgid "Room Name"
+msgstr "Όνομα δωματίου"
+
+#: public/js/admin/index.js:23200
+msgid "Not a valid email"
+msgstr "Δεν είναι έγκυρο email"
+
+#: public/js/admin/index.js:23369
+msgid "Password is too short. Must be at least 6 characters."
+msgstr ""
+"Ο κωδικός πρόσβασης είναι πολύ σύντομος. Πρέπει να είναι τουλάχιστον 6 "
+"χαρακτήρες."
+
+#: public/js/admin/index.js:23372
+msgid "Password is too weak"
+msgstr "Ο κωδικός πρόσβασης είναι πολύ αδύναμος"
+
+#: public/js/admin/index.js:24573 public/js/admin/index.js:24633
+#: public/js/admin/index.js:24680 public/js/admin/index.js:66191
+msgid ""
+"Rooms are resources that this service requires. For example, if you need to "
+"ensure that a specific room is available in order to perform this service, "
+"attach the room to the service and we will check before displaying your "
+"availability."
+msgstr ""
+"Τα δωμάτια είναι πόροι που απαιτεί αυτή η υπηρεσία. Για παράδειγμα, αν "
+"πρέπει να διασφαλίσετε ότι ένα συγκεκριμένο δωμάτιο είναι διαθέσιμο για την "
+"εκτέλεση αυτής της υπηρεσίας, συνδέστε το δωμάτιο με την υπηρεσία και θα το "
+"ελέγξουμε πριν εμφανίσουμε τη διαθεσιμότητά σας."
+
+#: public/js/admin/index.js:24598
+msgid "to add rooms for this service"
+msgstr "για να προσθέσετε δωμάτια για αυτή την υπηρεσία"
+
+#: public/js/admin/index.js:25260 public/js/admin/index.js:67455
+#: public/js/admin/index.js:67605
+msgid "No Service Types"
+msgstr "Δεν υπάρχουν τύποι υπηρεσιών"
+
+#: public/js/admin/index.js:25596
+msgid "to"
+msgstr "έως"
+
+#: public/js/admin/index.js:26601
+msgid "Upload"
+msgstr "Μεταφόρτωση"
+
+#: public/js/admin/index.js:26612
+msgid "PNG or JPG"
+msgstr "PNG ή JPG"
+
+#: public/js/admin/index.js:26625 public/js/admin/index.js:26641
+#: public/js/flows/default-appointment.js:9227
+#: public/js/flows/single-service.js:8865
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+#: public/js/admin/index.js:27108
+msgid "Could not capture payment with package."
+msgstr "Δεν μπόρεσε να συλλάβει την πληρωμή με το πακέτο."
+
+#: public/js/admin/index.js:27113
+msgid "Could not validate package as payment option."
+msgstr "Δεν μπόρεσε να επικυρώσει το πακέτο ως επιλογή πληρωμής."
+
+#: public/js/admin/index.js:29781
+msgid "Setup Payments at Start Booking"
+msgstr "Ρύθμιση πληρωμών κατά την έναρξη κράτησης"
+
+#: public/js/admin/index.js:30928 public/js/admin/index.js:31644
+msgid "Requires Business plan. Upgrade."
+msgstr "Απαιτεί επιχειρηματικό σχέδιο. Αναβάθμιση."
+
+#: public/js/admin/index.js:30951 public/js/admin/index.js:31622
+msgid "Get Upsells"
+msgstr "Αποκτήστε Upsells"
+
+#: public/js/admin/index.js:31383 public/js/admin/index.js:31393
+msgid "Manage Upsells at Start Booking"
+msgstr "Διαχείριση Upsells κατά την έναρξη της κράτησης"
+
+#: public/js/admin/index.js:33231 public/js/admin/index.js:33274
+#: public/js/admin/index.js:63681
+msgid "Create"
+msgstr "Δημιουργία"
+
+#: public/js/admin/index.js:33687
+msgid "Customer Payment"
+msgstr "Πληρωμή πελάτη"
+
+#: public/js/admin/index.js:36659
+msgid "Create Class"
+msgstr "Δημιουργία τάξης"
+
+#: public/js/admin/index.js:46617
+msgid "Connect Start Booking Account"
+msgstr "Σύνδεση Έναρξη λογαριασμού κράτησης"
+
+#: public/js/admin/index.js:46623
+msgid ""
+"To connect your WordPress.com site with Start Booking, simply click the "
+"Connect button below and we'll take care of the rest."
+msgstr ""
+"Για να συνδέσετε τον ιστότοπό σας WordPress.com με το Start Booking, απλά "
+"κάντε κλικ στο κουμπί Σύνδεση παρακάτω και εμείς θα αναλάβουμε τα υπόλοιπα."
+
+#: public/js/admin/index.js:46673
+msgid "Log in"
+msgstr "Σύνδεση"
+
+#: public/js/admin/index.js:46676
+msgid ""
+"If you want to connect a different Start Booking account, input your Start "
+"Booking email and password below."
+msgstr ""
+"Αν θέλετε να συνδέσετε έναν διαφορετικό λογαριασμό Start Booking, εισαγάγετε "
+"το email και τον κωδικό πρόσβασης Start Booking παρακάτω."
+
+#: public/js/admin/index.js:46685 public/js/admin/index.js:47036
+#: public/js/admin/index.js:47455
+msgid "Email address"
+msgstr "Διεύθυνση Email"
+
+#: public/js/admin/index.js:46702 public/js/admin/index.js:47053
+#: public/js/admin/index.js:47472
+msgid "Password"
+msgstr "Κωδικός"
+
+#: public/js/admin/index.js:46749 public/js/admin/index.js:47074
+#: public/js/admin/index.js:47493
+msgid "Forgot your password?"
+msgstr "Ξεχάσατε τον κωδικό σας;"
+
+#: public/js/admin/index.js:46758
+msgid "Not sure what to do?"
+msgstr "Δεν ξέρετε τι να κάνετε"
+
+#: public/js/admin/index.js:46761
+msgid "Contact support"
+msgstr "Επικοινωνία υποστήριξης"
+
+#: public/js/admin/index.js:47027
+msgid "Connect with Start Booking"
+msgstr "Συνδεθείτε με το Start Booking"
+
+#: public/js/admin/index.js:47125
+msgid "Access my existing account"
+msgstr "Πρόσβαση στον υπάρχοντα λογαριασμό μου"
+
+#: public/js/admin/index.js:47128
+msgid ""
+"If you have already been using Start Booking but you don't know your login, "
+"start here."
+msgstr ""
+"Αν χρησιμοποιείτε ήδη το Start Booking αλλά δεν γνωρίζετε το login σας, "
+"ξεκινήστε από εδώ."
+
+#: public/js/admin/index.js:47148 public/js/admin/index.js:47156
+msgid "Access Account"
+msgstr "Λογαριασμός πρόσβασης"
+
+#: public/js/admin/index.js:47195 public/js/admin/index.js:47203
+msgid "Start New Free Trial"
+msgstr "Ξεκινήστε νέα δωρεάν δοκιμή"
+
+#: public/js/admin/index.js:47443
+msgid "Log into Start Booking"
+msgstr "Συνδεθείτε στο Start Booking"
+
+#: public/js/admin/index.js:47500
+msgid "Request Access"
+msgstr "Αίτηση πρόσβασης"
+
+#: public/js/admin/index.js:47522 public/js/admin/index.js:47527
+msgid "Login"
+msgstr "Σύνδεση"
+
+#: public/js/admin/index.js:47753 public/js/admin/index.js:47845
+#: public/js/admin/index.js:47886
+#: resources/assets/js/admin/jquery/graph/graph.js:16
+msgid "Today"
+msgstr "Σήμερα"
+
+#: public/js/admin/index.js:47759 public/js/admin/index.js:47851
+#: public/js/admin/index.js:47892
+#: resources/assets/js/admin/jquery/graph/graph.js:15
+msgid "Yesterday"
+msgstr "Χθές"
+
+#: public/js/admin/index.js:47932
+msgid "No Bookings Yet."
+msgstr "Δεν υπάρχουν κρατήσεις ακόμα."
+
+#: public/js/admin/index.js:48073
+msgid "No Activity Yet."
+msgstr "Καμία δραστηριότητα ακόμα."
+
+#: public/js/admin/index.js:48080 public/js/admin/index.js:48209
+#: public/js/admin/index.js:48269
+msgid "Recent Activity"
+msgstr "Πρόσφατη Δραστηριότητα"
+
+#: public/js/admin/index.js:48110 public/js/admin/index.js:48160
+#: public/js/admin/index.js:48185
+msgid "Consultation"
+msgstr "Διαβούλευση"
+
+#: public/js/admin/index.js:48135
+msgid "Inteview"
+msgstr "Inteview"
+
+#: public/js/admin/index.js:60999
+msgid "Completed"
+msgstr "Ολοκληρώθηκε"
+
+#: public/js/admin/index.js:61423
+msgid "Congrats! You're ready to Start Booking."
+msgstr "Συγχαρητήρια! Είστε έτοιμοι να ξεκινήσετε τις κρατήσεις."
+
+#: public/js/admin/index.js:61670 public/js/admin/index.js:67762
+#: public/js/admin/index.js:69425 public/js/admin/index.js:69498
+msgid "Availability"
+msgstr "Διαθεσιμότητα"
+
+#: public/js/admin/index.js:61677
+msgid ""
+"Availability is the schedule that determines when customers can book with "
+"you."
+msgstr ""
+"Η διαθεσιμότητα είναι το χρονοδιάγραμμα που καθορίζει πότε οι πελάτες "
+"μπορούν να κάνουν κράτηση μαζί σας."
+
+#: public/js/admin/index.js:61680
+msgid ""
+"We've set some default times for your availability which can be adjusted "
+"below."
+msgstr ""
+"Έχουμε ορίσει κάποιες προεπιλεγμένες ώρες για τη διαθεσιμότητά σας, τις "
+"οποίες μπορείτε να προσαρμόσετε παρακάτω."
+
+#: public/js/admin/index.js:61680
+msgid "You can always change this later."
+msgstr "Μπορείτε πάντα να το αλλάξετε αυτό αργότερα."
+
+#: public/js/admin/index.js:61684
+msgid "Learn more about availability"
+msgstr "Μάθετε περισσότερα για τη διαθεσιμότητα"
+
+#: public/js/admin/index.js:61725
+msgid "Branding & Booking"
+msgstr "Επωνυμία & κρατήσεις"
+
+#: public/js/admin/index.js:61732
+msgid "Branding"
+msgstr "%1$s Επωνυμία"
+
+#: public/js/admin/index.js:61735
+msgid ""
+"The account name and logo are displayed on your website and used in "
+"communications with your customers."
+msgstr ""
+"Το όνομα και το λογότυπο του λογαριασμού εμφανίζονται στον ιστότοπό σας και "
+"χρησιμοποιούνται στις επικοινωνίες με τους πελάτες σας."
+
+#: public/js/admin/index.js:61737
+msgid "Account name"
+msgstr "Ονομασία λογαριασμού"
+
+#: public/js/admin/index.js:61743
+msgid "Logo"
+msgstr "Λογότυπο"
+
+#: public/js/admin/index.js:61765
+msgid ""
+"Logo requires a paid plan. After your trial expires the Account Name will be "
+"shown in place of the Logo."
+msgstr ""
+"Το λογότυπο απαιτεί ένα πρόγραμμα επί πληρωμή. Μετά τη λήξη της δοκιμαστικής "
+"σας περιόδου, το Όνομα Λογαριασμού θα εμφανίζεται στη θέση του Λογότυπου."
+
+#: public/js/admin/index.js:61779
+msgid ""
+"We already created a booking page for you. Review what your customers will "
+"see when booking with you."
+msgstr ""
+"Έχουμε ήδη δημιουργήσει μια σελίδα κράτησης για εσάς. Ελέγξτε τι θα βλέπουν "
+"οι πελάτες σας όταν κάνουν κράτηση μαζί σας."
+
+#: public/js/admin/index.js:61861
+msgid "Connect Calendar"
+msgstr "Σύνδεση ημερολογίου"
+
+#: public/js/admin/index.js:61870
+msgid "Connect calendar skipped"
+msgstr "Σύνδεση ημερολογίου παραλείπεται"
+
+#: public/js/admin/index.js:61873
+msgid ""
+"You can still connect a Google Calendar account to help manage your "
+"availability."
+msgstr ""
+"Μπορείτε ακόμα να συνδέσετε έναν λογαριασμό Ημερολόγιο Google για να "
+"διαχειριστείτε τη διαθεσιμότητά σας."
+
+#: public/js/admin/index.js:61900 public/js/admin/index.js:61978
+msgid "Connect Google Calendar"
+msgstr "Συνδέστε το Ημερολόγιο Google"
+
+#: public/js/admin/index.js:61916
+msgid "Calendar Connected"
+msgstr "Ημερολόγιο συνδεδεμένο"
+
+#: public/js/admin/index.js:61919
+msgid ""
+"Good work connecting your calendar. To learn more about how the Google "
+"Calendar"
+msgstr ""
+"Καλή δουλειά με τη σύνδεση του ημερολογίου σας. Για να μάθετε περισσότερα "
+"σχετικά με τον τρόπο με τον οποίο το Ημερολόγιο Google"
+
+#: public/js/admin/index.js:61919
+msgid "integration works see our"
+msgstr "εργασίες ενσωμάτωσης δείτε το"
+
+#: public/js/admin/index.js:61923
+msgid "integration overview"
+msgstr "επισκόπηση ενσωμάτωσης"
+
+#: public/js/admin/index.js:61931
+msgid "View Integrations"
+msgstr "Προβολή ενοποιήσεων"
+
+#: public/js/admin/index.js:61948
+msgid "Connect your calendar"
+msgstr "Συνδέστε το ημερολόγιό σας"
+
+#: public/js/admin/index.js:61951
+msgid "Connect your Google Calendar account to help manage your availability."
+msgstr ""
+"Συνδέστε το λογαριασμό σας στο Google Calendar για να διαχειριστείτε τη "
+"διαθεσιμότητά σας."
+
+#: public/js/admin/index.js:62007
+msgid "I don't use Google Calendar"
+msgstr "Δεν χρησιμοποιώ το Ημερολόγιο Google"
+
+#: public/js/admin/index.js:62013
+msgid "Connect with Google Calendar or mark the checkbox above."
+msgstr ""
+"Συνδεθείτε με το Ημερολόγιο Google ή σημειώστε το πλαίσιο ελέγχου παραπάνω."
+
+#: public/js/admin/index.js:62019
+msgid "Learn more about Google Calendar"
+msgstr "Μάθετε περισσότερα για το Ημερολόγιο Google"
+
+#: public/js/admin/index.js:62071
+msgid "Location"
+msgstr "Τοποθεσία"
+
+#: public/js/admin/index.js:62078
+msgid "Phone number"
+msgstr "Αριθμός τηλεφώνου"
+
+#: public/js/admin/index.js:62081
+msgid "This is the phone number your customers will see to contact you."
+msgstr ""
+"Αυτός είναι ο αριθμός τηλεφώνου που θα βλέπουν οι πελάτες σας για να "
+"επικοινωνήσουν μαζί σας."
+
+#: public/js/admin/index.js:62086 public/js/admin/index.js:70150
+msgid "Locale"
+msgstr "Τοποθεσία"
+
+#: public/js/admin/index.js:62089
+msgid ""
+"Set the locale of your account. Locale changes the display format of dates "
+"and times."
+msgstr ""
+"Ορίστε την τοποθεσία του λογαριασμού σας. Η τοποθεσία αλλάζει τη μορφή "
+"εμφάνισης των ημερομηνιών και των ωρών."
+
+#: public/js/admin/index.js:62103
+msgid "Do you have a physical location or online only?"
+msgstr "Έχετε φυσική τοποθεσία ή μόνο διαδικτυακά"
+
+#: public/js/admin/index.js:62106
+msgid "Enable Physical Location"
+msgstr "Ενεργοποίηση φυσικής τοποθεσίας"
+
+#: public/js/admin/index.js:62111
+msgid "Location Hours"
+msgstr "Τοποθεσία Ώρες"
+
+#: public/js/admin/index.js:62114
+msgid "Display the operating hours for your location. This is for"
+msgstr "Εμφανίστε τις ώρες λειτουργίας για την τοποθεσία σας. Αυτό ισχύει για"
+
+#: public/js/admin/index.js:62115
+msgid "display purposes only and does not affect your availability"
+msgstr "μόνο για λόγους προβολής και δεν επηρεάζει τη διαθεσιμότητά σας"
+
+#: public/js/admin/index.js:62174
+msgid "Connect Payments"
+msgstr "Συνδέστε τις πληρωμές"
+
+#: public/js/admin/index.js:62179
+msgid "Use Start Booking to handle your payments"
+msgstr "Χρησιμοποιήστε το Start Booking για να χειριστείτε τις πληρωμές σας"
+
+#: public/js/admin/index.js:62182
+msgid ""
+"Don't go hunting down clients for payment one-by-one. With Start Booking, "
+"you can accept payments before services are performed through our secure "
+"online portal."
+msgstr ""
+"Μην κυνηγάτε τους πελάτες για πληρωμή έναν προς έναν. Με το Start Booking, "
+"μπορείτε να δέχεστε πληρωμές πριν από την εκτέλεση των υπηρεσιών μέσω της "
+"ασφαλούς διαδικτυακής μας πύλης."
+
+#: public/js/admin/index.js:62182
+msgid ""
+"Plus, securely and easily store payment information for future bookings."
+msgstr ""
+"Επιπλέον, αποθηκεύστε με ασφάλεια και ευκολία τις πληροφορίες πληρωμής για "
+"μελλοντικές κρατήσεις."
+
+#: public/js/admin/index.js:62185 public/js/admin/index.js:70173
+msgid "Currency"
+msgstr "Νόμισμα"
+
+#: public/js/admin/index.js:62188 public/js/admin/index.js:69434
+#: public/js/admin/index.js:69564 public/js/admin/index.js:69767
+msgid "Integrations"
+msgstr "Ενσωματώσεις"
+
+#: public/js/admin/index.js:62193
+msgid ""
+"Stripe allows you to get paid instantly with secure payment processing at "
+"competitive rates."
+msgstr ""
+"Η Stripe σας επιτρέπει να πληρώνεστε άμεσα με ασφαλή επεξεργασία πληρωμών σε "
+"ανταγωνιστικές τιμές."
+
+#: public/js/admin/index.js:62202
+msgid "Manage Stripe Settings"
+msgstr "Διαχείριση ρυθμίσεων Stripe"
+
+#: public/js/admin/index.js:62222
+msgid "Connect Stripe"
+msgstr "Σύνδεση λωρίδας"
+
+#: public/js/admin/index.js:62237
+msgid "Learn more about payments"
+msgstr "Μάθετε περισσότερα για τις πληρωμές"
+
+#: public/js/admin/index.js:62289
+msgid "Services are your offerings to customers"
+msgstr "Οι υπηρεσίες είναι οι προσφορές σας προς τους πελάτες"
+
+#: public/js/admin/index.js:62290
+msgid ""
+"Customers will be able to schedule with you by selecting a service. Add your "
+"first service below."
+msgstr ""
+"Οι πελάτες θα μπορούν να προγραμματίσουν μαζί σας επιλέγοντας μια υπηρεσία. "
+"Προσθέστε την πρώτη σας υπηρεσία παρακάτω."
+
+#: public/js/admin/index.js:62292 public/js/admin/index.js:64112
+msgid "Create Service"
+msgstr "Δημιουργία υπηρεσίας"
+
+#: public/js/admin/index.js:62293
+msgid "Do you offer classes or group events? Consider "
+msgstr "Προσφέρετε μαθήματα ή ομαδικές εκδηλώσεις Σκεφτείτε το"
+
+#: public/js/admin/index.js:62295
+msgid "creating a class instead."
+msgstr "δημιουργώντας μια κλάση."
+
+#: public/js/admin/index.js:62299
+msgid "Good Job!"
+msgstr "Καλή δουλειά!"
+
+#: public/js/admin/index.js:62300
+msgid "Add more services or move onto adjusting your availability."
+msgstr ""
+"Προσθέστε περισσότερες υπηρεσίες ή προχωρήστε στην προσαρμογή της "
+"διαθεσιμότητάς σας."
+
+#: public/js/admin/index.js:62302
+msgid "Create another service"
+msgstr "Δημιουργία άλλης υπηρεσίας"
+
+#: public/js/admin/index.js:62303
+msgid "Want to try out classes or group events instead of appointments?"
+msgstr "Θέλετε να δοκιμάσετε μαθήματα ή ομαδικές εκδηλώσεις αντί για ραντεβού"
+
+#: public/js/admin/index.js:62305
+msgid "Try classes"
+msgstr "Δοκιμάστε μαθήματα"
+
+#: public/js/admin/index.js:62309
+msgid "Review your services"
+msgstr "Επανεξέταση των υπηρεσιών σας"
+
+#: public/js/admin/index.js:62310
+msgid ""
+"We've created some default services for you. Review, edit and create the "
+"services that you want your customers to book with you."
+msgstr ""
+"Δημιουργήσαμε ορισμένες προεπιλεγμένες υπηρεσίες για εσάς. Ελέγξτε, "
+"επεξεργαστείτε και δημιουργήστε τις υπηρεσίες που θέλετε να κλείνουν οι "
+"πελάτες σας μαζί σας."
+
+#: public/js/admin/index.js:62312
+msgid "Review Services"
+msgstr "Υπηρεσίες αναθεώρησης"
+
+#: public/js/admin/index.js:62359
+msgid "Learn more about services"
+msgstr "Μάθετε περισσότερα για τις υπηρεσίες"
+
+#: public/js/admin/index.js:62661
+msgid "Enter your account details to activate and save your settings."
+msgstr ""
+"Εισάγετε τα στοιχεία του λογαριασμού σας για να ενεργοποιήσετε και να "
+"αποθηκεύσετε τις ρυθμίσεις σας."
+
+#: public/js/admin/index.js:63169 public/js/admin/index.js:63210
+msgid "Online only"
+msgstr "Μόνο online"
+
+#: public/js/admin/index.js:63180
+msgid "Don't have a physical location? Disable setting."
+msgstr "Δεν έχετε φυσική τοποθεσία Απενεργοποιήστε τη ρύθμιση."
+
+#: public/js/admin/index.js:63183
+msgid "Have a physical location? Enable location setting."
+msgstr "Έχετε φυσική τοποθεσία Ενεργοποιήστε τη ρύθμιση τοποθεσίας."
+
+#: public/js/admin/index.js:63210
+msgid "Physical Location"
+msgstr "Φυσική τοποθεσία"
+
+#: public/js/admin/index.js:63236
+msgid "Street 2"
+msgstr "Οδός # 2"
+
+#: public/js/admin/index.js:63281
+msgid "Zip"
+msgstr "Ταχυδρομικός Κώδικας"
+
+#: public/js/admin/index.js:63674 public/js/admin/index.js:66526
+msgid "Sort"
+msgstr "Ταξινόμηση"
+
+#: public/js/admin/index.js:63689
+msgid "Back to Service List"
+msgstr "Πίσω στη λίστα υπηρεσιών"
+
+#: public/js/admin/index.js:63987
+msgid "Name is required"
+msgstr "Απαιτείται όνομα"
+
+#: public/js/admin/index.js:63992
+msgid "Description is required"
+msgstr "Απαιτείται περιγραφή"
+
+#: public/js/admin/index.js:63997
+msgid "Duration is required"
+msgstr "Απαιτείται διάρκεια"
+
+#: public/js/admin/index.js:64002
+msgid "Please select the users that can fulfill this service"
+msgstr ""
+"Παρακαλούμε επιλέξτε τους χρήστες που μπορούν να εκτελέσουν αυτή την υπηρεσία"
+
+#: public/js/admin/index.js:64143
+msgid "Get started by filling in the information below."
+msgstr "Ξεκινήστε συμπληρώνοντας τις παρακάτω πληροφορίες."
+
+#: public/js/admin/index.js:64179
+msgid "Thumbnail"
+msgstr "Μικρογραφία"
+
+#: public/js/admin/index.js:64214 public/js/admin/index.js:65726
+#: public/js/admin/index.js:66787 public/js/admin/index.js:67031
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: public/js/admin/index.js:64264
+msgid "Recovery"
+msgstr "Ανάκτηση"
+
+#: public/js/admin/index.js:64287 public/js/admin/index.js:65827
+msgid ""
+"Recovery time extends the length of the appointment for you, not the "
+"customer. This enables you to recover from the previous appointment. You "
+"will not be available during the recovery time added."
+msgstr ""
+"Ο χρόνος αποκατάστασης παρατείνει τη διάρκεια του ραντεβού για εσάς, όχι για "
+"τον πελάτη. Αυτό σας επιτρέπει να ανακάμψετε από το προηγούμενο ραντεβού. "
+"Δεν θα είστε διαθέσιμοι κατά τη διάρκεια του χρόνου αποκατάστασης που "
+"προστίθεται."
+
+#: public/js/admin/index.js:64360 public/js/admin/index.js:66116
+msgid "Assigned Users"
+msgstr "Εκχωρημένοι χρήστες"
+
+#: public/js/admin/index.js:64383 public/js/admin/index.js:66119
+msgid "Select users that can perform this service."
+msgstr "Επιλέξτε τους χρήστες που μπορούν να εκτελέσουν αυτή την υπηρεσία."
+
+#: public/js/admin/index.js:64399 public/js/admin/index.js:67314
+msgid "Service Types"
+msgstr "Τύποι υπηρεσιών"
+
+#: public/js/admin/index.js:64422 public/js/admin/index.js:67339
+msgid "Assign service types to help categorize your services."
+msgstr ""
+"Αναθέστε τύπους υπηρεσιών για να βοηθήσετε στην κατηγοριοποίηση των "
+"υπηρεσιών σας."
+
+#: public/js/admin/index.js:64438 public/js/admin/index.js:66165
+msgid "Rooms"
+msgstr "Δωμάτια"
+
+#: public/js/admin/index.js:64477
+msgid "Saving"
+msgstr "Γίνεται αποθήκευση"
+
+#: public/js/admin/index.js:64489
+msgid "Upgrade to a paid plan to add more services."
+msgstr ""
+"Αναβαθμίστε σε πακέτο επί πληρωμή για να προσθέσετε περισσότερες υπηρεσίες."
+
+#: public/js/admin/index.js:64498
+msgid "Upgrade My Plan"
+msgstr "Αναβάθμιση του προγράμματός μου"
+
+#: public/js/admin/index.js:64736 public/js/admin/index.js:68933
+msgid "No Services"
+msgstr "Δεν υπάρχουν υπηρεσίες"
+
+#: public/js/admin/index.js:64821 public/js/admin/index.js:65867
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: public/js/admin/index.js:64931 public/js/admin/index.js:64950
+#: public/js/admin/index.js:65646 public/js/admin/index.js:66316
+#: public/js/admin/index.js:67442 public/js/admin/index.js:67592
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: public/js/admin/index.js:65365
+msgid "Name cannot be empty."
+msgstr "Το όνομα δεν μπορεί να είναι κενό."
+
+#: public/js/admin/index.js:65375
+msgid "Duration cannot be empty."
+msgstr "Η διάρκεια δεν μπορεί να είναι κενή."
+
+#: public/js/admin/index.js:65639
+msgid ""
+"Booking online is disabled. You can enable online scheduling in the settings "
+"below."
+msgstr ""
+"Η online κράτηση είναι απενεργοποιημένη. Μπορείτε να ενεργοποιήσετε τον "
+"online προγραμματισμό στις παρακάτω ρυθμίσεις."
+
+#: public/js/admin/index.js:65804
+msgid "Recovery Time"
+msgstr "Χρόνος αποκατάστασης"
+
+#: public/js/admin/index.js:65940
+msgid "Schedule Online"
+msgstr "Πρόγραμμα Online"
+
+#: public/js/admin/index.js:65963
+msgid ""
+"If schedule online is disabled, this service will not be publicly displayed "
+"to your customers."
+msgstr ""
+"Εάν το online πρόγραμμα είναι απενεργοποιημένο, αυτή η υπηρεσία δεν θα "
+"εμφανίζεται δημοσίως στους πελάτες σας."
+
+#: public/js/admin/index.js:66146
+msgid ""
+"This service is not bookable without at least one user who can perform the "
+"service."
+msgstr ""
+"Αυτή η υπηρεσία δεν μπορεί να κρατηθεί χωρίς τουλάχιστον έναν χρήστη που "
+"μπορεί να εκτελέσει την υπηρεσία."
+
+#: public/js/admin/index.js:66203
+msgid "Select the rooms for this service."
+msgstr "Επιλέξτε τα δωμάτια για αυτή την υπηρεσία."
+
+#: public/js/admin/index.js:66300
+msgid "Confirm Delete"
+msgstr "Επιβεβαίωση Διαγραφής"
+
+#: public/js/admin/index.js:66305
+msgid ""
+"Are you sure you want to deactivate your account? All of your data will be "
+"permanently removed from our servers forever. This action cannot be undone."
+msgstr ""
+"Είστε σίγουροι ότι θέλετε να απενεργοποιήσετε τον λογαριασμό σας Όλα τα "
+"δεδομένα σας θα αφαιρεθούν οριστικά από τους διακομιστές μας για πάντα. Αυτή "
+"η ενέργεια δεν μπορεί να αναιρεθεί."
+
+#: public/js/admin/index.js:66759
+msgid "Add New"
+msgstr "Προσθήκη Νέου"
+
+#: public/js/admin/index.js:67002
+msgid "Edit Type"
+msgstr "Επεξεργασία Τύπου"
+
+#: public/js/admin/index.js:67355 public/js/admin/index.js:67505
+msgid "Assign Service Types"
+msgstr "Ανάθεση τύπων υπηρεσιών"
+
+#: public/js/admin/index.js:67358 public/js/admin/index.js:67508
+msgid "Assign service types to help categorize the service."
+msgstr ""
+"Εκχωρήστε τύπους υπηρεσιών για να βοηθήσετε στην κατηγοριοποίηση της "
+"υπηρεσίας."
+
+#: public/js/admin/index.js:67436 public/js/admin/index.js:67586
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: public/js/admin/index.js:67487 public/js/admin/index.js:67632
+msgid "to categorize your services by service types."
+msgstr "για να κατηγοριοποιήσετε τις υπηρεσίες σας ανά τύπο υπηρεσίας."
+
+#: public/js/admin/index.js:67765
+msgid ""
+"You can manage your basic availability below. For more controls visit the "
+"Start Booking application."
+msgstr ""
+"Μπορείτε να διαχειριστείτε τη βασική σας διαθεσιμότητα παρακάτω. Για "
+"περισσότερα στοιχεία ελέγχου επισκεφθείτε την εφαρμογή Start Booking."
+
+#: public/js/admin/index.js:67773
+msgid "Availability Calendar"
+msgstr "Ημερολόγιο Διαθεσιμότητας"
+
+#: public/js/admin/index.js:67974 public/js/admin/index.js:69428
+#: public/js/admin/index.js:69522
+msgid "Billing"
+msgstr "Χρέωση"
+
+#: public/js/admin/index.js:67978
+msgid "Product"
+msgstr "Προϊόν"
+
+#: public/js/admin/index.js:67989 public/js/admin/index.js:70117
+#: public/js/admin/index.js:70140 public/js/admin/index.js:70163
+#: public/js/admin/index.js:70186 public/js/admin/index.js:70209
+msgid "Manage"
+msgstr "Διαχείριση"
+
+#: public/js/admin/index.js:68109 public/js/admin/index.js:69431
+#: public/js/admin/index.js:69544
+msgid "Communications"
+msgstr "Επικοινωνίες"
+
+#: public/js/admin/index.js:68112
+msgid ""
+"Managing and adjusting your customer communications, such as emails and text "
+"messages, is handled directly on the Start Booking application."
+msgstr ""
+"Η διαχείριση και η προσαρμογή της επικοινωνίας με τους πελάτες σας, όπως τα "
+"μηνύματα ηλεκτρονικού ταχυδρομείου και τα μηνύματα κειμένου, γίνεται "
+"απευθείας στην εφαρμογή Start Booking."
+
+#: public/js/admin/index.js:68121
+msgid "Manage Communications"
+msgstr "Διαχείριση επικοινωνιών"
+
+#: public/js/admin/index.js:68218 public/js/admin/index.js:68257
+#: public/js/admin/index.js:68279 public/js/admin/index.js:68332
+msgid "Proxy"
+msgstr "Διακομιστής μεσολάβησης"
+
+#: public/js/admin/index.js:68264 public/js/admin/index.js:68286
+#: public/js/admin/index.js:68339
+msgid "Direct"
+msgstr "Απευθείας"
+
+#: public/js/admin/index.js:68438
+msgid "Connections"
+msgstr "Συνδέσεις"
+
+#: public/js/admin/index.js:68456 public/js/admin/index.js:68470
+msgid "Use setting"
+msgstr "Χρήση ρύθμισης"
+
+#: public/js/admin/index.js:68480
+msgid "Disable Online Booking"
+msgstr "Απενεργοποίηση online κρατήσεων"
+
+#: public/js/admin/index.js:68482
+msgid "Disabled"
+msgstr "Απενεργοποιημένο"
+
+#: public/js/admin/index.js:68486
+msgid ""
+"Disabling will keep your connection with Start Booking but will disable "
+"online booking forms."
+msgstr ""
+"Η απενεργοποίηση θα διατηρήσει τη σύνδεσή σας με το Start Booking, αλλά θα "
+"απενεργοποιήσει τις φόρμες online κρατήσεων."
+
+#: public/js/admin/index.js:68502
+msgid "API Setting"
+msgstr "Ρύθμιση API"
+
+#: public/js/admin/index.js:68505
+msgid ""
+"If you are experiencing problems with your server cache causing duplicate "
+"appointments or settings not saving, try updating to the Direct method. "
+"Direct allows your plugin to communicate directly with the Start Booking "
+"service. Proxy, which is the default setting, runs all communication with "
+"Start Booking through your WordPress site. When communication is handled via "
+"the proxy option, those communications can be delayed due to your server "
+"configuration."
+msgstr ""
+"Εάν αντιμετωπίζετε προβλήματα με την προσωρινή μνήμη του διακομιστή σας που "
+"προκαλούν διπλές συναντήσεις ή ρυθμίσεις που δεν αποθηκεύονται, δοκιμάστε να "
+"ενημερώσετε τη μέθοδο Direct. Το Direct επιτρέπει στο πρόσθετό σας να "
+"επικοινωνεί απευθείας με την υπηρεσία Start Booking. Ο μεσολάβησης, που "
+"είναι η προεπιλεγμένη ρύθμιση, εκτελεί όλη την επικοινωνία με την υπηρεσία "
+"Start Booking μέσω του ιστότοπού σας WordPress. Όταν η επικοινωνία "
+"διεκπεραιώνεται μέσω της επιλογής μεσολάβησης, αυτές οι επικοινωνίες μπορεί "
+"να καθυστερήσουν λόγω της διαμόρφωσης του διακομιστή σας."
+
+#: public/js/admin/index.js:68543 public/js/admin/index.js:68554
+msgid "Disconnect"
+msgstr "Αποσύνδεση"
+
+#: public/js/admin/index.js:68546
+msgid ""
+"Disconnecting Start Booking will delete all settings from your WordPress "
+"website. This does not cancel your account or delete anything on the Start "
+"Booking application."
+msgstr ""
+"Η αποσύνδεση του Start Booking θα διαγράψει όλες τις ρυθμίσεις από τον "
+"ιστότοπό σας στο WordPress. Αυτό δεν ακυρώνει το λογαριασμό σας ούτε "
+"διαγράφει τίποτα στην εφαρμογή Start Booking."
+
+#: public/js/admin/index.js:68561
+msgid "Disconnect User Only"
+msgstr "Αποσύνδεση χρήστη μόνο"
+
+#: public/js/admin/index.js:68661 public/js/admin/index.js:68923
+#: public/js/blocks/call-to-action.js:2294
+msgid "Select Service"
+msgstr "Επιλέξτε υπηρεσία"
+
+#: public/js/admin/index.js:68666 public/js/admin/index.js:68670
+msgid "True"
+msgstr "Αληθής"
+
+#: public/js/admin/index.js:68673
+msgid "False"
+msgstr "Ψευδής"
+
+#: public/js/admin/index.js:68793 public/js/admin/index.js:69422
+#: public/js/admin/index.js:69476
+msgid "Embed Options"
+msgstr "Ενσωματώστε τις επιλογές"
+
+#: public/js/admin/index.js:68796
+msgid ""
+"Embedding the Start Booking form on a page or post is really simple. You "
+"have the option to use either the Start Booking blocks or shortcodes in the "
+"WordPress editor."
+msgstr ""
+"Η ενσωμάτωση της φόρμας Έναρξη κράτησης σε μια σελίδα ή ανάρτηση είναι πολύ "
+"απλή. Έχετε τη δυνατότητα να χρησιμοποιήσετε είτε τα μπλοκ Start Booking "
+"είτε τους συντομευτικούς κωδικούς στον επεξεργαστή του WordPress."
+
+#: public/js/admin/index.js:68811
+msgid "Shortcodes"
+msgstr "Σύντομοι κωδικοί"
+
+#: public/js/admin/index.js:68814
+msgid ""
+"To use the Start Booking shortcodes, navigate to any page or post (create or "
+"edit screen) and copy and paste one of the below shortcodes where you want "
+"your booking form to display."
+msgstr ""
+"Για να χρησιμοποιήσετε τους σύντομους κωδικούς Έναρξη κράτησης, μεταβείτε σε "
+"οποιαδήποτε σελίδα ή ανάρτηση (δημιουργία ή επεξεργασία οθόνης) και "
+"αντιγράψτε και επικολλήστε έναν από τους παρακάτω σύντομους κωδικούς στο "
+"σημείο που θέλετε να εμφανίζεται η φόρμα κράτησης."
+
+#: public/js/admin/index.js:68824 public/js/admin/index.js:69149
+msgid "Displays a full list of your services"
+msgstr "Εμφανίζει έναν πλήρη κατάλογο των υπηρεσιών σας"
+
+#: public/js/admin/index.js:68859 public/js/admin/index.js:69168
+#: public/js/blocks/single-service.js:1871
+msgid "Single Service"
+msgstr "Ενιαία υπηρεσία"
+
+#: public/js/admin/index.js:68862 public/js/admin/index.js:69171
+msgid "Displays a preconfigured single service"
+msgstr "Εμφανίζει μια προκαθορισμένη ενιαία υπηρεσία"
+
+#: public/js/admin/index.js:68897
+msgid "Service: The URL string of your service you want to display."
+msgstr ""
+"Υπηρεσία: Η συμβολοσειρά URL της υπηρεσίας σας που θέλετε να εμφανίσετε."
+
+#: public/js/admin/index.js:68900
+msgid ""
+"Details: When set to true, the service box will be displayed. When set to "
+"false, the service box will be skipped and will go to the next step in the "
+"booking process."
+msgstr ""
+"Λεπτομέρειες: Όταν έχει οριστεί σε true, θα εμφανιστεί το πλαίσιο της "
+"υπηρεσίας. Όταν οριστεί σε false, το πλαίσιο υπηρεσιών θα παραλείπεται και "
+"θα μεταβείτε στο επόμενο βήμα της διαδικασίας κράτησης."
+
+#: public/js/admin/index.js:68915
+msgid "Single Service Shortcode Generator"
+msgstr "Γεννήτρια κωδικών συντομογραφίας ενιαίας υπηρεσίας"
+
+#: public/js/admin/index.js:68918
+msgid ""
+"Select your service and options below to generate a preconfigured shortcode."
+msgstr ""
+"Επιλέξτε την υπηρεσία και τις επιλογές σας παρακάτω για να δημιουργήσετε "
+"έναν προκαθορισμένο σύντομο κωδικό."
+
+#: public/js/admin/index.js:68937
+msgid "Display Service Details"
+msgstr "Εμφάνιση λεπτομερειών υπηρεσίας"
+
+#: public/js/admin/index.js:68987
+msgid "Displays a calendar and list of your available classes"
+msgstr ""
+"Εμφανίζει ένα ημερολόγιο και έναν κατάλογο των διαθέσιμων μαθημάτων σας"
+
+#: public/js/admin/index.js:69022
+msgid "Single Class"
+msgstr "Ενιαία τάξη"
+
+#: public/js/admin/index.js:69025
+msgid ""
+"Displays a calendar and list of your available dates for a specific class"
+msgstr ""
+"Εμφανίζει ένα ημερολόγιο και μια λίστα με τις διαθέσιμες ημερομηνίες για μια "
+"συγκεκριμένη τάξη"
+
+#: public/js/admin/index.js:69061
+msgid "Classes Shortcode Options"
+msgstr "Κλάσεις Επιλογές Shortcode"
+
+#: public/js/admin/index.js:69065
+msgid "Class:"
+msgstr "Class:"
+
+#: public/js/admin/index.js:69066
+msgid "class=\"class url string\""
+msgstr "class=\"class url string\""
+
+#: public/js/admin/index.js:69070
+msgid "Hide Calendar:"
+msgstr "Απόκρυψη ημερολογίου:"
+
+#: public/js/admin/index.js:69071
+msgid "hide_calendar=\"true\""
+msgstr "hide_calendar=\"true\""
+
+#: public/js/admin/index.js:69075
+msgid "Range Start:"
+msgstr "Εύρος Έναρξη:"
+
+#: public/js/admin/index.js:69076
+msgid "range_start=\""
+msgstr "range_start=\""
+
+#: public/js/admin/index.js:69080
+msgid "Range End:"
+msgstr "Τέλος εμβέλειας:"
+
+#: public/js/admin/index.js:69081
+msgid "range_end=\""
+msgstr "range_end=\""
+
+#: public/js/admin/index.js:69085
+msgid "Show Filter: "
+msgstr "Εμφάνιση φίλτρου:"
+
+#: public/js/admin/index.js:69086
+msgid "show_filter=\"true\""
+msgstr "show_filter=\"true\""
+
+#: public/js/admin/index.js:69087
+msgid " * Only applies to Single Class shortcode."
+msgstr " * Ισχύει μόνο για τον σύντομο κωδικό Single Class."
+
+#: public/js/admin/index.js:69091
+msgid "Example with all class shortcode options"
+msgstr "Παράδειγμα με όλες τις επιλογές shortcode της κατηγορίας"
+
+#: public/js/admin/index.js:69115
+msgid "Blocks"
+msgstr "Μπλοκ"
+
+#: public/js/admin/index.js:69118
+msgid ""
+"To use the Start Booking Gutenberg blocks, navigate to any page or post "
+"(create or edit screen) and select one of the blocks listed below."
+msgstr ""
+"Για να χρησιμοποιήσετε τα μπλοκ Start Booking Gutenberg, μεταβείτε σε "
+"οποιαδήποτε σελίδα ή ανάρτηση (οθόνη δημιουργίας ή επεξεργασίας) και "
+"επιλέξτε ένα από τα παρακάτω μπλοκ."
+
+#: public/js/admin/index.js:69193
+msgid "Displays a full list of your classes"
+msgstr "Εμφανίζει έναν πλήρη κατάλογο των τάξεών σας"
+
+#: public/js/admin/index.js:69212
+msgid "Call to action button"
+msgstr "Κουμπί παρότρυνσης για δράση"
+
+#: public/js/admin/index.js:69215
+msgid "Displays a preconfigured booking button"
+msgstr "Εμφανίζει ένα προκαθορισμένο κουμπί κράτησης"
+
+#: public/js/admin/index.js:69437 public/js/admin/index.js:69586
+#: public/js/admin/index.js:69948
+msgid "Reporting"
+msgstr "Αναφορές"
+
+#: public/js/admin/index.js:69440 public/js/admin/index.js:69606
+#: public/js/admin/index.js:70328
+msgid "Users"
+msgstr "Χρήστες"
+
+#: public/js/admin/index.js:69443 public/js/admin/index.js:69650
+msgid "Connection"
+msgstr "Σύνδεση"
+
+#: public/js/admin/index.js:69770
+msgid "Managing your"
+msgstr "Διαχείριση του"
+
+#: public/js/admin/index.js:69774
+msgid "integrations"
+msgstr "ενσωματώσεις"
+
+#: public/js/admin/index.js:69775
+msgid "is handled directly on the"
+msgstr "αντιμετωπίζεται απευθείας στο"
+
+#: public/js/admin/index.js:69775
+msgid "application"
+msgstr "εφαρμογή"
+
+#: public/js/admin/index.js:69784
+msgid "Manage Integrations"
+msgstr "Διαχείριση ενοποιήσεων"
+
+#: public/js/admin/index.js:69829
+msgid "More coming soon"
+msgstr "Περισσότερα σύντομα"
+
+#: public/js/admin/index.js:69951
+msgid ""
+"Viewing and downloading reports is handled directly on the Start Booking "
+"application."
+msgstr ""
+"Η προβολή και η λήψη αναφορών γίνεται απευθείας από την εφαρμογή Start "
+"Booking."
+
+#: public/js/admin/index.js:69960
+msgid "View Reports"
+msgstr "Προβολή Αναφορών"
+
+#: public/js/admin/index.js:70082
+msgid "Review the available settings for your account and booking forms."
+msgstr ""
+"Ελέγξτε τις διαθέσιμες ρυθμίσεις για το λογαριασμό σας και τις φόρμες "
+"κράτησης."
+
+#: public/js/admin/index.js:70104
+msgid "Openings Interval"
+msgstr "Ανοίγματα Διάστημα"
+
+#: public/js/admin/index.js:70108
+msgid ""
+"Set the interval of time for available openings. Default is every 30 minutes."
+msgstr ""
+"Ορίστε το χρονικό διάστημα για τα διαθέσιμα ανοίγματα. Η προεπιλογή είναι "
+"κάθε 30 λεπτά."
+
+#: public/js/admin/index.js:70127
+msgid "Time Display"
+msgstr "Οθόνη ώρας"
+
+#: public/js/admin/index.js:70131
+msgid "Control whether you display time in 12 or 24 hours."
+msgstr "Ελέγξτε αν θα εμφανίζετε την ώρα σε 12 ή 24 ώρες."
+
+#: public/js/admin/index.js:70154
+msgid "Set the locale of your account to adjust the date and time formats."
+msgstr ""
+"Ορίστε την τοποθεσία του λογαριασμού σας για να προσαρμόσετε τις μορφές "
+"ημερομηνίας και ώρας."
+
+#: public/js/admin/index.js:70177
+msgid "Change the currency that is used with payments through Start Booking."
+msgstr ""
+"Αλλαγή του νομίσματος που χρησιμοποιείται για τις πληρωμές μέσω του Start "
+"Booking."
+
+#: public/js/admin/index.js:70196
+msgid "Cancellations"
+msgstr "Ακυρώσεις"
+
+#: public/js/admin/index.js:70200
+msgid "Adjust how your cancellations work."
+msgstr "Προσαρμόστε τον τρόπο λειτουργίας των ακυρώσεών σας."
+
+#: public/js/admin/index.js:70331
+msgid ""
+"Adding and managing your users is handled directly on the Start Booking "
+"application."
+msgstr ""
+"Η προσθήκη και η διαχείριση των χρηστών σας γίνεται απευθείας στην εφαρμογή "
+"Start Booking."
+
+#: public/js/admin/index.js:70340
+msgid "Manage Users"
+msgstr "Χρήστες"
+
+#: public/js/admin/index.js:70733 public/js/admin/index.js:70742
+#: public/js/admin/index.js:70891
+msgid "Appointments"
+msgstr "Pαντεβού"
+
+#: public/js/admin/index.js:70800 public/js/admin/index.js:70941
+msgid "Go to"
+msgstr "Πηγαίνετε στο"
+
+#: public/js/admin/index.js:70815
+msgid "Open main menu"
+msgstr "Άνοιγμα κύριου μενού"
+
+#: public/js/admin/index.js:72580
+#: resources/assets/js/admin/reducers/classScheduleReducer.js:71
+msgid "Status updated"
+msgstr "Ενημέρωση κατάστασης"
+
+#: public/js/admin/index.js:72601
+#: resources/assets/js/admin/reducers/classScheduleReducer.js:100
+msgid "Cancelled schedule"
+msgstr "Ακυρωμένο πρόγραμμα"
+
+#: public/js/admin/index.js:72621
+#: resources/assets/js/admin/reducers/classScheduleReducer.js:125
+msgid "Deleted schedule"
+msgstr "Διαγραμμένο πρόγραμμα"
+
+#: public/js/admin/index.js:76478 public/js/blocks/call-to-action.js:2798
+#: public/js/blocks/default-appointment.js:2712
+#: public/js/blocks/default-classes.js:6006
+#: public/js/flows/default-appointment.js:12549
+#: public/js/flows/default-classes.js:13582
+#: public/js/flows/single-service.js:11434
+#: resources/assets/js/front-end/reducers/customerReducer.js:26
+msgid "Spam Detected"
+msgstr "Εντοπίστηκε ανεπιθύμητη αλληλογραφία"
+
+#: public/js/blocks/call-to-action.js:2184
+msgid "Call to Action Button"
+msgstr "Κουμπί παρότρυνσης για δράση"
+
+#: public/js/blocks/call-to-action.js:2185
+msgid ""
+"Add a button on any page to enter a booking flow that has a pre-selected "
+"cart."
+msgstr ""
+"Προσθέστε ένα κουμπί σε οποιαδήποτε σελίδα για να εισέλθετε σε μια ροή "
+"κρατήσεων που έχει ένα προεπιλεγμένο καλάθι."
+
+#: public/js/blocks/call-to-action.js:2323
+msgid "Select Provider"
+msgstr "Επιλέξτε πάροχο"
+
+#: public/js/blocks/call-to-action.js:2352
+msgid "Select Type"
+msgstr "Επιλέξτε τύπο"
+
+#: public/js/blocks/call-to-action.js:2377
+#: public/js/blocks/default-appointment.js:2269
+#: public/js/blocks/default-classes.js:5419
+#: public/js/blocks/single-service.js:2083
+msgid "Start Booking Quick Links"
+msgstr "Έναρξη κράτησης Γρήγοροι σύνδεσμοι"
+
+#: public/js/blocks/call-to-action.js:2381
+msgid "My Services"
+msgstr "Οι υπηρεσίες μου"
+
+#: public/js/blocks/call-to-action.js:2384
+#: public/js/blocks/single-service.js:2090
+msgid "Options"
+msgstr "Επιλογές"
+
+#: public/js/blocks/call-to-action.js:2386
+msgid "Service Type"
+msgstr "Τύπος Υπηρεσίας"
+
+#: public/js/blocks/call-to-action.js:2400
+msgid "Provider"
+msgstr "Πάροχος"
+
+#: public/js/blocks/call-to-action.js:2408
+#: public/js/blocks/single-service.js:2100
+msgid "Button"
+msgstr "Κουμπί"
+
+#: public/js/blocks/call-to-action.js:2410
+#: public/js/blocks/single-service.js:2102
+msgid "Text"
+msgstr "Κείμενο"
+
+#: public/js/blocks/default-appointment.js:2193
+msgid "Embed the service flow to capture new appointments."
+msgstr "Ενσωματώστε τη ροή υπηρεσιών για να καταγράφετε νέα ραντεβού."
+
+#: public/js/blocks/default-appointment.js:2206
+msgid "Select Your Date & Time"
+msgstr "Επιλέξτε την ημερομηνία και την ώρα σας"
+
+#: public/js/blocks/default-classes.js:5181
+msgid "Embed the classes flow to allow customers to join."
+msgstr ""
+"Ενσωματώστε τη ροή των τάξεων για να επιτρέψετε στους πελάτες να "
+"συμμετάσχουν."
+
+#: public/js/blocks/default-classes.js:5243
+msgid "Single"
+msgstr "Μόνος"
+
+#: public/js/blocks/default-classes.js:5251
+msgid "Filter Class"
+msgstr "Κατηγορία φίλτρου"
+
+#: public/js/blocks/default-classes.js:5271
+msgid "Nothing Here, Try Again"
+msgstr "Τίποτα εδώ, προσπαθήστε ξανά"
+
+#: public/js/blocks/default-classes.js:5275
+msgid "Multiple"
+msgstr "Πολλαπλό"
+
+#: public/js/blocks/default-classes.js:5279
+msgid "Searching for Classes"
+msgstr "Αναζήτηση για τάξεις"
+
+#: public/js/blocks/default-classes.js:5408
+msgid "Select A Class"
+msgstr "Επιλέξτε μια τάξη"
+
+#: public/js/blocks/default-classes.js:5426
+msgid "Filters"
+msgstr "Φίλτρα"
+
+#: public/js/blocks/default-classes.js:5428
+msgid "Class"
+msgstr "Τάξη"
+
+#: public/js/blocks/single-service.js:1872
+msgid ""
+"Embed the details of a single service and the ability to book that service."
+msgstr ""
+"Ενσωματώστε τις λεπτομέρειες μιας μεμονωμένης υπηρεσίας και τη δυνατότητα "
+"κράτησης αυτής της υπηρεσίας."
+
+#: public/js/blocks/single-service.js:2072
+msgid "Select A Service"
+msgstr "Επιλέξτε μια υπηρεσία"
+
+#: public/js/flows/default-appointment.js:3948
+#: public/js/flows/default-appointment.js:6581
+#: public/js/flows/default-classes.js:6631
+#: public/js/flows/single-service.js:3900
+#: public/js/flows/single-service.js:6533
+msgid "Service Duration"
+msgstr "Διάρκεια υπηρεσίας"
+
+#: public/js/flows/default-appointment.js:4610
+#: public/js/flows/default-classes.js:7390
+#: public/js/flows/single-service.js:4562
+msgid "Coupon"
+msgstr "Κουπόνι"
+
+#: public/js/flows/default-appointment.js:4633
+#: public/js/flows/default-classes.js:7413
+#: public/js/flows/single-service.js:4585
+msgid "Add Coupon"
+msgstr "Προσθήκη κουπονιού"
+
+#: public/js/flows/default-appointment.js:4640
+#: public/js/flows/default-classes.js:7420
+#: public/js/flows/single-service.js:4592
+msgid "Discount"
+msgstr "Έκπτωση"
+
+#: public/js/flows/default-appointment.js:4642
+#: public/js/flows/default-classes.js:7422
+#: public/js/flows/single-service.js:4594
+msgid "Invalid Coupon"
+msgstr "Μη έγκυρο κουπόνι"
+
+#: public/js/flows/default-appointment.js:5343
+#: public/js/flows/single-service.js:5295
+msgid "Please select a date between"
+msgstr "Παρακαλούμε επιλέξτε μια ημερομηνία μεταξύ"
+
+#: public/js/flows/default-appointment.js:5345
+#: public/js/flows/single-service.js:5297
+msgid "Please select a date after"
+msgstr "Παρακαλώ επιλέξτε μια ημερομηνία μετά"
+
+#: public/js/flows/default-appointment.js:5347
+#: public/js/flows/single-service.js:5299
+msgid "Please select a date before"
+msgstr "Παρακαλούμε επιλέξτε μια ημερομηνία πριν"
+
+#: public/js/flows/default-appointment.js:5360
+#: public/js/flows/single-service.js:5312
+msgid "Selected date is outside available options."
+msgstr "Η επιλεγμένη ημερομηνία είναι εκτός των διαθέσιμων επιλογών."
+
+#: public/js/flows/default-appointment.js:5602
+#: public/js/flows/default-classes.js:7872
+#: public/js/flows/single-service.js:5554
+msgid "Unable to prepare payment."
+msgstr "Αδυναμία προετοιμασίας πληρωμής."
+
+#: public/js/flows/default-appointment.js:5653
+#: public/js/flows/default-appointment.js:5878
+#: public/js/flows/default-appointment.js:10267
+#: public/js/flows/single-service.js:5605
+#: public/js/flows/single-service.js:5830
+#: public/js/flows/single-service.js:9905
+msgid "Processing Appointment"
+msgstr "Ραντεβού επεξεργασίας"
+
+#: public/js/flows/default-appointment.js:6429
+#: public/js/flows/single-service.js:6381
+msgid "Service Selected"
+msgstr "Επιλεγμένη υπηρεσία"
+
+#: public/js/flows/default-appointment.js:6454
+#: public/js/flows/default-classes.js:11068
+#: public/js/flows/single-service.js:6406
+msgid "Online booking disabled"
+msgstr "Διαδικτυακή κράτηση απενεργοποιημένη"
+
+#: public/js/flows/default-appointment.js:7170
+#: public/js/flows/default-classes.js:8955
+#: public/js/flows/single-service.js:6808
+msgid "International"
+msgstr "Διεθνείς"
+
+#: public/js/flows/default-appointment.js:8474
+#: public/js/flows/default-classes.js:11611
+#: public/js/flows/single-service.js:8112
+msgid "Phone is required"
+msgstr "Το τηλέφωνο είναι υποχρεωτικό"
+
+#: public/js/flows/default-appointment.js:8648
+#: public/js/flows/default-classes.js:11789
+#: public/js/flows/single-service.js:8286
+msgid "We have securely populated a profile that matches this email address"
+msgstr ""
+"Έχουμε συμπληρώσει με ασφάλεια ένα προφίλ που ταιριάζει με αυτή τη διεύθυνση "
+"ηλεκτρονικού ταχυδρομείου"
+
+#: public/js/flows/default-appointment.js:8809
+#: public/js/flows/default-classes.js:11949
+#: public/js/flows/single-service.js:8447
+msgid "Warning"
+msgstr "Προσοχή"
+
+#: public/js/flows/default-appointment.js:8810
+#: public/js/flows/default-classes.js:11950
+#: public/js/flows/single-service.js:8448
+msgid ""
+"Your site is loading the secure checkout form without a SSL certificate. SSL "
+"certificates keep your connection with the website secure."
+msgstr ""
+"Ο ιστότοπός σας φορτώνει τη φόρμα ασφαλούς πληρωμής χωρίς πιστοποιητικό SSL. "
+"Τα πιστοποιητικά SSL διατηρούν τη σύνδεσή σας με τον ιστότοπο ασφαλή."
+
+#: public/js/flows/default-appointment.js:8813
+#: public/js/flows/default-classes.js:11953
+#: public/js/flows/single-service.js:8451
+msgid "Learn how to resolve this"
+msgstr "Μάθετε πώς να το επιλύσετε αυτό"
+
+#: public/js/flows/default-appointment.js:9244
+#: public/js/flows/default-appointment.js:9262
+#: public/js/flows/default-classes.js:12880
+#: public/js/flows/single-service.js:8882
+#: public/js/flows/single-service.js:8900
+msgid "Skip"
+msgstr "Παράλειψη"
+
+#: public/js/flows/default-appointment.js:9681
+#: public/js/flows/default-appointment.js:9717
+#: public/js/flows/single-service.js:9319
+#: public/js/flows/single-service.js:9355
+msgid "Would you like to clear the selected appointment?"
+msgstr "Θέλετε να ακυρώσετε το επιλεγμένο ραντεβού"
+
+#: public/js/flows/default-appointment.js:10747
+msgid "There are no services for this service type."
+msgstr "Δεν υπάρχουν υπηρεσίες για αυτόν τον τύπο υπηρεσίας."
+
+#: public/js/flows/default-appointment.js:10754
+msgid "Go Back"
+msgstr "Επιστροφή"
+
+#: public/js/flows/default-appointment.js:10769
+msgid "Oops... Looks like you don't have any services."
+msgstr "Ουπς... Φαίνεται ότι δεν έχετε καμία υπηρεσία."
+
+#: public/js/flows/default-appointment.js:10771
+msgid "Add Services"
+msgstr "Προσθήκη Υπηρεσιών"
+
+#: public/js/flows/default-appointment.js:10780
+msgid "A great online booking experience is coming soon..."
+msgstr "Μια εξαιρετική εμπειρία online κρατήσεων έρχεται σύντομα..."
+
+#: public/js/flows/default-appointment.js:12047
+msgid "Booking is disabled. Check back later."
+msgstr "Η κράτηση είναι απενεργοποιημένη. Επιστρέψτε αργότερα."
+
+#: public/js/flows/default-appointment.js:14193
+#: public/js/flows/default-classes.js:15119
+#: public/js/flows/single-service.js:13078
+#: resources/assets/js/front-end/utils/translate.js:108
+msgid "Sold Out"
+msgstr "Εξαντλημενο"
+
+#: public/js/flows/default-classes.js:6958
+msgid "All Day"
+msgstr "Ολοήμερο"
+
+#: public/js/flows/default-classes.js:7859
+msgid "Something went wrong."
+msgstr "Κάτι πήγε στραβά."
+
+#: public/js/flows/default-classes.js:7918
+#: public/js/flows/default-classes.js:8118
+#: public/js/flows/default-classes.js:12331
+msgid "Joining..."
+msgstr "Συμμετοχή..."
+
+#: public/js/flows/default-classes.js:12171
+msgid "loading"
+msgstr "φόρτωση"
+
+#: resources/assets/js/admin/jquery/graph/graph.js:66
+msgid "Bookings"
+msgstr "Κρατήσεις"
+
+#: resources/assets/js/admin/utils/customFields.js:5
+msgid "Single Line Text"
+msgstr "Κείμενο ενιαίας γραμμής"
+
+#: resources/assets/js/admin/utils/customFields.js:6
+msgid "Paragraph Text"
+msgstr "Κείμενο της παραγράφου"
+
+#: resources/assets/js/admin/utils/customFields.js:7
+msgid "Dropdown"
+msgstr "Αναπτυσσόμενο μενού"
+
+#: resources/assets/js/admin/utils/customFields.js:8
+msgid "Heading"
+msgstr "Επικεφαλίδα"
+
+#: resources/assets/js/admin/utils/customFields.js:9
+msgid "Line Separator"
+msgstr "Διαχωριστικό γραμμής"
+
+#: resources/assets/js/admin/utils/prefilledEvents.js:7
+#: resources/assets/js/admin/utils/prefilledEvents.js:29
+msgid "Hair cut"
+msgstr "Κούρεμα μαλλιών"
+
+#: resources/assets/js/admin/utils/prefilledEvents.js:8
+msgid "Clipper or scissor cut."
+msgstr "Κοπή με ψαλίδι ή ψαλίδι."
+
+#: resources/assets/js/admin/utils/prefilledEvents.js:18
+msgid "Facial"
+msgstr "Πρόσωπο"
+
+#: resources/assets/js/admin/utils/prefilledEvents.js:19
+msgid ""
+"Our facial regimen was created to target specific needs, increase skin "
+"health, and enhance your appearance."
+msgstr ""
+"Η αγωγή προσώπου μας δημιουργήθηκε για να στοχεύσει σε συγκεκριμένες "
+"ανάγκες, να αυξήσει την υγεία του δέρματος και να βελτιώσει την εμφάνισή σας."
+
+#: resources/assets/js/admin/utils/prefilledEvents.js:30
+msgid "Get your hair washed, cut and styled by our professional team."
+msgstr ""
+"Πλύνετε τα μαλλιά σας, κουρευτείτε και διαμορφώστε τα από την επαγγελματική "
+"μας ομάδα."
+
+#: resources/assets/js/admin/utils/prefilledEvents.js:40
+msgid "30 minute consultation"
+msgstr "διαβούλευση 30 λεπτών"
+
+#: resources/assets/js/admin/utils/prefilledEvents.js:41
+msgid "Initial introduction to get to know each other a little better."
+msgstr "Αρχική γνωριμία για να γνωριστούμε λίγο καλύτερα."
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.startbooking.com/"
+msgstr "https://www.startbooking.com/"
+
+#. Description of the plugin/theme
+msgid ""
+"Integrate online booking service StartBooking.com. Including an appointment "
+"form for customers to book directly on your website and a widget to display "
+"open hours."
+msgstr ""
+"Ενσωμάτωση της υπηρεσίας online κρατήσεων StartBooking.com. Περιλαμβάνει μια "
+"φόρμα ραντεβού για να κάνουν οι πελάτες κρατήσεις απευθείας στον ιστότοπό "
+"σας και ένα widget για την εμφάνιση των ωρών λειτουργίας."
+
+#. Author URI of the plugin/theme
+msgid "https://www.startbooking.com"
+msgstr "https://www.startbooking.com"

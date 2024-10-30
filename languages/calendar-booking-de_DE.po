@@ -1,0 +1,3319 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Start Booking\n"
+"POT-Creation-Date: 2023-04-22 10:22-0600\n"
+"PO-Revision-Date: 2023-04-22 10:23-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: start-booking.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#: admin/404.php:1
+msgid "Content not found."
+msgstr "Inhalt nicht gefunden."
+
+#: admin/connected/header.php:26 public/js/admin/index.js:63635
+#: public/js/admin/index.js:65541 public/js/admin/index.js:70707
+#: public/js/admin/index.js:70870
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: admin/connected/header.php:29 inc/content.php:26 inc/copy.php:47
+#: inc/copy.php:83 inc/widgets/single-service.php:54
+#: public/js/admin/index.js:62328 public/js/admin/index.js:63656
+#: public/js/admin/index.js:65562 public/js/admin/index.js:67420
+#: public/js/admin/index.js:67424 public/js/admin/index.js:67570
+#: public/js/admin/index.js:67574 public/js/admin/index.js:68821
+#: public/js/admin/index.js:69146 public/js/admin/index.js:70747
+#: public/js/admin/index.js:70912 public/js/blocks/default-appointment.js:2192
+#: public/js/blocks/default-appointment.js:2273
+#: public/js/blocks/single-service.js:2087
+#: public/js/flows/default-appointment.js:14180
+#: public/js/flows/default-classes.js:15106
+#: public/js/flows/single-service.js:13065
+#: resources/assets/js/front-end/utils/translate.js:95
+msgid "Services"
+msgstr "Dienstleistungen"
+
+#: admin/connected/header.php:32 inc/content.php:43
+#: public/js/admin/index.js:68984 public/js/admin/index.js:69190
+#: public/js/admin/index.js:70768 public/js/blocks/default-classes.js:5180
+#: public/js/blocks/default-classes.js:5423
+#: public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:111
+msgid "Classes"
+msgstr "Klassen"
+
+#: admin/connected/header.php:35
+msgid "Form Editor"
+msgstr "Formulareditor"
+
+#: admin/connected/header.php:38 public/js/admin/index.js:69628
+#: public/js/admin/index.js:70079 public/js/admin/index.js:70785
+#: public/js/admin/index.js:70933
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: admin/connected/header.php:42
+msgid "Go to Start Booking"
+msgstr "Gehe zu Buchung starten"
+
+#: inc/admin-connect.php:52
+msgid "Processing"
+msgstr "In Bearbeitung"
+
+#: inc/admin-connect.php:56 inc/admin-connect.php:255 inc/partners/wpcom.php:92
+#: inc/partners/wpcom.php:96
+msgid "Invalid response from startbooking.com."
+msgstr "Ungültige Antwort von startbooking.com."
+
+#: inc/admin-connect.php:111 inc/admin-connect.php:179
+msgid "Invalid Credentials"
+msgstr "Ungültige Berechtigungsnachweise"
+
+#: inc/admin-connect.php:112 inc/admin-connect.php:180
+msgid "Invalid Password"
+msgstr "Ungültiges Kennwort"
+
+#: inc/admin-connect.php:119 inc/admin-connect.php:187
+msgid "Invalid Authentication."
+msgstr "Ungültige Authentifizierung."
+
+#: inc/admin-connect.php:131 inc/admin-connect.php:210
+#: inc/admin-connect.php:251 inc/partners/wpcom.php:88
+msgid "Connection Established."
+msgstr "Die Verbindung wurde hergestellt."
+
+#: inc/admin-connect.php:135 inc/admin-connect.php:214
+msgid "Invalid credentials. Contact Support at startbooking.com"
+msgstr ""
+"Ungültige Anmeldedaten. Kontaktieren Sie den Support von startbooking.com"
+
+#: inc/admin-connect.php:471
+msgid "would like access to use Start Booking in the WordPress admin."
+msgstr "möchte Zugang zur Nutzung von Start Booking im WordPress-Admin."
+
+#: inc/admin-connect.php:473
+msgid "Click link to grant access, otherwise do nothing."
+msgstr ""
+"Klicken Sie auf den Link, um Zugang zu gewähren, andernfalls tun Sie nichts."
+
+#: inc/admin-connect.php:477
+msgid "requesting access to Start Booking"
+msgstr "zugang zu Start Booking beantragen"
+
+#: inc/admin-connect.php:480
+msgid "has been sent an email requesting access."
+msgstr "hat eine E-Mail mit der Bitte um Zugang erhalten."
+
+#: inc/admin-connect.php:482
+msgid "Unable to send email to request access."
+msgstr "Sie können keine E-Mail senden, um Zugang zu beantragen."
+
+#: inc/admin-connect.php:504
+msgid "granted access."
+msgstr "zugang gewährt."
+
+#: inc/admin-connect.php:505
+msgid "has granted access to"
+msgstr "hat Zugang gewährt zu"
+
+#: inc/admin-connect.php:511 inc/admin-connect.php:517
+msgid "Access granted to"
+msgstr "Zugang gewährt zu"
+
+#: inc/admin-connect.php:512
+msgid "You have granted access to"
+msgstr "Sie haben Zugang gewährt zu"
+
+#: inc/admin-connect.php:513
+msgid "If this is not your intention please contact Start Booking support."
+msgstr ""
+"Sollte dies nicht der Fall sein, wenden Sie sich bitte an den Support von "
+"Start Booking."
+
+#: inc/admin-connect.php:529
+msgid "Unable to grant access to"
+msgstr "Zugriff kann nicht gewährt werden für"
+
+#: inc/base.php:198
+msgid "Get started with online scheduling from"
+msgstr "Starten Sie mit der Online-Terminplanung von"
+
+#: inc/base.php:199
+msgid ""
+"Great news, your booking page is live! Activate your account to ensure you "
+"don't miss appointments."
+msgstr ""
+"Gute Neuigkeiten: Ihre Buchungsseite ist jetzt live! Aktivieren Sie Ihr "
+"Konto, damit Sie keine Termine mehr verpassen."
+
+#: inc/base.php:201
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: inc/base.php:202
+msgid "Continue setup"
+msgstr "Setup fortsetzen"
+
+#: inc/base.php:258
+msgid "Booking Page Created."
+msgstr "Buchungsseite erstellt."
+
+#: inc/base.php:260
+msgid "Unable to create page."
+msgstr "Seite kann nicht erstellt werden."
+
+#: inc/base.php:608 public/js/admin/index.js:11556
+#: public/js/admin/index.js:14036 public/js/admin/index.js:25761
+#: public/js/admin/index.js:32859 public/js/admin/index.js:48249
+#: public/js/admin/index.js:61891 public/js/admin/index.js:61969
+#: public/js/admin/index.js:62639 public/js/admin/index.js:64783
+#: public/js/admin/index.js:67948 public/js/blocks/single-service.js:2137
+#: public/js/flows/default-appointment.js:5097
+#: public/js/flows/default-classes.js:8734
+#: public/js/flows/default-classes.js:10897
+#: public/js/flows/single-service.js:5049
+msgid "Loading"
+msgstr "Laden"
+
+#: inc/base.php:707 public/js/blocks/single-service.js:2306
+#: public/js/flows/default-appointment.js:3874
+#: public/js/flows/default-appointment.js:13965
+#: public/js/flows/default-classes.js:6557
+#: public/js/flows/single-service.js:3826
+#: public/js/flows/single-service.js:12850
+#: resources/assets/js/front-end/utils/time.js:12
+msgid "hour"
+msgstr "Stunde"
+
+#: inc/base.php:709 public/js/blocks/single-service.js:2308
+#: public/js/flows/default-appointment.js:3876
+#: public/js/flows/default-appointment.js:13967
+#: public/js/flows/default-classes.js:6559
+#: public/js/flows/single-service.js:3828
+#: public/js/flows/single-service.js:12852
+#: resources/assets/js/front-end/utils/time.js:14
+msgid "hours"
+msgstr "Stunden"
+
+#: inc/base.php:713 public/js/blocks/single-service.js:2314
+#: public/js/flows/default-appointment.js:3882
+#: public/js/flows/default-appointment.js:13973
+#: public/js/flows/default-classes.js:6565
+#: public/js/flows/single-service.js:3834
+#: public/js/flows/single-service.js:12858
+#: resources/assets/js/front-end/utils/time.js:18
+msgid "minute"
+msgstr "Minute"
+
+#: inc/base.php:715 public/js/blocks/single-service.js:2317
+#: public/js/flows/default-appointment.js:3885
+#: public/js/flows/default-appointment.js:13976
+#: public/js/flows/default-classes.js:6568
+#: public/js/flows/single-service.js:3837
+#: public/js/flows/single-service.js:12861
+#: resources/assets/js/front-end/utils/time.js:21
+msgid "minutes"
+msgstr "Minuten"
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+#: inc/blocks.php:11 inc/routes.php:7
+msgid "Start Booking"
+msgstr "Buchung starten"
+
+#: inc/content.php:3 public/js/flows/default-appointment.js:14157
+#: public/js/flows/default-classes.js:15083
+#: public/js/flows/single-service.js:13042
+#: resources/assets/js/front-end/utils/translate.js:72
+msgid "Select Service Type"
+msgstr "Service-Art wählen"
+
+#: inc/content.php:4 inc/widgets/single-service.php:56
+#: public/js/flows/default-appointment.js:14158
+#: public/js/flows/default-classes.js:15084
+#: public/js/flows/single-service.js:13043
+#: resources/assets/js/front-end/utils/translate.js:73
+msgid "Select a Service"
+msgstr "Gewünschte Therapieform"
+
+#: inc/content.php:5 public/js/flows/default-appointment.js:14159
+#: public/js/flows/default-classes.js:15085
+#: public/js/flows/single-service.js:13044
+#: resources/assets/js/front-end/utils/translate.js:74
+msgid "Select a Provider"
+msgstr "Wählen Sie einen Anbieter aus"
+
+#: inc/content.php:6 inc/content.php:41 public/js/admin/index.js:61788
+#: public/js/flows/default-appointment.js:14160
+#: public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15086
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13045
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:75
+#: resources/assets/js/front-end/utils/translate.js:109
+msgid "Additional Options"
+msgstr "Zusätzliche Optionen"
+
+#: inc/content.php:7 public/js/blocks/default-classes.js:5203
+#: public/js/flows/default-appointment.js:3742
+#: public/js/flows/default-appointment.js:4010
+#: public/js/flows/default-appointment.js:7702
+#: public/js/flows/default-appointment.js:14161
+#: public/js/flows/default-classes.js:6425
+#: public/js/flows/default-classes.js:6693
+#: public/js/flows/default-classes.js:9707
+#: public/js/flows/default-classes.js:15087
+#: public/js/flows/single-service.js:3694
+#: public/js/flows/single-service.js:3962
+#: public/js/flows/single-service.js:7340
+#: public/js/flows/single-service.js:13046
+#: resources/assets/js/front-end/utils/translate.js:76
+msgid "Select"
+msgstr "Auswählen"
+
+#: inc/content.php:8 public/js/flows/default-appointment.js:3743
+#: public/js/flows/default-appointment.js:4011
+#: public/js/flows/default-appointment.js:14162
+#: public/js/flows/default-classes.js:6426
+#: public/js/flows/default-classes.js:6694
+#: public/js/flows/default-classes.js:15088
+#: public/js/flows/single-service.js:3695
+#: public/js/flows/single-service.js:3963
+#: public/js/flows/single-service.js:13047
+#: resources/assets/js/front-end/utils/translate.js:77
+msgid "Selected"
+msgstr "Ausgewählt"
+
+#: inc/content.php:9 public/js/flows/default-appointment.js:14163
+#: public/js/flows/default-classes.js:15089
+#: public/js/flows/single-service.js:13048
+#: resources/assets/js/front-end/utils/translate.js:78
+msgid "Select a Date & Time"
+msgstr "Wählen Sie ein Datum und eine Uhrzeit"
+
+#: inc/content.php:10 public/js/blocks/default-appointment.js:2226
+#: public/js/blocks/default-classes.js:5195
+#: public/js/flows/default-appointment.js:14164
+#: public/js/flows/default-classes.js:15090
+#: public/js/flows/single-service.js:13049
+#: resources/assets/js/front-end/utils/translate.js:79
+msgid "Available times for"
+msgstr "Verfügbare Zeiten für"
+
+#: inc/content.php:11 inc/content.php:38
+#: public/js/flows/default-appointment.js:10032
+#: public/js/flows/default-appointment.js:14165
+#: public/js/flows/default-classes.js:15091
+#: public/js/flows/single-service.js:9670
+#: public/js/flows/single-service.js:13050
+#: resources/assets/js/front-end/utils/translate.js:80
+msgid "Searching Availability"
+msgstr "Suche nach Verfügbarkeit"
+
+#: inc/content.php:12 public/js/flows/default-appointment.js:14166
+#: public/js/flows/default-classes.js:15092
+#: public/js/flows/single-service.js:13051
+#: resources/assets/js/front-end/utils/translate.js:81
+msgid "There are no available times for this date"
+msgstr "Es gibt keine verfügbaren Zeiten für dieses Datum"
+
+#: inc/content.php:13 public/js/flows/default-appointment.js:14167
+#: public/js/flows/default-classes.js:15093
+#: public/js/flows/single-service.js:13052
+#: resources/assets/js/front-end/utils/translate.js:82
+msgid "Morning"
+msgstr "Morgens"
+
+#: inc/content.php:14 public/js/flows/default-appointment.js:14168
+#: public/js/flows/default-classes.js:15094
+#: public/js/flows/single-service.js:13053
+#: resources/assets/js/front-end/utils/translate.js:83
+msgid "Afternoon"
+msgstr "Nachmittags"
+
+#: inc/content.php:15 public/js/flows/default-appointment.js:14169
+#: public/js/flows/default-classes.js:15095
+#: public/js/flows/single-service.js:13054
+#: resources/assets/js/front-end/utils/translate.js:84
+msgid "Evening"
+msgstr "Abends"
+
+#: inc/content.php:16 public/js/flows/default-appointment.js:14170
+#: public/js/flows/default-classes.js:15096
+#: public/js/flows/single-service.js:13055
+#: resources/assets/js/front-end/utils/translate.js:85
+msgid "Complete Appointment"
+msgstr "Termin buchen"
+
+#: inc/content.php:17 inc/copy.php:18 public/js/admin/index.js:17386
+#: public/js/admin/index.js:17862 public/js/flows/default-appointment.js:14171
+#: public/js/flows/default-classes.js:15097
+#: public/js/flows/single-service.js:13056
+#: resources/assets/js/front-end/utils/translate.js:86
+msgid "Email"
+msgstr "E-Mail"
+
+#: inc/content.php:18 inc/copy.php:19 public/js/admin/index.js:17834
+#: public/js/admin/index.js:17839 public/js/flows/default-appointment.js:14172
+#: public/js/flows/default-classes.js:15098
+#: public/js/flows/single-service.js:13057
+#: resources/assets/js/front-end/utils/translate.js:87
+msgid "First Name"
+msgstr "Vorname"
+
+#: inc/content.php:19 inc/copy.php:20 public/js/admin/index.js:17850
+#: public/js/admin/index.js:17851 public/js/flows/default-appointment.js:14173
+#: public/js/flows/default-classes.js:15099
+#: public/js/flows/single-service.js:13058
+#: resources/assets/js/front-end/utils/translate.js:88
+msgid "Last Name"
+msgstr "Nachname"
+
+#: inc/content.php:20 public/js/admin/index.js:63454
+#: public/js/flows/default-appointment.js:14174
+#: public/js/flows/default-classes.js:15100
+#: public/js/flows/single-service.js:13059
+#: resources/assets/js/front-end/utils/translate.js:89
+msgid "Phone"
+msgstr "Telefon"
+
+#: inc/content.php:21 public/js/flows/default-appointment.js:4302
+#: public/js/flows/default-appointment.js:14175
+#: public/js/flows/default-classes.js:7121
+#: public/js/flows/default-classes.js:15101
+#: public/js/flows/single-service.js:4254
+#: public/js/flows/single-service.js:13060
+#: resources/assets/js/front-end/utils/translate.js:90
+msgid "Submit"
+msgstr "Senden"
+
+#: inc/content.php:22 public/js/flows/default-appointment.js:14176
+#: public/js/flows/default-classes.js:15102
+#: public/js/flows/single-service.js:13061
+#: resources/assets/js/front-end/utils/translate.js:91
+msgid "Card Number"
+msgstr "Kartennummer"
+
+#: inc/content.php:23 public/js/flows/default-appointment.js:14177
+#: public/js/flows/default-classes.js:15103
+#: public/js/flows/single-service.js:13062
+#: resources/assets/js/front-end/utils/translate.js:92
+msgid "Expiration"
+msgstr "Ablauf"
+
+#: inc/content.php:24 public/js/flows/default-appointment.js:14178
+#: public/js/flows/default-classes.js:15104
+#: public/js/flows/single-service.js:13063
+#: resources/assets/js/front-end/utils/translate.js:93
+msgid "Book and Pay Later"
+msgstr "Buchen und später bezahlen"
+
+#: inc/content.php:25 public/js/flows/default-appointment.js:14179
+#: public/js/flows/default-classes.js:15105
+#: public/js/flows/single-service.js:13064
+#: resources/assets/js/front-end/utils/translate.js:94
+msgid "Review Booking"
+msgstr "Überprüfung Buchung"
+
+#: inc/content.php:27 inc/content.php:44
+#: public/js/flows/default-appointment.js:14181
+#: public/js/flows/default-classes.js:15107
+#: public/js/flows/single-service.js:13066
+#: resources/assets/js/front-end/utils/translate.js:96
+msgid "Addons"
+msgstr "Erweiterungen"
+
+#: inc/content.php:28 public/js/flows/default-appointment.js:14182
+#: public/js/flows/default-classes.js:15108
+#: public/js/flows/single-service.js:13067
+#: resources/assets/js/front-end/utils/translate.js:97
+msgid "Date & Time"
+msgstr "Datum & Zeit"
+
+#: inc/content.php:29 inc/copy.php:29 inc/copy.php:75
+#: public/js/admin/index.js:64234 public/js/admin/index.js:64813
+#: public/js/admin/index.js:65766 public/js/flows/default-appointment.js:14183
+#: public/js/flows/default-classes.js:15109
+#: public/js/flows/single-service.js:13068
+#: resources/assets/js/front-end/utils/translate.js:98
+msgid "Duration"
+msgstr "Dauer"
+
+#: inc/content.php:30 public/js/flows/default-appointment.js:4646
+#: public/js/flows/default-appointment.js:14184
+#: public/js/flows/default-classes.js:7426
+#: public/js/flows/default-classes.js:15110
+#: public/js/flows/single-service.js:4598
+#: public/js/flows/single-service.js:13069
+#: resources/assets/js/front-end/utils/translate.js:99
+#, fuzzy
+msgid "Total"
+msgstr "Gesamt"
+
+#: inc/content.php:31 public/js/flows/default-appointment.js:14185
+#: public/js/flows/default-classes.js:15111
+#: public/js/flows/single-service.js:13070
+#: resources/assets/js/front-end/utils/translate.js:100
+msgid "Thank you for booking!"
+msgstr "Vielen Dank für Ihre Buchung!"
+
+#: inc/content.php:32 public/js/flows/default-appointment.js:14186
+#: public/js/flows/default-classes.js:15112
+#: public/js/flows/single-service.js:13071
+#: resources/assets/js/front-end/utils/translate.js:101
+msgid "We look forward to seeing you soon"
+msgstr "Wir freuen uns darauf, Sie bald wiederzusehen"
+
+#: inc/content.php:33 public/js/flows/default-appointment.js:14187
+#: public/js/flows/default-classes.js:15113
+#: public/js/flows/single-service.js:13072
+#: resources/assets/js/front-end/utils/translate.js:102
+msgid "Return back"
+msgstr "Zurück"
+
+#: inc/content.php:34 public/js/flows/default-appointment.js:14188
+#: public/js/flows/default-classes.js:10129
+#: public/js/flows/default-classes.js:15114
+#: public/js/flows/single-service.js:13073
+#: resources/assets/js/front-end/utils/translate.js:103
+msgid "Day"
+msgstr "Tag"
+
+#: inc/content.php:35 public/js/flows/default-appointment.js:14189
+#: public/js/flows/default-classes.js:10130
+#: public/js/flows/default-classes.js:15115
+#: public/js/flows/single-service.js:13074
+#: resources/assets/js/front-end/utils/translate.js:104
+msgid "Range"
+msgstr "Bereich"
+
+#: inc/content.php:36 public/js/flows/default-appointment.js:14190
+#: public/js/flows/default-classes.js:15116
+#: public/js/flows/single-service.js:13075
+#: resources/assets/js/front-end/utils/translate.js:105
+msgid "There are no available classes for the selected dates"
+msgstr "Für die ausgewählten Daten sind keine Kurse verfügbar"
+
+#: inc/content.php:37 public/js/flows/default-appointment.js:14191
+#: public/js/flows/default-classes.js:15117
+#: public/js/flows/single-service.js:13076
+#: resources/assets/js/front-end/utils/translate.js:106
+msgid "Filter"
+msgstr "Filter"
+
+#: inc/content.php:39 public/js/blocks/default-classes.js:5291
+#: public/js/flows/default-appointment.js:14192
+#: public/js/flows/default-classes.js:15118
+#: public/js/flows/single-service.js:13077
+#: resources/assets/js/front-end/utils/translate.js:107
+msgid "Remaining"
+msgstr "Verbleibend"
+
+#: inc/content.php:40
+msgid "Sole Out"
+msgstr "Sohle aus"
+
+#: inc/content.php:42 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:110
+msgid "Complete Booking"
+msgstr "Buchung abschließen"
+
+#: inc/content.php:45 inc/copy.php:22 inc/copy.php:71 inc/shortcodes.php:161
+#: public/js/blocks/default-appointment.js:2234
+#: public/js/blocks/default-classes.js:5239
+#: public/js/blocks/single-service.js:1914
+#: public/js/blocks/single-service.js:1950
+#: public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:112
+msgid "Continue"
+msgstr "Weiter"
+
+#: inc/content.php:46 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:113
+msgid "Back"
+msgstr "Zurück"
+
+#: inc/content.php:47 public/js/blocks/call-to-action.js:2227
+#: public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:114
+msgid "Book Now"
+msgstr "Jetzt buchen"
+
+#: inc/content.php:48 public/js/flows/default-appointment.js:4304
+#: public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:7123
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:4256
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:115
+msgid ""
+"By clicking checkout you agree to our Terms of Service and Privacy Policy."
+msgstr ""
+"Wenn Sie auf \"Zur Kasse gehen\" klicken, erklären Sie sich mit unseren "
+"Allgemeinen Geschäftsbedingungen und unserer Datenschutzrichtlinie "
+"einverstanden."
+
+#: inc/content.php:49 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:116
+msgid "home"
+msgstr "Startseite"
+
+#: inc/content.php:50 inc/copy.php:79
+#: public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:117
+msgid "services"
+msgstr "Dienstleistungen"
+
+#: inc/content.php:51 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:118
+msgid "classes"
+msgstr "Klassen"
+
+#: inc/content.php:52 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:119
+msgid "packages"
+msgstr "Pakete"
+
+#: inc/content.php:53 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:120
+msgid "login"
+msgstr "Login"
+
+#: inc/content.php:54 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:121
+msgid "my account"
+msgstr "Mein Konto"
+
+#: inc/content.php:55 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:122
+msgid "about us"
+msgstr "Über uns"
+
+#: inc/content.php:56
+msgid "continue"
+msgstr "weiter"
+
+#: inc/content.php:57
+msgid "select"
+msgstr "auswählen"
+
+#: inc/content.php:58 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:123
+msgid "remove"
+msgstr "entfernen"
+
+#: inc/content.php:59
+msgid "back"
+msgstr "zurück"
+
+#: inc/content.php:60 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:124
+msgid "skip"
+msgstr "überspringen"
+
+#: inc/content.php:61
+msgid "selected"
+msgstr "ausgewählt"
+
+#: inc/content.php:62 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:125
+msgid "free"
+msgstr "kostenlos"
+
+#: inc/content.php:63 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:126
+msgid "forgot password"
+msgstr "Kennwort vergessen"
+
+#: inc/content.php:64 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:127
+msgid "remember me"
+msgstr "angemeldet bleiben"
+
+#: inc/content.php:65 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:128
+msgid "password"
+msgstr "Passwort"
+
+#: inc/content.php:66 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:129
+msgid "next"
+msgstr "weiter"
+
+#: inc/content.php:67 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:130
+msgid "enter a valid address"
+msgstr "eine gültige Adresse eingeben"
+
+#: inc/content.php:68 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:131
+msgid "email address"
+msgstr "E-Mail-Adresse"
+
+#: inc/content.php:69 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:132
+msgid "customer information"
+msgstr "kundeninformation"
+
+#: inc/content.php:70 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:133
+msgid "customers"
+msgstr "Kunden"
+
+#: inc/content.php:71 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:134
+msgid "sign in to your account"
+msgstr "sich bei Ihrem Konto anmelden"
+
+#: inc/content.php:72 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:135
+msgid "reset password"
+msgstr "Passwort zurücksetzen"
+
+#: inc/content.php:73 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:136
+msgid "enter your email and we'll send you a link to reset your password"
+msgstr ""
+"geben Sie Ihre E-Mail-Adresse ein und wir senden Ihnen einen Link zum "
+"Zurücksetzen Ihres Passworts"
+
+#: inc/content.php:74 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:137
+msgid "we have securely populated a profile that matches this email address"
+msgstr ""
+"wir haben ein sicheres Profil erstellt, das mit dieser E-Mail-Adresse "
+"übereinstimmt"
+
+#: inc/content.php:75 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:138
+msgid "booking"
+msgstr "Buchung"
+
+#: inc/content.php:76 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:139
+msgid "cancel"
+msgstr "abbrechen"
+
+#: inc/content.php:77 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:140
+msgid "book again"
+msgstr "erneut buchen"
+
+#: inc/content.php:78 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:141
+msgid "booking cancelled"
+msgstr "buchung storniert"
+
+#: inc/content.php:79 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:142
+msgid "service"
+msgstr "Service"
+
+#: inc/content.php:80 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:143
+msgid "class"
+msgstr "Klasse"
+
+#: inc/content.php:81 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:144
+msgid "date"
+msgstr "Datum"
+
+#: inc/content.php:82 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:145
+msgid "zoom"
+msgstr "Zoom"
+
+#: inc/content.php:83 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:146
+msgid "join zoom"
+msgstr "zoom verbinden"
+
+#: inc/content.php:84 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:147
+msgid "charges"
+msgstr "Gebühren"
+
+#: inc/content.php:85 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:148
+msgid "paid"
+msgstr "bezahlt"
+
+#: inc/content.php:86 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:149
+msgid "view receipt"
+msgstr "beleg anzeigen"
+
+#: inc/content.php:87 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:150
+msgid "ending in"
+msgstr "endet in"
+
+#: inc/content.php:88 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:151
+msgid "user"
+msgstr "Benutzer"
+
+#: inc/content.php:89 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:152
+msgid "first name"
+msgstr "Vorname"
+
+#: inc/content.php:90 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:153
+msgid "last name"
+msgstr "Nachname"
+
+#: inc/content.php:91 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:154
+msgid "mobile phone"
+msgstr "Mobiltelefon"
+
+#: inc/content.php:92 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:155
+msgid "password requirements"
+msgstr "kennwortanforderungen"
+
+#: inc/content.php:93 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:156
+msgid "minimum 6 characters in length"
+msgstr "mindestens 6 Zeichen lang"
+
+#: inc/content.php:94 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:157
+msgid "must contain at least one number"
+msgstr "muss mindestens eine Zahl enthalten"
+
+#: inc/content.php:95 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:158
+msgid "continue without registering"
+msgstr "weiter ohne Registrierung"
+
+#: inc/content.php:96 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:159
+msgid "continue without email"
+msgstr "weiter ohne E-Mail"
+
+#: inc/content.php:97 public/js/flows/default-appointment.js:14194
+#: public/js/flows/default-classes.js:15120
+#: public/js/flows/single-service.js:13079
+#: resources/assets/js/front-end/utils/translate.js:160
+msgid "checkout"
+msgstr "kasse"
+
+#: inc/copy.php:6
+msgid "Select a Date and Time"
+msgstr "Wählen Sie ein Datum und eine Uhrzeit"
+
+#: inc/copy.php:7
+msgid "Available Times for"
+msgstr "Verfügbare Zeiten für"
+
+#: inc/copy.php:8
+msgid "No appointments available on selected day."
+msgstr "Am ausgewählten Tag sind keine Termine verfügbar."
+
+#: inc/copy.php:9
+msgid "Looking for available appointments."
+msgstr "Suche nach freien Terminen."
+
+#: inc/copy.php:11
+msgid "Selected date is in the past."
+msgstr "Das gewählte Datum liegt in der Vergangenheit."
+
+#: inc/copy.php:12
+msgid "Please select a date and time."
+msgstr "Bitte wählen Sie ein Datum und eine Uhrzeit."
+
+#: inc/copy.php:16
+msgid "Your Details"
+msgstr "Ihre Angaben"
+
+#: inc/copy.php:17
+msgid "Secure Profile Loaded from StartBooking.com"
+msgstr "Sicheres Profil von StartBooking.com geladen"
+
+#: inc/copy.php:21 public/js/admin/index.js:10968
+msgid "Phone Number"
+msgstr "Telefonnummer"
+
+#: inc/copy.php:25
+msgid "Review & Confirm"
+msgstr "Buchungsübersicht"
+
+#: inc/copy.php:26 public/js/admin/index.js:64156
+#: public/js/admin/index.js:66766 public/js/admin/index.js:67010
+#, fuzzy
+msgid "Name"
+msgstr "Name"
+
+#: inc/copy.php:27
+msgid "Date"
+msgstr "Datum"
+
+#: inc/copy.php:28 inc/copy.php:85 public/js/admin/index.js:38840
+#: public/js/admin/index.js:40329
+msgid "Time"
+msgstr "Zeit"
+
+#: inc/copy.php:30
+msgid "Service(s)"
+msgstr "Service"
+
+#: inc/copy.php:31
+msgid "Confirm Appointment"
+msgstr "Termin bestätigen"
+
+#: inc/copy.php:34
+msgid "Select Services"
+msgstr "Dienste auswählen"
+
+#: inc/copy.php:35
+msgid "Select Another Service"
+msgstr "Wählen Sie einen anderen Dienst"
+
+#: inc/copy.php:36
+msgid "Select a Service Type"
+msgstr "Wählen Sie eine Serviceart"
+
+#: inc/copy.php:37
+msgid "Loading service types..."
+msgstr "Laden von Dienstarten..."
+
+#: inc/copy.php:39
+msgid "Please select a service to continue."
+msgstr "Bitte wählen Sie einen Dienst aus, um fortzufahren."
+
+#: inc/copy.php:43
+msgid "Summary"
+msgstr "Zusammenfassung"
+
+#: inc/copy.php:44
+msgid "Payment Information"
+msgstr "Zahlungsinformation"
+
+#: inc/copy.php:45 inc/copy.php:60 inc/copy.php:84
+msgid "Appointment"
+msgstr "Termin"
+
+#: inc/copy.php:46 public/js/admin/index.js:64809
+#: public/js/admin/index.js:66530 public/js/admin/index.js:67422
+#: public/js/admin/index.js:67572 public/js/blocks/call-to-action.js:2393
+#: public/js/blocks/single-service.js:2092
+#: public/js/blocks/single-service.js:2127
+msgid "Service"
+msgstr "Service"
+
+#: inc/copy.php:48
+msgid "Total Amount Due"
+msgstr "Fällige Summe"
+
+#: inc/copy.php:49
+msgid "Credit Card"
+msgstr "Kreditkarte"
+
+#: inc/copy.php:50
+msgid "Month / Year"
+msgstr "Monat / Jahr"
+
+#: inc/copy.php:51
+msgid "CVC"
+msgstr "CVC"
+
+#: inc/copy.php:52
+msgid "Postal Code"
+msgstr "Postleitzahl"
+
+#: inc/copy.php:53
+msgid "Pay Now"
+msgstr "Jetzt bezahlen"
+
+#: inc/copy.php:54
+msgid "Loading Secure Checkout"
+msgstr "Laden Sicherer Checkout"
+
+#: inc/copy.php:57
+#, fuzzy
+msgid "Thank You!"
+msgstr "Vielen Dank!"
+
+#: inc/copy.php:58
+msgid "We have confirmed your appointment on "
+msgstr "Wir haben Ihren Termin bestätigt am"
+
+#: inc/copy.php:59
+#, fuzzy
+msgid "Customer"
+msgstr "Kunde"
+
+#: inc/copy.php:61 public/js/admin/index.js:17969
+#: public/js/admin/index.js:62100
+msgid "Address"
+msgstr "Adresse"
+
+#: inc/copy.php:62
+msgid "We look forward to seeing you!"
+msgstr "Wir freuen uns auf Ihren Besuch!"
+
+#: inc/copy.php:63
+msgid "Done"
+msgstr "Erledigt"
+
+#: inc/copy.php:66
+msgid "Booking Currently Unavailable"
+msgstr "Buchung derzeit nicht verfügbar"
+
+#: inc/copy.php:67
+msgid ""
+"Booking appointments is currently unavailable. Please check again later."
+msgstr ""
+"Die Terminbuchung ist derzeit nicht verfügbar. Bitte schauen Sie später noch "
+"einmal nach."
+
+#: inc/copy.php:74 public/js/admin/index.js:64315
+#: public/js/admin/index.js:64817 public/js/admin/index.js:66008
+msgid "Price"
+msgstr "Preis"
+
+#: inc/copy.php:76 public/js/admin/index.js:64252
+#: public/js/admin/index.js:64307 public/js/admin/index.js:65795
+#: public/js/admin/index.js:65858
+msgid "Minutes"
+msgstr "Minuten"
+
+#: inc/copy.php:86
+msgid "Details"
+msgstr "Details"
+
+#: inc/copy.php:87
+msgid "Booked"
+msgstr "Gebucht"
+
+#: inc/widgets/address.php:6 inc/widgets/address.php:8
+msgid "Start Booking Location Address"
+msgstr "Start Buchungsort Adresse"
+
+#: inc/widgets/address.php:55 inc/widgets/classes.php:32
+#: inc/widgets/hours.php:50 inc/widgets/services.php:30
+#: inc/widgets/single-service.php:49
+msgid "Title"
+msgstr "Titel"
+
+#: inc/widgets/address.php:60
+msgid "Map Type"
+msgstr "Kartentyp"
+
+#: inc/widgets/address.php:62
+msgid "Road Map"
+msgstr "Straßenkarte"
+
+#: inc/widgets/address.php:63
+msgid "Satellite"
+msgstr "Satellit"
+
+#: inc/widgets/address.php:68
+msgid "Map Zoom"
+msgstr "Zoomfaktor"
+
+#: inc/widgets/address.php:70
+msgid "No Zoom"
+msgstr "Vergrößern/Verkleinern"
+
+#: inc/widgets/address.php:71
+msgid "Level 1"
+msgstr "Level 1"
+
+#: inc/widgets/address.php:72
+msgid "Level 2"
+msgstr "Level 2"
+
+#: inc/widgets/address.php:73
+msgid "Level 3"
+msgstr "Level 3"
+
+#: inc/widgets/address.php:74
+msgid "Level 4"
+msgstr "Level 4"
+
+#: inc/widgets/address.php:79
+msgid "Marker Color"
+msgstr "Markerfarbe"
+
+#: inc/widgets/address.php:81
+msgid "Red"
+msgstr "Rot"
+
+#: inc/widgets/address.php:82
+msgid "Blue"
+msgstr "Blau"
+
+#: inc/widgets/address.php:83
+msgid "Green"
+msgstr "Grün"
+
+#: inc/widgets/address.php:87
+msgid ""
+"Location address is loaded from your account profile at StartBooking.com."
+msgstr ""
+"Die Adresse des Standorts wird aus Ihrem Kontoprofil bei StartBooking.com "
+"geladen."
+
+#: inc/widgets/address.php:87
+msgid "account"
+msgstr "Konto"
+
+#: inc/widgets/address.php:87
+msgid "Update Address"
+msgstr "Adresse aktualisieren"
+
+#: inc/widgets/classes.php:6 inc/widgets/classes.php:8
+msgid "Start Booking Classes"
+msgstr "Start Klassen buchen"
+
+#: inc/widgets/classes.php:35
+msgid ""
+"Please use the Start Booking dashboard for class schedules and configuration."
+msgstr ""
+"Bitte verwenden Sie das Start Booking Dashboard für Unterrichtspläne und "
+"Konfiguration."
+
+#: inc/widgets/hours.php:6 inc/widgets/hours.php:8
+msgid "Start Booking Hours"
+msgstr "Start Buchungszeiten"
+
+#: inc/widgets/hours.php:37
+msgid "Closed"
+msgstr "Geschlossen"
+
+#: inc/widgets/hours.php:54
+msgid "Hide Icon"
+msgstr "Icon ausblenden"
+
+#: inc/widgets/hours.php:57
+msgid ""
+"Your hours are loaded from your account availability at Start Booking.com."
+msgstr ""
+"Ihre Stunden werden von Ihrem Konto Verfügbarkeit bei Start Booking.com "
+"geladen."
+
+#: inc/widgets/hours.php:57
+msgid "account/availability"
+msgstr "konto/Verfügbarkeit"
+
+#: inc/widgets/hours.php:57
+msgid "Manage Availability Hours"
+msgstr "Verfügbarkeitszeiten verwalten"
+
+#: inc/widgets/services.php:6 inc/widgets/services.php:8
+msgid "Start Booking Services"
+msgstr "Start Booking Services"
+
+#: inc/widgets/services.php:33
+msgid "To edit the booking form experience, please use the "
+msgstr "Um das Buchungsformular zu bearbeiten, verwenden Sie bitte die"
+
+#: inc/widgets/services.php:33
+msgid "form editor"
+msgstr "formular-Editor"
+
+#: inc/widgets/single-service.php:6 inc/widgets/single-service.php:8
+msgid "Start Booking Single Service"
+msgstr "Start Buchung Einzelservice"
+
+#: inc/widgets/single-service.php:68
+msgid "Service Details"
+msgstr "Dienstleistung Details"
+
+#: inc/widgets/single-service.php:70
+msgid "Show Details"
+msgstr "Details anzeigen"
+
+#: inc/widgets/single-service.php:71
+msgid "Skip Details"
+msgstr "Details überspringen"
+
+#: public/js/admin/index.js:4371 public/js/flows/default-appointment.js:124
+#: public/js/flows/default-classes.js:3075
+#: public/js/flows/single-service.js:124
+msgid "+"
+msgstr "+"
+
+#: public/js/admin/index.js:6436 public/js/admin/index.js:6524
+#: public/js/admin/index.js:7452 public/js/admin/index.js:7471
+#: public/js/admin/index.js:7490 public/js/admin/index.js:7509
+#: public/js/admin/index.js:7528 public/js/admin/index.js:7582
+#: public/js/admin/index.js:71009 public/js/admin/index.js:72677
+#: public/js/admin/index.js:72689 public/js/admin/index.js:72701
+#: public/js/admin/index.js:72721 public/js/admin/index.js:72741
+#: public/js/admin/index.js:73084 public/js/blocks/call-to-action.js:2074
+#: public/js/blocks/default-appointment.js:2074
+#: public/js/blocks/default-classes.js:5056
+#: public/js/flows/default-appointment.js:2362
+#: public/js/flows/default-classes.js:5313
+#: public/js/flows/single-service.js:2362
+#: resources/assets/js/admin/actions/account/accountActions.js:173
+#: resources/assets/js/admin/actions/account/accountOptionActions.js:53
+#: resources/assets/js/admin/actions/appointmentActions.js:34
+#: resources/assets/js/admin/actions/appointmentActions.js:49
+#: resources/assets/js/admin/actions/appointmentActions.js:62
+#: resources/assets/js/admin/actions/appointmentActions.js:75
+#: resources/assets/js/admin/actions/appointmentActions.js:88
+#: resources/assets/js/admin/actions/appointmentActions.js:127
+#: resources/assets/js/admin/reducers/account/accountOptionsReducer.js:28
+#: resources/assets/js/admin/reducers/customFieldsReducer.js:22
+#: resources/assets/js/admin/reducers/customFieldsReducer.js:38
+#: resources/assets/js/admin/reducers/customFieldsReducer.js:53
+#: resources/assets/js/admin/reducers/customFieldsReducer.js:77
+#: resources/assets/js/admin/reducers/customFieldsReducer.js:101
+#: resources/assets/js/admin/reducers/editorReducer.js:45
+msgid "Saved"
+msgstr "Gespeichert"
+
+#: public/js/admin/index.js:7921 public/js/admin/index.js:8086
+#: resources/assets/js/admin/actions/chargeActions.js:34
+#: resources/assets/js/admin/actions/chargeActions.js:160
+msgid "Payment successful"
+msgstr "Zahlung erfolgreich"
+
+#: public/js/admin/index.js:7930
+#: resources/assets/js/admin/actions/chargeActions.js:38
+msgid "Payment requires action"
+msgstr "Zahlungen erfordern Maßnahmen"
+
+#: public/js/admin/index.js:8095
+#: resources/assets/js/admin/actions/chargeActions.js:163
+msgid "Payment error."
+msgstr "Zahlungsfehler."
+
+#: public/js/admin/index.js:10004 public/js/admin/index.js:10030
+#: public/js/admin/index.js:10053 public/js/admin/index.js:10086
+#: public/js/admin/index.js:10105 public/js/admin/index.js:10128
+#: public/js/admin/index.js:72562 public/js/admin/index.js:72571
+#: resources/assets/js/admin/actions/upsellActions.js:43
+#: resources/assets/js/admin/actions/upsellActions.js:59
+#: resources/assets/js/admin/actions/upsellActions.js:75
+#: resources/assets/js/admin/actions/upsellActions.js:98
+#: resources/assets/js/admin/actions/upsellActions.js:110
+#: resources/assets/js/admin/actions/upsellActions.js:126
+#: resources/assets/js/admin/reducers/classScheduleReducer.js:51
+#: resources/assets/js/admin/reducers/classScheduleReducer.js:61
+msgid "Success"
+msgstr "Erfolg"
+
+#: public/js/admin/index.js:10749 public/js/flows/default-appointment.js:8463
+#: public/js/flows/default-classes.js:11600
+#: public/js/flows/single-service.js:8101
+msgid "First name is required"
+msgstr "Vorname erforderlich"
+
+#: public/js/admin/index.js:10754 public/js/flows/default-appointment.js:8468
+#: public/js/flows/default-classes.js:11605
+#: public/js/flows/single-service.js:8106
+msgid "Last name is required"
+msgstr "Nachname ist erforderlich"
+
+#: public/js/admin/index.js:10759 public/js/flows/default-appointment.js:8458
+#: public/js/flows/default-classes.js:11595
+#: public/js/flows/single-service.js:8096
+msgid "Email is required"
+msgstr "E-Mail ist erforderlich"
+
+#: public/js/admin/index.js:10764
+msgid "Password is required"
+msgstr "Passwort ist notwendig"
+
+#: public/js/admin/index.js:10769
+msgid "Password must be more then 6 characters"
+msgstr "Das Passwort muss mehr als 6 Zeichen enthalten"
+
+#: public/js/admin/index.js:10774
+msgid "Timezone is required"
+msgstr "Zeitzone ist erforderlich"
+
+#: public/js/admin/index.js:10855 public/js/admin/index.js:13403
+#: public/js/admin/index.js:61432 public/js/admin/index.js:61433
+msgid "Close"
+msgstr "Schließen"
+
+#: public/js/admin/index.js:10880
+msgid "First name *"
+msgstr "Vorname *"
+
+#: public/js/admin/index.js:10903
+msgid "Last name *"
+msgstr "Nachname *"
+
+#: public/js/admin/index.js:10926
+msgid "Email *"
+msgstr "E-Mail *"
+
+#: public/js/admin/index.js:10946
+msgid "Password *"
+msgstr "Passwort *"
+
+#: public/js/admin/index.js:10987
+msgid "Account Timezone"
+msgstr "Konto Zeitzone"
+
+#: public/js/admin/index.js:11006 public/js/admin/index.js:11063
+#: public/js/admin/index.js:11261 public/js/admin/index.js:62663
+msgid "Activate Account"
+msgstr "Konto aktivieren"
+
+#: public/js/admin/index.js:11027
+msgid "Activating"
+msgstr "Aktivierung"
+
+#: public/js/admin/index.js:11036
+msgid "By activating your account, you agree to the "
+msgstr "Mit der Aktivierung Ihres Kontos erklären Sie sich mit den"
+
+#: public/js/admin/index.js:11039
+msgid "Terms"
+msgstr "Bedingungen"
+
+#: public/js/admin/index.js:11040 public/js/flows/default-appointment.js:5343
+#: public/js/flows/single-service.js:5295
+msgid "and"
+msgstr "und"
+
+#: public/js/admin/index.js:11043
+msgid "Privacy Policy"
+msgstr "Datenschutzerklärung"
+
+#: public/js/admin/index.js:11061 public/js/admin/index.js:11258
+#: public/js/admin/index.js:62660
+msgid "Confirm your account details with Start Booking.com"
+msgstr "Bestätigen Sie Ihre Kontodaten mit Start Booking.com"
+
+#: public/js/admin/index.js:11062 public/js/admin/index.js:11259
+msgid "Enter your account details below to activate your account."
+msgstr "Geben Sie unten Ihre Kontodaten ein, um Ihr Konto zu aktivieren."
+
+#: public/js/admin/index.js:11563 public/js/admin/index.js:61776
+msgid "Booking Page"
+msgstr "Buchungs Seite"
+
+#: public/js/admin/index.js:11581
+msgid "Booking Pages"
+msgstr "Seiten buchen"
+
+#: public/js/admin/index.js:11592
+msgid "Open options"
+msgstr "Optionen öffnen"
+
+#: public/js/admin/index.js:12654
+msgid "Pick a plan for your online scheduling"
+msgstr "Wählen Sie einen Plan für Ihre Online-Terminplanung"
+
+#: public/js/admin/index.js:12659 public/js/admin/index.js:12707
+msgid "You are"
+msgstr "Sie sind"
+
+#: public/js/admin/index.js:12660
+msgid "currently on a free trial"
+msgstr "zur Zeit im kostenlosen Probebetrieb"
+
+#: public/js/admin/index.js:12667
+msgid ""
+"With a free trial, you get the benefits of testing multiple users, classes, "
+"custom fields, text messages, etc. It's a lot! To continue using these "
+"features you need to select a plan or your account will be downgraded at the "
+"end of your trial."
+msgstr ""
+"Mit einer kostenlosen Testversion haben Sie die Möglichkeit, mehrere "
+"Benutzer, Klassen, benutzerdefinierte Felder, Textnachrichten usw. zu "
+"testen. Das ist eine ganze Menge! Um diese Funktionen weiterhin nutzen zu "
+"können, müssen Sie einen Plan auswählen, sonst wird Ihr Konto am Ende der "
+"Testphase herabgestuft."
+
+#: public/js/admin/index.js:12678 public/js/admin/index.js:12726
+msgid "View Plans"
+msgstr "Tarife anzeigen"
+
+#: public/js/admin/index.js:12682
+msgid "Days Remaining"
+msgstr "Verbleibende Tage"
+
+#: public/js/admin/index.js:12702
+msgid "Your account is limited"
+msgstr "Ihr Konto ist begrenzt"
+
+#: public/js/admin/index.js:12708
+msgid "currently on the limited plan"
+msgstr "derzeit im begrenzten Plan"
+
+#: public/js/admin/index.js:12715
+msgid ""
+"With the limited plan, you are missing out on multiple users, classes, 2-way "
+"Google Calendar, custom fields, advanced reporting just to name a few "
+"features. Upgrade today to get access to premium functionality."
+msgstr ""
+"Mit dem eingeschränkten Plan verpassen Sie mehrere Nutzer, Klassen, 2-Wege-"
+"Google-Kalender, benutzerdefinierte Felder, erweiterte Berichte, um nur "
+"einige Funktionen zu nennen. Aktualisieren Sie noch heute, um Zugang zu den "
+"Premium-Funktionen zu erhalten."
+
+#: public/js/admin/index.js:12852 public/js/admin/index.js:33697
+#: public/js/admin/index.js:64122
+msgid "Close panel"
+msgstr "Schließen"
+
+#: public/js/admin/index.js:13658 public/js/admin/index.js:13780
+msgid "Your free trial has started"
+msgstr "Ihre kostenlose Testphase hat begonnen"
+
+#: public/js/admin/index.js:13658 public/js/admin/index.js:13719
+#: public/js/admin/index.js:13780
+msgid "days left in trial"
+msgstr "verbleibende Tage im Prozess"
+
+#: public/js/admin/index.js:13660 public/js/admin/index.js:13721
+#: public/js/admin/index.js:13782
+msgid "You have"
+msgstr "Du hast"
+
+#: public/js/admin/index.js:13660 public/js/admin/index.js:13721
+#: public/js/admin/index.js:13782
+msgid "days left in your free trial"
+msgstr "verbleibende Tage in Ihrem kostenlosen Testzeitraum"
+
+#: public/js/admin/index.js:13662 public/js/admin/index.js:13723
+#: public/js/admin/index.js:13784
+msgid ""
+"Your free trial expires today! Pick a plan to continue using your premium "
+"features."
+msgstr ""
+"Ihr kostenloser Testzeitraum läuft heute ab! Wählen Sie einen Plan, um Ihre "
+"Premium-Funktionen weiter zu nutzen."
+
+#: public/js/admin/index.js:13673 public/js/admin/index.js:13680
+#: public/js/admin/index.js:13734 public/js/admin/index.js:13741
+#: public/js/admin/index.js:13795 public/js/admin/index.js:13802
+msgid "Select a plan"
+msgstr "Ein Abo auswählen"
+
+#: public/js/admin/index.js:13719
+msgid "Your free trial has started."
+msgstr "Ihre kostenlose Testphase hat begonnen."
+
+#: public/js/admin/index.js:14000
+msgid "Welcome!"
+msgstr "Willkommen!"
+
+#: public/js/admin/index.js:14003
+msgid "It's time to Start Booking."
+msgstr "Es ist Zeit, mit der Buchung zu beginnen."
+
+#: public/js/admin/index.js:14008
+msgid "Hold tight while we load your new online booking experience."
+msgstr "Bleiben Sie dran, während wir Ihr neues Online-Buchungserlebnis laden."
+
+#: public/js/admin/index.js:14042
+msgid ""
+"Get started with unlimited appointments, multiple users, text message "
+"reminders and powerful integrations."
+msgstr ""
+"Legen Sie los mit unbegrenzten Terminen, mehreren Benutzern, SMS-"
+"Erinnerungen und leistungsstarken Integrationen."
+
+#: public/js/admin/index.js:14048
+msgid "Get Started"
+msgstr "Jetzt loslegen"
+
+#: public/js/admin/index.js:14051 public/js/admin/index.js:46667
+#: public/js/admin/index.js:47117 public/js/admin/index.js:47170
+msgid "Or"
+msgstr "Oder"
+
+#: public/js/admin/index.js:14057
+msgid "Connect existing account"
+msgstr "Bestehendes Konto verbinden"
+
+#: public/js/admin/index.js:14224 public/js/admin/index.js:14242
+#: public/js/admin/index.js:14304
+msgid "Include"
+msgstr "Einschließen"
+
+#: public/js/admin/index.js:14265
+msgid ""
+"If you include a Zoom link, your customers will receive a Zoom link with "
+"their appointment confirmation emails."
+msgstr ""
+"Wenn Sie einen Zoom-Link einfügen, erhalten Ihre Kunden einen Zoom-Link in "
+"ihren Terminbestätigungs-E-Mails."
+
+#: public/js/admin/index.js:14273 public/js/admin/index.js:14280
+#: public/js/admin/index.js:65978
+msgid "Yes"
+msgstr "Ja"
+
+#: public/js/admin/index.js:14276 public/js/admin/index.js:14283
+#: public/js/admin/index.js:65981 public/js/admin/index.js:65988
+msgid "No"
+msgstr "Nein"
+
+#: public/js/admin/index.js:14327
+msgid ""
+"Connecting Zoom will provide you with the ability to include a Zoom link "
+"with your appointments."
+msgstr ""
+"Durch die Verbindung mit Zoom haben Sie die Möglichkeit, einen Zoom-Link in "
+"Ihre Termine einzubinden."
+
+#: public/js/admin/index.js:14339 public/js/admin/index.js:46643
+#: public/js/admin/index.js:46651 public/js/admin/index.js:46734
+#: public/js/admin/index.js:46739 public/js/admin/index.js:47096
+#: public/js/admin/index.js:47101
+msgid "Connect"
+msgstr "Verbinden"
+
+#: public/js/admin/index.js:14764 public/js/admin/index.js:14768
+#: public/js/admin/index.js:18060 public/js/admin/index.js:26629
+#: public/js/admin/index.js:63312 public/js/admin/index.js:63468
+#: public/js/admin/index.js:64479 public/js/admin/index.js:66803
+#: public/js/admin/index.js:67047 public/js/admin/index.js:67465
+#: public/js/admin/index.js:67615 public/js/admin/index.js:68528
+#, fuzzy
+msgid "Save"
+msgstr "Speichern"
+
+#: public/js/admin/index.js:15841 public/js/admin/index.js:15908
+msgid "am"
+msgstr "vormittags"
+
+#: public/js/admin/index.js:15847 public/js/admin/index.js:15914
+msgid "pm"
+msgstr "nachmittags"
+
+#: public/js/admin/index.js:17377 public/js/admin/index.js:17870
+#: public/js/admin/index.js:17872 public/js/admin/index.js:17876
+msgid "Mobile Phone"
+msgstr "Mobiltelefon"
+
+#: public/js/admin/index.js:17380 public/js/admin/index.js:17887
+#: public/js/admin/index.js:17889 public/js/admin/index.js:17893
+msgid "Home Phone"
+msgstr "Telefon Privat"
+
+#: public/js/admin/index.js:17383 public/js/admin/index.js:17903
+#: public/js/admin/index.js:17905 public/js/admin/index.js:17909
+msgid "Work Phone"
+msgstr "Telefon beruflich"
+
+#: public/js/admin/index.js:17397
+#, fuzzy
+msgid "United States"
+msgstr "USA"
+
+#: public/js/admin/index.js:17405
+msgid "Male"
+msgstr "Männlich"
+
+#: public/js/admin/index.js:17408
+msgid "Female"
+msgstr "Weiblich"
+
+#: public/js/admin/index.js:17411
+msgid "Undisclosed"
+msgstr "Unbekannt"
+
+#: public/js/admin/index.js:17523
+msgid "Invalid email"
+msgstr "Ungültige E-Mail-Adresse"
+
+#: public/js/admin/index.js:17530
+msgid "First name must not be empty"
+msgstr "Der Vorname darf nicht leer sein"
+
+#: public/js/admin/index.js:17537
+msgid "Last name must not be empty"
+msgstr "Der Nachname darf nicht leer sein"
+
+#: public/js/admin/index.js:17811
+msgid "Customer Details"
+msgstr "Kundendetails"
+
+#: public/js/admin/index.js:17916 public/js/admin/index.js:17920
+msgid "Contact Preference"
+msgstr "Kontakt Präferenz"
+
+#: public/js/admin/index.js:17928
+msgid "Receieve Emails"
+msgstr "Empfangen von E-Mails"
+
+#: public/js/admin/index.js:17936
+msgid "Receieve SMS"
+msgstr "Empfangen von SMS"
+
+#: public/js/admin/index.js:17944
+msgid "Emergency Contact"
+msgstr "Notfallkontakt"
+
+#: public/js/admin/index.js:17955 public/js/admin/index.js:17957
+#: public/js/admin/index.js:17962
+msgid "Emergency Phone"
+msgstr "Notfall Telefon"
+
+#: public/js/admin/index.js:17971 public/js/admin/index.js:63221
+msgid "Street"
+msgstr "Straße"
+
+#: public/js/admin/index.js:17976
+msgid "Street name"
+msgstr "Straße"
+
+#: public/js/admin/index.js:17983
+msgid "Suite, Apt #, etc"
+msgstr "Suite, Wohnung, etc"
+
+#: public/js/admin/index.js:17986 public/js/admin/index.js:17991
+#: public/js/admin/index.js:63251
+#, fuzzy
+msgid "City"
+msgstr "Stadt"
+
+#: public/js/admin/index.js:17994 public/js/admin/index.js:17999
+#: public/js/admin/index.js:63266
+msgid "State"
+msgstr "Bundesland"
+
+#: public/js/admin/index.js:18002 public/js/admin/index.js:18007
+msgid "Zip Code"
+msgstr "Postleitzahl"
+
+#: public/js/admin/index.js:18010 public/js/admin/index.js:18014
+#: public/js/admin/index.js:23596 public/js/admin/index.js:63296
+#: public/js/flows/default-appointment.js:7235
+#: public/js/flows/default-classes.js:9020
+#: public/js/flows/single-service.js:6873
+msgid "Country"
+msgstr "Land"
+
+#: public/js/admin/index.js:18018
+msgid "Demographis"
+msgstr "Demographis"
+
+#: public/js/admin/index.js:18020 public/js/admin/index.js:18025
+#, fuzzy
+msgid "Birthday"
+msgstr "Geburtstag"
+
+#: public/js/admin/index.js:18028 public/js/admin/index.js:18033
+msgid "Occupation"
+msgstr "Beruf"
+
+#: public/js/admin/index.js:18036
+msgid "Gender"
+msgstr "Geschlecht"
+
+#: public/js/admin/index.js:18040
+msgid "Select customer's gender"
+msgstr "Wählen Sie das Geschlecht des Kunden"
+
+#: public/js/admin/index.js:18046
+msgid "Show Less"
+msgstr "Weniger anzeigen"
+
+#: public/js/admin/index.js:18046
+msgid "Show More"
+msgstr "Mehr anzeigen"
+
+#: public/js/admin/index.js:18056 public/js/admin/index.js:20650
+#: public/js/admin/index.js:24783 public/js/admin/index.js:64456
+#: public/js/admin/index.js:66322 public/js/admin/index.js:67053
+#, fuzzy
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: public/js/admin/index.js:20440 public/js/admin/index.js:20500
+#: public/js/admin/index.js:20547
+msgid ""
+"Rooms are resources that this requires. For example, if you need to ensure "
+"that a specific room is available in order to perform this service, attach "
+"the room and we will check before displaying your availability."
+msgstr ""
+"Räume sind Ressourcen, die dafür benötigt werden. Wenn Sie z. B. "
+"sicherstellen müssen, dass ein bestimmter Raum verfügbar ist, um diese "
+"Dienstleistung zu erbringen, fügen Sie den Raum hinzu, und wir werden ihn "
+"überprüfen, bevor wir Ihre Verfügbarkeit anzeigen."
+
+#: public/js/admin/index.js:20463 public/js/admin/index.js:24596
+#: public/js/admin/index.js:67485 public/js/admin/index.js:67630
+msgid "Upgrade"
+msgstr "Upgrade"
+
+#: public/js/admin/index.js:20465
+msgid "to add rooms"
+msgstr "um Räume hinzuzufügen"
+
+#: public/js/admin/index.js:20512 public/js/admin/index.js:24645
+msgid "No Rooms"
+msgstr "Keine Zimmer"
+
+#: public/js/admin/index.js:20577 public/js/admin/index.js:24710
+#: public/js/admin/index.js:25286 public/js/admin/index.js:26070
+msgid "Remove small option"
+msgstr "Kleine Option entfernen"
+
+#: public/js/admin/index.js:20644 public/js/admin/index.js:24777
+msgid "Room Name"
+msgstr "Name Zimmer"
+
+#: public/js/admin/index.js:23200
+msgid "Not a valid email"
+msgstr "Keine gültige E-Mail Adresse"
+
+#: public/js/admin/index.js:23369
+msgid "Password is too short. Must be at least 6 characters."
+msgstr "Das Passwort ist zu kurz. Es muss mindestens 6 Zeichen lang sein."
+
+#: public/js/admin/index.js:23372
+msgid "Password is too weak"
+msgstr "Das Passwort ist zu schwach"
+
+#: public/js/admin/index.js:24573 public/js/admin/index.js:24633
+#: public/js/admin/index.js:24680 public/js/admin/index.js:66191
+msgid ""
+"Rooms are resources that this service requires. For example, if you need to "
+"ensure that a specific room is available in order to perform this service, "
+"attach the room to the service and we will check before displaying your "
+"availability."
+msgstr ""
+"Räume sind Ressourcen, die dieser Dienst benötigt. Wenn Sie z. B. "
+"sicherstellen müssen, dass ein bestimmter Raum verfügbar ist, um diesen "
+"Dienst zu erbringen, fügen Sie den Raum dem Dienst hinzu, und wir werden "
+"Ihre Verfügbarkeit prüfen, bevor wir sie anzeigen."
+
+#: public/js/admin/index.js:24598
+msgid "to add rooms for this service"
+msgstr "um Räume für diesen Dienst hinzuzufügen"
+
+#: public/js/admin/index.js:25260 public/js/admin/index.js:67455
+#: public/js/admin/index.js:67605
+msgid "No Service Types"
+msgstr "Keine Dienstarten"
+
+#: public/js/admin/index.js:25596
+msgid "to"
+msgstr "bis"
+
+#: public/js/admin/index.js:26601
+msgid "Upload"
+msgstr "Hochladen"
+
+#: public/js/admin/index.js:26612
+msgid "PNG or JPG"
+msgstr "PNG oder JPG"
+
+#: public/js/admin/index.js:26625 public/js/admin/index.js:26641
+#: public/js/flows/default-appointment.js:9227
+#: public/js/flows/single-service.js:8865
+msgid "Remove"
+msgstr "Entfernen"
+
+#: public/js/admin/index.js:27108
+msgid "Could not capture payment with package."
+msgstr "Die Zahlung konnte nicht mit dem Paket erfasst werden."
+
+#: public/js/admin/index.js:27113
+msgid "Could not validate package as payment option."
+msgstr "Das Paket konnte nicht als Zahlungsoption bestätigt werden."
+
+#: public/js/admin/index.js:29781
+msgid "Setup Payments at Start Booking"
+msgstr "Zahlungen bei Buchungsbeginn einrichten"
+
+#: public/js/admin/index.js:30928 public/js/admin/index.js:31644
+msgid "Requires Business plan. Upgrade."
+msgstr "Erfordert Businessplan. Upgrade."
+
+#: public/js/admin/index.js:30951 public/js/admin/index.js:31622
+msgid "Get Upsells"
+msgstr "Upsells erhalten"
+
+#: public/js/admin/index.js:31383 public/js/admin/index.js:31393
+msgid "Manage Upsells at Start Booking"
+msgstr "Verwalten von Upsells bei Buchungsstart"
+
+#: public/js/admin/index.js:33231 public/js/admin/index.js:33274
+#: public/js/admin/index.js:63681
+msgid "Create"
+msgstr "Erstellen"
+
+#: public/js/admin/index.js:33687
+msgid "Customer Payment"
+msgstr "Kundenzahlung"
+
+#: public/js/admin/index.js:36659
+msgid "Create Class"
+msgstr "Klasse anlegen"
+
+#: public/js/admin/index.js:46617
+msgid "Connect Start Booking Account"
+msgstr "Verbinden Start Buchungskonto"
+
+#: public/js/admin/index.js:46623
+msgid ""
+"To connect your WordPress.com site with Start Booking, simply click the "
+"Connect button below and we'll take care of the rest."
+msgstr ""
+"Um Ihre WordPress.com-Website mit Start Booking zu verbinden, klicken Sie "
+"einfach auf die Schaltfläche \"Verbinden\" unten und wir kümmern uns um den "
+"Rest."
+
+#: public/js/admin/index.js:46673
+msgid "Log in"
+msgstr "Anmelden"
+
+#: public/js/admin/index.js:46676
+msgid ""
+"If you want to connect a different Start Booking account, input your Start "
+"Booking email and password below."
+msgstr ""
+"Wenn Sie ein anderes Start Booking-Konto verbinden möchten, geben Sie unten "
+"Ihre Start Booking-E-Mail und Ihr Passwort ein."
+
+#: public/js/admin/index.js:46685 public/js/admin/index.js:47036
+#: public/js/admin/index.js:47455
+msgid "Email address"
+msgstr "E-Mail-Adresse"
+
+#: public/js/admin/index.js:46702 public/js/admin/index.js:47053
+#: public/js/admin/index.js:47472
+#, fuzzy
+msgid "Password"
+msgstr "Passwort"
+
+#: public/js/admin/index.js:46749 public/js/admin/index.js:47074
+#: public/js/admin/index.js:47493
+msgid "Forgot your password?"
+msgstr "Passwort vergessen?"
+
+#: public/js/admin/index.js:46758
+msgid "Not sure what to do?"
+msgstr "Sie wissen nicht, was Sie tun sollen?"
+
+#: public/js/admin/index.js:46761
+msgid "Contact support"
+msgstr "Support kontaktieren"
+
+#: public/js/admin/index.js:47027
+msgid "Connect with Start Booking"
+msgstr "Verbindung mit Start Booking"
+
+#: public/js/admin/index.js:47125
+msgid "Access my existing account"
+msgstr "Zugang zu meinem bestehenden Konto"
+
+#: public/js/admin/index.js:47128
+msgid ""
+"If you have already been using Start Booking but you don't know your login, "
+"start here."
+msgstr ""
+"Wenn Sie bereits mit Start Booking gearbeitet haben, aber Ihr Login nicht "
+"kennen, können Sie hier beginnen."
+
+#: public/js/admin/index.js:47148 public/js/admin/index.js:47156
+msgid "Access Account"
+msgstr "Zugang Konto"
+
+#: public/js/admin/index.js:47195 public/js/admin/index.js:47203
+msgid "Start New Free Trial"
+msgstr "Neue kostenlose Testversion starten"
+
+#: public/js/admin/index.js:47443
+msgid "Log into Start Booking"
+msgstr "Anmelden bei Start Booking"
+
+#: public/js/admin/index.js:47500
+msgid "Request Access"
+msgstr "Zugang anfordern"
+
+#: public/js/admin/index.js:47522 public/js/admin/index.js:47527
+msgid "Login"
+msgstr "Anmelden"
+
+#: public/js/admin/index.js:47753 public/js/admin/index.js:47845
+#: public/js/admin/index.js:47886
+#: resources/assets/js/admin/jquery/graph/graph.js:16
+msgid "Today"
+msgstr "Heute"
+
+#: public/js/admin/index.js:47759 public/js/admin/index.js:47851
+#: public/js/admin/index.js:47892
+#: resources/assets/js/admin/jquery/graph/graph.js:15
+msgid "Yesterday"
+msgstr "Gestern"
+
+#: public/js/admin/index.js:47932
+msgid "No Bookings Yet."
+msgstr "Noch keine Buchungen."
+
+#: public/js/admin/index.js:48073
+msgid "No Activity Yet."
+msgstr "Noch keine Aktivität."
+
+#: public/js/admin/index.js:48080 public/js/admin/index.js:48209
+#: public/js/admin/index.js:48269
+msgid "Recent Activity"
+msgstr "Letzte Aktivität"
+
+#: public/js/admin/index.js:48110 public/js/admin/index.js:48160
+#: public/js/admin/index.js:48185
+msgid "Consultation"
+msgstr "Beratung"
+
+#: public/js/admin/index.js:48135
+msgid "Inteview"
+msgstr "Inteview"
+
+#: public/js/admin/index.js:60999
+msgid "Completed"
+msgstr "Abgeschlossen"
+
+#: public/js/admin/index.js:61423
+msgid "Congrats! You're ready to Start Booking."
+msgstr "Herzlichen Glückwunsch! Sie sind bereit, mit der Buchung zu beginnen."
+
+#: public/js/admin/index.js:61670 public/js/admin/index.js:67762
+#: public/js/admin/index.js:69425 public/js/admin/index.js:69498
+msgid "Availability"
+msgstr "Verfügbarkeit"
+
+#: public/js/admin/index.js:61677
+msgid ""
+"Availability is the schedule that determines when customers can book with "
+"you."
+msgstr ""
+"Die Verfügbarkeit ist der Zeitplan, der bestimmt, wann Kunden bei Ihnen "
+"buchen können."
+
+#: public/js/admin/index.js:61680
+msgid ""
+"We've set some default times for your availability which can be adjusted "
+"below."
+msgstr ""
+"Wir haben einige Standardzeiten für Ihre Verfügbarkeit festgelegt, die unten "
+"angepasst werden können."
+
+#: public/js/admin/index.js:61680
+msgid "You can always change this later."
+msgstr "Sie können dies später jederzeit ändern."
+
+#: public/js/admin/index.js:61684
+msgid "Learn more about availability"
+msgstr "Erfahren Sie mehr über die Verfügbarkeit"
+
+#: public/js/admin/index.js:61725
+msgid "Branding & Booking"
+msgstr "Branding & Buchung"
+
+#: public/js/admin/index.js:61732
+msgid "Branding"
+msgstr "Branding"
+
+#: public/js/admin/index.js:61735
+msgid ""
+"The account name and logo are displayed on your website and used in "
+"communications with your customers."
+msgstr ""
+"Der Kontoname und das Logo werden auf Ihrer Website angezeigt und in der "
+"Kommunikation mit Ihren Kunden verwendet."
+
+#: public/js/admin/index.js:61737
+msgid "Account name"
+msgstr "Kontoname"
+
+#: public/js/admin/index.js:61743
+msgid "Logo"
+msgstr "Logo"
+
+#: public/js/admin/index.js:61765
+msgid ""
+"Logo requires a paid plan. After your trial expires the Account Name will be "
+"shown in place of the Logo."
+msgstr ""
+"Für das Logo ist ein kostenpflichtiger Plan erforderlich. Nach Ablauf der "
+"Testphase wird der Kontoname anstelle des Logos angezeigt."
+
+#: public/js/admin/index.js:61779
+msgid ""
+"We already created a booking page for you. Review what your customers will "
+"see when booking with you."
+msgstr ""
+"Wir haben bereits eine Buchungsseite für Sie erstellt. Sehen Sie sich an, "
+"was Ihre Kunden sehen werden, wenn sie bei Ihnen buchen."
+
+#: public/js/admin/index.js:61861
+msgid "Connect Calendar"
+msgstr "Kalender verknüpfen"
+
+#: public/js/admin/index.js:61870
+msgid "Connect calendar skipped"
+msgstr "Kalender verbinden übersprungen"
+
+#: public/js/admin/index.js:61873
+msgid ""
+"You can still connect a Google Calendar account to help manage your "
+"availability."
+msgstr ""
+"Sie können weiterhin ein Google-Kalenderkonto verbinden, um Ihre "
+"Verfügbarkeit zu verwalten."
+
+#: public/js/admin/index.js:61900 public/js/admin/index.js:61978
+msgid "Connect Google Calendar"
+msgstr "Google Kalender verbinden"
+
+#: public/js/admin/index.js:61916
+msgid "Calendar Connected"
+msgstr "Kalender Verbunden"
+
+#: public/js/admin/index.js:61919
+msgid ""
+"Good work connecting your calendar. To learn more about how the Google "
+"Calendar"
+msgstr ""
+"Gute Arbeit beim Verbinden Ihres Kalenders. Um mehr darüber zu erfahren, wie "
+"der Google Kalender"
+
+#: public/js/admin/index.js:61919
+msgid "integration works see our"
+msgstr "integrationsarbeiten siehe unser"
+
+#: public/js/admin/index.js:61923
+msgid "integration overview"
+msgstr "integrationsübersicht"
+
+#: public/js/admin/index.js:61931
+msgid "View Integrations"
+msgstr "Integrationen anzeigen"
+
+#: public/js/admin/index.js:61948
+msgid "Connect your calendar"
+msgstr "Verbinden Sie Ihren Kalender"
+
+#: public/js/admin/index.js:61951
+msgid "Connect your Google Calendar account to help manage your availability."
+msgstr ""
+"Verbinden Sie Ihr Google-Kalenderkonto, um Ihre Verfügbarkeit zu verwalten."
+
+#: public/js/admin/index.js:62007
+msgid "I don't use Google Calendar"
+msgstr "Ich verwende keinen Google-Kalender"
+
+#: public/js/admin/index.js:62013
+msgid "Connect with Google Calendar or mark the checkbox above."
+msgstr ""
+"Verbinden Sie sich mit Google Calendar oder markieren Sie das Kästchen oben."
+
+#: public/js/admin/index.js:62019
+msgid "Learn more about Google Calendar"
+msgstr "Erfahren Sie mehr über Google Kalender"
+
+#: public/js/admin/index.js:62071
+msgid "Location"
+msgstr "Standort"
+
+#: public/js/admin/index.js:62078
+msgid "Phone number"
+msgstr "Telefonnummer"
+
+#: public/js/admin/index.js:62081
+msgid "This is the phone number your customers will see to contact you."
+msgstr ""
+"Dies ist die Telefonnummer, die Ihre Kunden sehen werden, um Sie zu "
+"kontaktieren."
+
+#: public/js/admin/index.js:62086 public/js/admin/index.js:70150
+msgid "Locale"
+msgstr "Lokal"
+
+#: public/js/admin/index.js:62089
+msgid ""
+"Set the locale of your account. Locale changes the display format of dates "
+"and times."
+msgstr ""
+"Legen Sie das Gebietsschema für Ihr Konto fest. Das Gebietsschema ändert das "
+"Anzeigeformat von Datum und Uhrzeit."
+
+#: public/js/admin/index.js:62103
+msgid "Do you have a physical location or online only?"
+msgstr "Haben Sie einen physischen Standort oder sind Sie nur online tätig?"
+
+#: public/js/admin/index.js:62106
+msgid "Enable Physical Location"
+msgstr "Physischen Standort aktivieren"
+
+#: public/js/admin/index.js:62111
+msgid "Location Hours"
+msgstr "Standort Stunden"
+
+#: public/js/admin/index.js:62114
+msgid "Display the operating hours for your location. This is for"
+msgstr "Zeigen Sie die Betriebszeiten für Ihren Standort an. Dies ist für"
+
+#: public/js/admin/index.js:62115
+msgid "display purposes only and does not affect your availability"
+msgstr "nur zu Anzeigezwecken und hat keinen Einfluss auf Ihre Verfügbarkeit"
+
+#: public/js/admin/index.js:62174
+msgid "Connect Payments"
+msgstr "Zahlungen verbinden"
+
+#: public/js/admin/index.js:62179
+msgid "Use Start Booking to handle your payments"
+msgstr "Verwenden Sie Start Booking zur Abwicklung Ihrer Zahlungen"
+
+#: public/js/admin/index.js:62182
+msgid ""
+"Don't go hunting down clients for payment one-by-one. With Start Booking, "
+"you can accept payments before services are performed through our secure "
+"online portal."
+msgstr ""
+"Sie müssen nicht jeden Kunden einzeln zur Zahlung auffordern. Mit Start "
+"Booking können Sie über unser sicheres Online-Portal Zahlungen annehmen, "
+"bevor die Dienstleistungen erbracht werden."
+
+#: public/js/admin/index.js:62182
+msgid ""
+"Plus, securely and easily store payment information for future bookings."
+msgstr ""
+"Außerdem können Sie Zahlungsinformationen für zukünftige Buchungen sicher "
+"und einfach speichern."
+
+#: public/js/admin/index.js:62185 public/js/admin/index.js:70173
+msgid "Currency"
+msgstr "Währung"
+
+#: public/js/admin/index.js:62188 public/js/admin/index.js:69434
+#: public/js/admin/index.js:69564 public/js/admin/index.js:69767
+msgid "Integrations"
+msgstr "Integrationen"
+
+#: public/js/admin/index.js:62193
+msgid ""
+"Stripe allows you to get paid instantly with secure payment processing at "
+"competitive rates."
+msgstr ""
+"Stripe ermöglicht Ihnen die sofortige Bezahlung mit einer sicheren "
+"Zahlungsabwicklung zu wettbewerbsfähigen Preisen."
+
+#: public/js/admin/index.js:62202
+msgid "Manage Stripe Settings"
+msgstr "Stripe-Einstellungen verwalten"
+
+#: public/js/admin/index.js:62222
+msgid "Connect Stripe"
+msgstr "Stripe verbinden"
+
+#: public/js/admin/index.js:62237
+msgid "Learn more about payments"
+msgstr "Erfahren Sie mehr über Zahlungen"
+
+#: public/js/admin/index.js:62289
+msgid "Services are your offerings to customers"
+msgstr "Dienstleistungen sind Ihre Angebote für Kunden"
+
+#: public/js/admin/index.js:62290
+msgid ""
+"Customers will be able to schedule with you by selecting a service. Add your "
+"first service below."
+msgstr ""
+"Kunden können einen Termin mit Ihnen vereinbaren, indem sie einen Dienst "
+"auswählen. Fügen Sie unten Ihren ersten Dienst hinzu."
+
+#: public/js/admin/index.js:62292 public/js/admin/index.js:64112
+msgid "Create Service"
+msgstr "Service anlegen"
+
+#: public/js/admin/index.js:62293
+msgid "Do you offer classes or group events? Consider "
+msgstr "Bieten Sie Kurse oder Gruppenveranstaltungen an? Erwägen Sie"
+
+#: public/js/admin/index.js:62295
+msgid "creating a class instead."
+msgstr "stattdessen eine Klasse zu erstellen."
+
+#: public/js/admin/index.js:62299
+msgid "Good Job!"
+msgstr "Gute Arbeit!"
+
+#: public/js/admin/index.js:62300
+msgid "Add more services or move onto adjusting your availability."
+msgstr "Fügen Sie weitere Dienste hinzu oder passen Sie Ihre Verfügbarkeit an."
+
+#: public/js/admin/index.js:62302
+msgid "Create another service"
+msgstr "Einen weiteren Dienst erstellen"
+
+#: public/js/admin/index.js:62303
+msgid "Want to try out classes or group events instead of appointments?"
+msgstr ""
+"Möchten Sie anstelle von Terminen Kurse oder Gruppenveranstaltungen "
+"ausprobieren?"
+
+#: public/js/admin/index.js:62305
+msgid "Try classes"
+msgstr "Unterricht ausprobieren"
+
+#: public/js/admin/index.js:62309
+msgid "Review your services"
+msgstr "Überprüfen Sie Ihre Dienstleistungen"
+
+#: public/js/admin/index.js:62310
+msgid ""
+"We've created some default services for you. Review, edit and create the "
+"services that you want your customers to book with you."
+msgstr ""
+"Wir haben einige Standarddienste für Sie erstellt. Überprüfen, bearbeiten "
+"und erstellen Sie die Dienste, die Ihre Kunden bei Ihnen buchen sollen."
+
+#: public/js/admin/index.js:62312
+msgid "Review Services"
+msgstr "Überprüfung der Dienstleistungen"
+
+#: public/js/admin/index.js:62359
+msgid "Learn more about services"
+msgstr "Erfahren Sie mehr über Dienstleistungen"
+
+#: public/js/admin/index.js:62661
+msgid "Enter your account details to activate and save your settings."
+msgstr ""
+"Geben Sie Ihre Kontodaten ein, um Ihre Einstellungen zu aktivieren und zu "
+"speichern."
+
+#: public/js/admin/index.js:63169 public/js/admin/index.js:63210
+msgid "Online only"
+msgstr "Nur online"
+
+#: public/js/admin/index.js:63180
+msgid "Don't have a physical location? Disable setting."
+msgstr ""
+"Sie haben keinen physischen Standort? Deaktivieren Sie die Einstellung."
+
+#: public/js/admin/index.js:63183
+msgid "Have a physical location? Enable location setting."
+msgstr ""
+"Haben Sie einen physischen Standort? Aktivieren Sie die Standort-Einstellung."
+
+#: public/js/admin/index.js:63210
+msgid "Physical Location"
+msgstr "Physischer Ort"
+
+#: public/js/admin/index.js:63236
+msgid "Street 2"
+msgstr "Strasse 2"
+
+#: public/js/admin/index.js:63281
+msgid "Zip"
+msgstr "Postleitzahl"
+
+#: public/js/admin/index.js:63674 public/js/admin/index.js:66526
+msgid "Sort"
+msgstr "Sortieren"
+
+#: public/js/admin/index.js:63689
+msgid "Back to Service List"
+msgstr "Zurück zur Serviceliste"
+
+#: public/js/admin/index.js:63987
+msgid "Name is required"
+msgstr "Name ist erforderlich"
+
+#: public/js/admin/index.js:63992
+msgid "Description is required"
+msgstr "Beschreibung wird benötigt"
+
+#: public/js/admin/index.js:63997
+msgid "Duration is required"
+msgstr "Dauer ist erforderlich"
+
+#: public/js/admin/index.js:64002
+msgid "Please select the users that can fulfill this service"
+msgstr "Bitte wählen Sie die Benutzer aus, die diese Leistung erbringen können"
+
+#: public/js/admin/index.js:64143
+msgid "Get started by filling in the information below."
+msgstr "Füllen Sie einfach die nachstehenden Informationen aus."
+
+#: public/js/admin/index.js:64179
+msgid "Thumbnail"
+msgstr "Vorschaubild"
+
+#: public/js/admin/index.js:64214 public/js/admin/index.js:65726
+#: public/js/admin/index.js:66787 public/js/admin/index.js:67031
+msgid "Description"
+msgstr "Beschreibung"
+
+#: public/js/admin/index.js:64264
+msgid "Recovery"
+msgstr "Wiederherstellung"
+
+#: public/js/admin/index.js:64287 public/js/admin/index.js:65827
+msgid ""
+"Recovery time extends the length of the appointment for you, not the "
+"customer. This enables you to recover from the previous appointment. You "
+"will not be available during the recovery time added."
+msgstr ""
+"Die Erholungszeit verlängert die Dauer des Termins für Sie, nicht für den "
+"Kunden. Dies ermöglicht es Ihnen, sich vom vorherigen Termin zu erholen. "
+"Während der zusätzlichen Erholungszeit sind Sie nicht verfügbar."
+
+#: public/js/admin/index.js:64360 public/js/admin/index.js:66116
+msgid "Assigned Users"
+msgstr "Zugeordnete Benutzer"
+
+#: public/js/admin/index.js:64383 public/js/admin/index.js:66119
+msgid "Select users that can perform this service."
+msgstr "Wählen Sie Benutzer aus, die diesen Dienst ausführen können."
+
+#: public/js/admin/index.js:64399 public/js/admin/index.js:67314
+msgid "Service Types"
+msgstr "Dienstarten"
+
+#: public/js/admin/index.js:64422 public/js/admin/index.js:67339
+msgid "Assign service types to help categorize your services."
+msgstr ""
+"Weisen Sie Servicetypen zu, um Ihre Dienstleistungen zu kategorisieren."
+
+#: public/js/admin/index.js:64438 public/js/admin/index.js:66165
+msgid "Rooms"
+msgstr "Zimmer"
+
+#: public/js/admin/index.js:64477
+msgid "Saving"
+msgstr "Speichern"
+
+#: public/js/admin/index.js:64489
+msgid "Upgrade to a paid plan to add more services."
+msgstr ""
+"Wechseln Sie zu einem kostenpflichtigen Tarif, um weitere Dienste "
+"hinzuzufügen."
+
+#: public/js/admin/index.js:64498
+msgid "Upgrade My Plan"
+msgstr "Meinen Plan aktualisieren"
+
+#: public/js/admin/index.js:64736 public/js/admin/index.js:68933
+msgid "No Services"
+msgstr "Keine Dienste"
+
+#: public/js/admin/index.js:64821 public/js/admin/index.js:65867
+msgid "Status"
+msgstr "Status"
+
+#: public/js/admin/index.js:64931 public/js/admin/index.js:64950
+#: public/js/admin/index.js:65646 public/js/admin/index.js:66316
+#: public/js/admin/index.js:67442 public/js/admin/index.js:67592
+msgid "Delete"
+msgstr "Löschen"
+
+#: public/js/admin/index.js:65365
+msgid "Name cannot be empty."
+msgstr "Der Name kann nicht ausgelassen werden."
+
+#: public/js/admin/index.js:65375
+msgid "Duration cannot be empty."
+msgstr "Die Dauer darf nicht leer sein."
+
+#: public/js/admin/index.js:65639
+msgid ""
+"Booking online is disabled. You can enable online scheduling in the settings "
+"below."
+msgstr ""
+"Die Onlinebuchung ist deaktiviert. Sie können die Online-Planung in den "
+"Einstellungen unten aktivieren."
+
+#: public/js/admin/index.js:65804
+msgid "Recovery Time"
+msgstr "Erholungszeit"
+
+#: public/js/admin/index.js:65940
+msgid "Schedule Online"
+msgstr "Zeitplan Online"
+
+#: public/js/admin/index.js:65963
+msgid ""
+"If schedule online is disabled, this service will not be publicly displayed "
+"to your customers."
+msgstr ""
+"Wenn die Online-Terminplanung deaktiviert ist, wird dieser Dienst Ihren "
+"Kunden nicht öffentlich angezeigt."
+
+#: public/js/admin/index.js:66146
+msgid ""
+"This service is not bookable without at least one user who can perform the "
+"service."
+msgstr ""
+"Dieser Dienst ist nicht buchbar, wenn nicht mindestens ein Nutzer den Dienst "
+"ausführen kann."
+
+#: public/js/admin/index.js:66203
+msgid "Select the rooms for this service."
+msgstr "Wählen Sie die Räume für diesen Dienst aus."
+
+#: public/js/admin/index.js:66300
+msgid "Confirm Delete"
+msgstr "Löschen bestätigen"
+
+#: public/js/admin/index.js:66305
+msgid ""
+"Are you sure you want to deactivate your account? All of your data will be "
+"permanently removed from our servers forever. This action cannot be undone."
+msgstr ""
+"Sind Sie sicher, dass Sie Ihr Konto deaktivieren möchten? Alle Ihre Daten "
+"werden dauerhaft und für immer von unseren Servern entfernt. Diese Aktion "
+"kann nicht rückgängig gemacht werden."
+
+#: public/js/admin/index.js:66759
+msgid "Add New"
+msgstr "Neu hinzufügen"
+
+#: public/js/admin/index.js:67002
+msgid "Edit Type"
+msgstr "Typ bearbeiten"
+
+#: public/js/admin/index.js:67355 public/js/admin/index.js:67505
+msgid "Assign Service Types"
+msgstr "Servicetypen zuweisen"
+
+#: public/js/admin/index.js:67358 public/js/admin/index.js:67508
+msgid "Assign service types to help categorize the service."
+msgstr "Weisen Sie Servicetypen zu, um den Service zu kategorisieren."
+
+#: public/js/admin/index.js:67436 public/js/admin/index.js:67586
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: public/js/admin/index.js:67487 public/js/admin/index.js:67632
+msgid "to categorize your services by service types."
+msgstr "um Ihre Dienste nach Dienstarten zu kategorisieren."
+
+#: public/js/admin/index.js:67765
+msgid ""
+"You can manage your basic availability below. For more controls visit the "
+"Start Booking application."
+msgstr ""
+"Sie können Ihre grundlegende Verfügbarkeit unten verwalten. Für weitere "
+"Kontrollen besuchen Sie die Anwendung Start Booking."
+
+#: public/js/admin/index.js:67773
+msgid "Availability Calendar"
+msgstr "Verfügbarkeitskalender"
+
+#: public/js/admin/index.js:67974 public/js/admin/index.js:69428
+#: public/js/admin/index.js:69522
+msgid "Billing"
+msgstr "Rechnung"
+
+#: public/js/admin/index.js:67978
+msgid "Product"
+msgstr "Produkt"
+
+#: public/js/admin/index.js:67989 public/js/admin/index.js:70117
+#: public/js/admin/index.js:70140 public/js/admin/index.js:70163
+#: public/js/admin/index.js:70186 public/js/admin/index.js:70209
+msgid "Manage"
+msgstr "Verwalten"
+
+#: public/js/admin/index.js:68109 public/js/admin/index.js:69431
+#: public/js/admin/index.js:69544
+msgid "Communications"
+msgstr "Kommunikation B2B/B2C"
+
+#: public/js/admin/index.js:68112
+msgid ""
+"Managing and adjusting your customer communications, such as emails and text "
+"messages, is handled directly on the Start Booking application."
+msgstr ""
+"Die Verwaltung und Anpassung Ihrer Kundenkommunikation, wie z. B. E-Mails "
+"und Textnachrichten, erfolgt direkt über die Anwendung Start Booking."
+
+#: public/js/admin/index.js:68121
+msgid "Manage Communications"
+msgstr "Kommunikation verwalten"
+
+#: public/js/admin/index.js:68218 public/js/admin/index.js:68257
+#: public/js/admin/index.js:68279 public/js/admin/index.js:68332
+msgid "Proxy"
+msgstr "Proxy"
+
+#: public/js/admin/index.js:68264 public/js/admin/index.js:68286
+#: public/js/admin/index.js:68339
+msgid "Direct"
+msgstr "Direkt"
+
+#: public/js/admin/index.js:68438
+msgid "Connections"
+msgstr "Verbindungen"
+
+#: public/js/admin/index.js:68456 public/js/admin/index.js:68470
+msgid "Use setting"
+msgstr "Einstellung verwenden"
+
+#: public/js/admin/index.js:68480
+msgid "Disable Online Booking"
+msgstr "Online-Buchung deaktivieren"
+
+#: public/js/admin/index.js:68482
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: public/js/admin/index.js:68486
+msgid ""
+"Disabling will keep your connection with Start Booking but will disable "
+"online booking forms."
+msgstr ""
+"Durch die Deaktivierung bleibt die Verbindung zu Start Booking erhalten, "
+"aber die Online-Buchungsformulare werden deaktiviert."
+
+#: public/js/admin/index.js:68502
+msgid "API Setting"
+msgstr "API-Einstellung"
+
+#: public/js/admin/index.js:68505
+msgid ""
+"If you are experiencing problems with your server cache causing duplicate "
+"appointments or settings not saving, try updating to the Direct method. "
+"Direct allows your plugin to communicate directly with the Start Booking "
+"service. Proxy, which is the default setting, runs all communication with "
+"Start Booking through your WordPress site. When communication is handled via "
+"the proxy option, those communications can be delayed due to your server "
+"configuration."
+msgstr ""
+"Wenn Sie Probleme mit Ihrem Server-Cache haben, die zu doppelten Terminen "
+"oder nicht gespeicherten Einstellungen führen, versuchen Sie, auf die Direct-"
+"Methode zu aktualisieren. Direct ermöglicht es Ihrem Plugin, direkt mit dem "
+"Start Booking Service zu kommunizieren. Bei der Standardeinstellung Proxy "
+"läuft die gesamte Kommunikation mit Start Booking über Ihre WordPress-"
+"Website. Wenn die Kommunikation über die Proxy-Option abgewickelt wird, kann "
+"diese Kommunikation aufgrund Ihrer Serverkonfiguration verzögert werden."
+
+#: public/js/admin/index.js:68543 public/js/admin/index.js:68554
+msgid "Disconnect"
+msgstr "Trennen"
+
+#: public/js/admin/index.js:68546
+msgid ""
+"Disconnecting Start Booking will delete all settings from your WordPress "
+"website. This does not cancel your account or delete anything on the Start "
+"Booking application."
+msgstr ""
+"Wenn Sie die Verbindung zu Start Booking trennen, werden alle Einstellungen "
+"auf Ihrer WordPress-Website gelöscht. Dadurch wird Ihr Konto nicht gelöscht "
+"und es werden auch keine Daten in der Start Booking-Anwendung gelöscht."
+
+#: public/js/admin/index.js:68561
+msgid "Disconnect User Only"
+msgstr "Nur Benutzer abmelden"
+
+#: public/js/admin/index.js:68661 public/js/admin/index.js:68923
+#: public/js/blocks/call-to-action.js:2294
+msgid "Select Service"
+msgstr "Service auswählen"
+
+#: public/js/admin/index.js:68666 public/js/admin/index.js:68670
+msgid "True"
+msgstr "Wahr"
+
+#: public/js/admin/index.js:68673
+msgid "False"
+msgstr "Falsch"
+
+#: public/js/admin/index.js:68793 public/js/admin/index.js:69422
+#: public/js/admin/index.js:69476
+msgid "Embed Options"
+msgstr "Eingebettete Optionen"
+
+#: public/js/admin/index.js:68796
+msgid ""
+"Embedding the Start Booking form on a page or post is really simple. You "
+"have the option to use either the Start Booking blocks or shortcodes in the "
+"WordPress editor."
+msgstr ""
+"Das Einbetten des Start Booking-Formulars in eine Seite oder einen Beitrag "
+"ist wirklich einfach. Sie haben die Möglichkeit, entweder die Start Booking-"
+"Blöcke oder Shortcodes im WordPress-Editor zu verwenden."
+
+#: public/js/admin/index.js:68811
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: public/js/admin/index.js:68814
+msgid ""
+"To use the Start Booking shortcodes, navigate to any page or post (create or "
+"edit screen) and copy and paste one of the below shortcodes where you want "
+"your booking form to display."
+msgstr ""
+"Um die Start Booking Shortcodes zu verwenden, navigieren Sie zu einer "
+"beliebigen Seite oder einem beliebigen Beitrag (Erstellen oder Bearbeiten) "
+"und kopieren Sie einen der unten stehenden Shortcodes an die Stelle, an der "
+"Ihr Buchungsformular angezeigt werden soll."
+
+#: public/js/admin/index.js:68824 public/js/admin/index.js:69149
+msgid "Displays a full list of your services"
+msgstr "Zeigt eine vollständige Liste Ihrer Dienstleistungen an"
+
+#: public/js/admin/index.js:68859 public/js/admin/index.js:69168
+#: public/js/blocks/single-service.js:1871
+msgid "Single Service"
+msgstr "Einzeln Kompetenzen"
+
+#: public/js/admin/index.js:68862 public/js/admin/index.js:69171
+msgid "Displays a preconfigured single service"
+msgstr "Zeigt einen vorkonfigurierten Einzeldienst an"
+
+#: public/js/admin/index.js:68897
+msgid "Service: The URL string of your service you want to display."
+msgstr "Dienst: Die URL-Zeichenfolge des Dienstes, den Sie anzeigen möchten."
+
+#: public/js/admin/index.js:68900
+msgid ""
+"Details: When set to true, the service box will be displayed. When set to "
+"false, the service box will be skipped and will go to the next step in the "
+"booking process."
+msgstr ""
+"Einzelheiten: Bei true wird die Servicebox angezeigt. Bei \"false\" wird das "
+"Servicefeld übersprungen und der nächste Schritt im Buchungsprozess wird "
+"eingeleitet."
+
+#: public/js/admin/index.js:68915
+msgid "Single Service Shortcode Generator"
+msgstr "Kurzcode-Generator für einzelne Dienste"
+
+#: public/js/admin/index.js:68918
+msgid ""
+"Select your service and options below to generate a preconfigured shortcode."
+msgstr ""
+"Wählen Sie unten Ihren Service und Ihre Optionen aus, um einen "
+"vorkonfigurierten Shortcode zu generieren."
+
+#: public/js/admin/index.js:68937
+msgid "Display Service Details"
+msgstr "Dienstdetails anzeigen"
+
+#: public/js/admin/index.js:68987
+msgid "Displays a calendar and list of your available classes"
+msgstr "Zeigt einen Kalender und eine Liste Ihrer verfügbaren Kurse an"
+
+#: public/js/admin/index.js:69022
+msgid "Single Class"
+msgstr "Einzelne Klasse"
+
+#: public/js/admin/index.js:69025
+msgid ""
+"Displays a calendar and list of your available dates for a specific class"
+msgstr ""
+"Zeigt einen Kalender und eine Liste Ihrer verfügbaren Termine für einen "
+"bestimmten Kurs an"
+
+#: public/js/admin/index.js:69061
+msgid "Classes Shortcode Options"
+msgstr "Klassen Shortcode-Optionen"
+
+#: public/js/admin/index.js:69065
+msgid "Class:"
+msgstr "Klasse:"
+
+#: public/js/admin/index.js:69066
+msgid "class=\"class url string\""
+msgstr "class=\"class url string\""
+
+#: public/js/admin/index.js:69070
+msgid "Hide Calendar:"
+msgstr "Kalender ausblenden:"
+
+#: public/js/admin/index.js:69071
+msgid "hide_calendar=\"true\""
+msgstr "hide_calendar=\"true\""
+
+#: public/js/admin/index.js:69075
+msgid "Range Start:"
+msgstr "Bereich Beginn:"
+
+#: public/js/admin/index.js:69076
+msgid "range_start=\""
+msgstr "range_start=\""
+
+#: public/js/admin/index.js:69080
+msgid "Range End:"
+msgstr "Bereich Ende:"
+
+#: public/js/admin/index.js:69081
+msgid "range_end=\""
+msgstr "range_end=\""
+
+#: public/js/admin/index.js:69085
+msgid "Show Filter: "
+msgstr "Filter anzeigen:"
+
+#: public/js/admin/index.js:69086
+msgid "show_filter=\"true\""
+msgstr "show_filter=\"true\""
+
+#: public/js/admin/index.js:69087
+msgid " * Only applies to Single Class shortcode."
+msgstr " * Gilt nur für den Shortcode Single Class."
+
+#: public/js/admin/index.js:69091
+msgid "Example with all class shortcode options"
+msgstr "Beispiel mit allen Klassen-Shortcode-Optionen"
+
+#: public/js/admin/index.js:69115
+msgid "Blocks"
+msgstr "Blöcke"
+
+#: public/js/admin/index.js:69118
+msgid ""
+"To use the Start Booking Gutenberg blocks, navigate to any page or post "
+"(create or edit screen) and select one of the blocks listed below."
+msgstr ""
+"Um die Start Booking Gutenberg-Blöcke zu verwenden, navigieren Sie zu einer "
+"beliebigen Seite oder einem Beitrag (Erstellungs- oder "
+"Bearbeitungsbildschirm) und wählen einen der unten aufgeführten Blöcke aus."
+
+#: public/js/admin/index.js:69193
+msgid "Displays a full list of your classes"
+msgstr "Zeigt eine vollständige Liste Ihrer Klassen an"
+
+#: public/js/admin/index.js:69212
+msgid "Call to action button"
+msgstr "Call-to-Action-Schaltfläche"
+
+#: public/js/admin/index.js:69215
+msgid "Displays a preconfigured booking button"
+msgstr "Zeigt eine vorkonfigurierte Buchungstaste an"
+
+#: public/js/admin/index.js:69437 public/js/admin/index.js:69586
+#: public/js/admin/index.js:69948
+msgid "Reporting"
+msgstr "Berichte"
+
+#: public/js/admin/index.js:69440 public/js/admin/index.js:69606
+#: public/js/admin/index.js:70328
+msgid "Users"
+msgstr "Benutzer"
+
+#: public/js/admin/index.js:69443 public/js/admin/index.js:69650
+msgid "Connection"
+msgstr "Verbindung"
+
+#: public/js/admin/index.js:69770
+msgid "Managing your"
+msgstr "Verwalten Sie Ihr"
+
+#: public/js/admin/index.js:69774
+msgid "integrations"
+msgstr "integrationen"
+
+#: public/js/admin/index.js:69775
+msgid "is handled directly on the"
+msgstr "wird direkt auf der"
+
+#: public/js/admin/index.js:69775
+msgid "application"
+msgstr "Applikation"
+
+#: public/js/admin/index.js:69784
+msgid "Manage Integrations"
+msgstr "Verwalten von Integrationen"
+
+#: public/js/admin/index.js:69829
+msgid "More coming soon"
+msgstr "Mehr demnächst"
+
+#: public/js/admin/index.js:69951
+msgid ""
+"Viewing and downloading reports is handled directly on the Start Booking "
+"application."
+msgstr ""
+"Das Anzeigen und Herunterladen von Berichten erfolgt direkt über die "
+"Anwendung Start Booking."
+
+#: public/js/admin/index.js:69960
+msgid "View Reports"
+msgstr "Berichte anzeigen"
+
+#: public/js/admin/index.js:70082
+msgid "Review the available settings for your account and booking forms."
+msgstr ""
+"Überprüfen Sie die verfügbaren Einstellungen für Ihr Konto und Ihre "
+"Buchungsformulare."
+
+#: public/js/admin/index.js:70104
+msgid "Openings Interval"
+msgstr "Öffnungen Intervall"
+
+#: public/js/admin/index.js:70108
+msgid ""
+"Set the interval of time for available openings. Default is every 30 minutes."
+msgstr ""
+"Legen Sie das Zeitintervall für verfügbare Öffnungen fest. Standard ist alle "
+"30 Minuten."
+
+#: public/js/admin/index.js:70127
+msgid "Time Display"
+msgstr "Uhrzeit Anzeige"
+
+#: public/js/admin/index.js:70131
+msgid "Control whether you display time in 12 or 24 hours."
+msgstr ""
+"Legen Sie fest, ob Sie die Zeit in 12 oder 24 Stunden anzeigen möchten."
+
+#: public/js/admin/index.js:70154
+msgid "Set the locale of your account to adjust the date and time formats."
+msgstr ""
+"Stellen Sie das Gebietsschema Ihres Kontos ein, um die Datums- und "
+"Zeitformate anzupassen."
+
+#: public/js/admin/index.js:70177
+msgid "Change the currency that is used with payments through Start Booking."
+msgstr ""
+"Ändern Sie die Währung, die für Zahlungen über Start Booking verwendet wird."
+
+#: public/js/admin/index.js:70196
+msgid "Cancellations"
+msgstr "Kündigungen"
+
+#: public/js/admin/index.js:70200
+msgid "Adjust how your cancellations work."
+msgstr "Passen Sie die Stornierungsmodalitäten an."
+
+#: public/js/admin/index.js:70331
+msgid ""
+"Adding and managing your users is handled directly on the Start Booking "
+"application."
+msgstr ""
+"Das Hinzufügen und Verwalten Ihrer Benutzer erfolgt direkt in der Anwendung "
+"Start Booking."
+
+#: public/js/admin/index.js:70340
+msgid "Manage Users"
+msgstr "Benutzer verwalten"
+
+#: public/js/admin/index.js:70733 public/js/admin/index.js:70742
+#: public/js/admin/index.js:70891
+msgid "Appointments"
+msgstr "Termine"
+
+#: public/js/admin/index.js:70800 public/js/admin/index.js:70941
+msgid "Go to"
+msgstr "Gehe zu"
+
+#: public/js/admin/index.js:70815
+msgid "Open main menu"
+msgstr "Hauptmenü öffnen"
+
+#: public/js/admin/index.js:72580
+#: resources/assets/js/admin/reducers/classScheduleReducer.js:71
+msgid "Status updated"
+msgstr "Status aktualisiert"
+
+#: public/js/admin/index.js:72601
+#: resources/assets/js/admin/reducers/classScheduleReducer.js:100
+msgid "Cancelled schedule"
+msgstr "Annullierter Zeitplan"
+
+#: public/js/admin/index.js:72621
+#: resources/assets/js/admin/reducers/classScheduleReducer.js:125
+msgid "Deleted schedule"
+msgstr "Gelöschter Zeitplan"
+
+#: public/js/admin/index.js:76478 public/js/blocks/call-to-action.js:2798
+#: public/js/blocks/default-appointment.js:2712
+#: public/js/blocks/default-classes.js:6006
+#: public/js/flows/default-appointment.js:12549
+#: public/js/flows/default-classes.js:13582
+#: public/js/flows/single-service.js:11434
+#: resources/assets/js/front-end/reducers/customerReducer.js:26
+msgid "Spam Detected"
+msgstr "Spam erkannt"
+
+#: public/js/blocks/call-to-action.js:2184
+msgid "Call to Action Button"
+msgstr "Call to Action Button"
+
+#: public/js/blocks/call-to-action.js:2185
+msgid ""
+"Add a button on any page to enter a booking flow that has a pre-selected "
+"cart."
+msgstr ""
+"Fügen Sie eine Schaltfläche auf einer beliebigen Seite hinzu, um einen "
+"Buchungsablauf mit einem vorausgewählten Warenkorb zu starten."
+
+#: public/js/blocks/call-to-action.js:2323
+msgid "Select Provider"
+msgstr "Transportdienstleister wählen"
+
+#: public/js/blocks/call-to-action.js:2352
+msgid "Select Type"
+msgstr "Typ auswählen"
+
+#: public/js/blocks/call-to-action.js:2377
+#: public/js/blocks/default-appointment.js:2269
+#: public/js/blocks/default-classes.js:5419
+#: public/js/blocks/single-service.js:2083
+msgid "Start Booking Quick Links"
+msgstr "Start Buchung Quick Links"
+
+#: public/js/blocks/call-to-action.js:2381
+msgid "My Services"
+msgstr "Meine Dienstleistungen"
+
+#: public/js/blocks/call-to-action.js:2384
+#: public/js/blocks/single-service.js:2090
+msgid "Options"
+msgstr "Optionen"
+
+#: public/js/blocks/call-to-action.js:2386
+msgid "Service Type"
+msgstr "Service-Art"
+
+#: public/js/blocks/call-to-action.js:2400
+msgid "Provider"
+msgstr "Anbieter"
+
+#: public/js/blocks/call-to-action.js:2408
+#: public/js/blocks/single-service.js:2100
+msgid "Button"
+msgstr "Schaltfläche"
+
+#: public/js/blocks/call-to-action.js:2410
+#: public/js/blocks/single-service.js:2102
+msgid "Text"
+msgstr "Text"
+
+#: public/js/blocks/default-appointment.js:2193
+msgid "Embed the service flow to capture new appointments."
+msgstr "Binden Sie den Serviceablauf ein, um neue Termine zu erfassen."
+
+#: public/js/blocks/default-appointment.js:2206
+msgid "Select Your Date & Time"
+msgstr "Wählen Sie Ihr Datum und Ihre Uhrzeit"
+
+#: public/js/blocks/default-classes.js:5181
+msgid "Embed the classes flow to allow customers to join."
+msgstr ""
+"Binden Sie den Ablauf der Klassen ein, um Kunden die Teilnahme zu "
+"ermöglichen."
+
+#: public/js/blocks/default-classes.js:5243
+msgid "Single"
+msgstr "Einzeln"
+
+#: public/js/blocks/default-classes.js:5251
+msgid "Filter Class"
+msgstr "Filter Klasse"
+
+#: public/js/blocks/default-classes.js:5271
+msgid "Nothing Here, Try Again"
+msgstr "Hier ist nichts, versuchen Sie es erneut"
+
+#: public/js/blocks/default-classes.js:5275
+msgid "Multiple"
+msgstr "Mehrfach"
+
+#: public/js/blocks/default-classes.js:5279
+msgid "Searching for Classes"
+msgstr "Suche nach Klassen"
+
+#: public/js/blocks/default-classes.js:5408
+msgid "Select A Class"
+msgstr "Wählen Sie eine Klasse"
+
+#: public/js/blocks/default-classes.js:5426
+msgid "Filters"
+msgstr "Filter"
+
+#: public/js/blocks/default-classes.js:5428
+msgid "Class"
+msgstr "Klasse"
+
+#: public/js/blocks/single-service.js:1872
+msgid ""
+"Embed the details of a single service and the ability to book that service."
+msgstr ""
+"Einbetten der Details einer einzelnen Dienstleistung und die Möglichkeit, "
+"diese zu buchen."
+
+#: public/js/blocks/single-service.js:2072
+msgid "Select A Service"
+msgstr "Wählen Sie einen Dienst"
+
+#: public/js/flows/default-appointment.js:3948
+#: public/js/flows/default-appointment.js:6581
+#: public/js/flows/default-classes.js:6631
+#: public/js/flows/single-service.js:3900
+#: public/js/flows/single-service.js:6533
+msgid "Service Duration"
+msgstr "Service Dauer"
+
+#: public/js/flows/default-appointment.js:4610
+#: public/js/flows/default-classes.js:7390
+#: public/js/flows/single-service.js:4562
+msgid "Coupon"
+msgstr "Gutschein"
+
+#: public/js/flows/default-appointment.js:4633
+#: public/js/flows/default-classes.js:7413
+#: public/js/flows/single-service.js:4585
+msgid "Add Coupon"
+msgstr "Gutschein hinzufügen"
+
+#: public/js/flows/default-appointment.js:4640
+#: public/js/flows/default-classes.js:7420
+#: public/js/flows/single-service.js:4592
+msgid "Discount"
+msgstr "Rabatt"
+
+#: public/js/flows/default-appointment.js:4642
+#: public/js/flows/default-classes.js:7422
+#: public/js/flows/single-service.js:4594
+msgid "Invalid Coupon"
+msgstr "Ungültiger Gutscheincode"
+
+#: public/js/flows/default-appointment.js:5343
+#: public/js/flows/single-service.js:5295
+msgid "Please select a date between"
+msgstr "Bitte wählen Sie ein Datum zwischen"
+
+#: public/js/flows/default-appointment.js:5345
+#: public/js/flows/single-service.js:5297
+msgid "Please select a date after"
+msgstr "Bitte wählen Sie ein Datum nach"
+
+#: public/js/flows/default-appointment.js:5347
+#: public/js/flows/single-service.js:5299
+msgid "Please select a date before"
+msgstr "Bitte wählen Sie ein Datum vor"
+
+#: public/js/flows/default-appointment.js:5360
+#: public/js/flows/single-service.js:5312
+msgid "Selected date is outside available options."
+msgstr "Das gewählte Datum liegt außerhalb der verfügbaren Optionen."
+
+#: public/js/flows/default-appointment.js:5602
+#: public/js/flows/default-classes.js:7872
+#: public/js/flows/single-service.js:5554
+msgid "Unable to prepare payment."
+msgstr "Die Zahlung kann nicht vorbereitet werden."
+
+#: public/js/flows/default-appointment.js:5653
+#: public/js/flows/default-appointment.js:5878
+#: public/js/flows/default-appointment.js:10267
+#: public/js/flows/single-service.js:5605
+#: public/js/flows/single-service.js:5830
+#: public/js/flows/single-service.js:9905
+msgid "Processing Appointment"
+msgstr "Bearbeitung des Termins"
+
+#: public/js/flows/default-appointment.js:6429
+#: public/js/flows/single-service.js:6381
+msgid "Service Selected"
+msgstr "Ausgewählter Dienst"
+
+#: public/js/flows/default-appointment.js:6454
+#: public/js/flows/default-classes.js:11068
+#: public/js/flows/single-service.js:6406
+msgid "Online booking disabled"
+msgstr "Online-Reservierung deaktiviert"
+
+#: public/js/flows/default-appointment.js:7170
+#: public/js/flows/default-classes.js:8955
+#: public/js/flows/single-service.js:6808
+msgid "International"
+msgstr "International"
+
+#: public/js/flows/default-appointment.js:8474
+#: public/js/flows/default-classes.js:11611
+#: public/js/flows/single-service.js:8112
+msgid "Phone is required"
+msgstr "Telefon erforderlich"
+
+#: public/js/flows/default-appointment.js:8648
+#: public/js/flows/default-classes.js:11789
+#: public/js/flows/single-service.js:8286
+msgid "We have securely populated a profile that matches this email address"
+msgstr ""
+"Wir haben ein sicheres Profil erstellt, das mit dieser E-Mail Adresse "
+"übereinstimmt"
+
+#: public/js/flows/default-appointment.js:8809
+#: public/js/flows/default-classes.js:11949
+#: public/js/flows/single-service.js:8447
+msgid "Warning"
+msgstr "Warnung"
+
+#: public/js/flows/default-appointment.js:8810
+#: public/js/flows/default-classes.js:11950
+#: public/js/flows/single-service.js:8448
+msgid ""
+"Your site is loading the secure checkout form without a SSL certificate. SSL "
+"certificates keep your connection with the website secure."
+msgstr ""
+"Ihre Website lädt das sichere Kassenformular ohne ein SSL-Zertifikat. SSL-"
+"Zertifikate machen Ihre Verbindung mit der Website sicher."
+
+#: public/js/flows/default-appointment.js:8813
+#: public/js/flows/default-classes.js:11953
+#: public/js/flows/single-service.js:8451
+msgid "Learn how to resolve this"
+msgstr "Erfahren Sie, wie Sie das Problem lösen können"
+
+#: public/js/flows/default-appointment.js:9244
+#: public/js/flows/default-appointment.js:9262
+#: public/js/flows/default-classes.js:12880
+#: public/js/flows/single-service.js:8882
+#: public/js/flows/single-service.js:8900
+msgid "Skip"
+msgstr "Überspringen"
+
+#: public/js/flows/default-appointment.js:9681
+#: public/js/flows/default-appointment.js:9717
+#: public/js/flows/single-service.js:9319
+#: public/js/flows/single-service.js:9355
+msgid "Would you like to clear the selected appointment?"
+msgstr "Möchten Sie den ausgewählten Termin löschen?"
+
+#: public/js/flows/default-appointment.js:10747
+msgid "There are no services for this service type."
+msgstr "Für diesen Diensttyp gibt es keine Dienste."
+
+#: public/js/flows/default-appointment.js:10754
+msgid "Go Back"
+msgstr "Zurück"
+
+#: public/js/flows/default-appointment.js:10769
+msgid "Oops... Looks like you don't have any services."
+msgstr "Ups... Sieht aus, als hätten Sie keine Dienste."
+
+#: public/js/flows/default-appointment.js:10771
+msgid "Add Services"
+msgstr "Angebot hinzufügen"
+
+#: public/js/flows/default-appointment.js:10780
+msgid "A great online booking experience is coming soon..."
+msgstr "Ein großartiges Online-Buchungserlebnis ist in Kürze verfügbar..."
+
+#: public/js/flows/default-appointment.js:12047
+msgid "Booking is disabled. Check back later."
+msgstr "Die Buchung ist deaktiviert. Schauen Sie später wieder vorbei."
+
+#: public/js/flows/default-appointment.js:14193
+#: public/js/flows/default-classes.js:15119
+#: public/js/flows/single-service.js:13078
+#: resources/assets/js/front-end/utils/translate.js:108
+msgid "Sold Out"
+msgstr "Ausverkauft"
+
+#: public/js/flows/default-classes.js:6958
+msgid "All Day"
+msgstr "Ganztägig"
+
+#: public/js/flows/default-classes.js:7859
+msgid "Something went wrong."
+msgstr "Etwas ist schief gelaufen."
+
+#: public/js/flows/default-classes.js:7918
+#: public/js/flows/default-classes.js:8118
+#: public/js/flows/default-classes.js:12331
+msgid "Joining..."
+msgstr "Beitreten..."
+
+#: public/js/flows/default-classes.js:12171
+msgid "loading"
+msgstr "Laden"
+
+#: resources/assets/js/admin/jquery/graph/graph.js:66
+msgid "Bookings"
+msgstr "Buchungen"
+
+#: resources/assets/js/admin/utils/customFields.js:5
+msgid "Single Line Text"
+msgstr "Einzeiliger Text"
+
+#: resources/assets/js/admin/utils/customFields.js:6
+msgid "Paragraph Text"
+msgstr "Mehrzeiliger Text"
+
+#: resources/assets/js/admin/utils/customFields.js:7
+msgid "Dropdown"
+msgstr "Dropdown"
+
+#: resources/assets/js/admin/utils/customFields.js:8
+msgid "Heading"
+msgstr "Überschrift"
+
+#: resources/assets/js/admin/utils/customFields.js:9
+msgid "Line Separator"
+msgstr "Linien Separator"
+
+#: resources/assets/js/admin/utils/prefilledEvents.js:7
+#: resources/assets/js/admin/utils/prefilledEvents.js:29
+msgid "Hair cut"
+msgstr "Haarschnitt"
+
+#: resources/assets/js/admin/utils/prefilledEvents.js:8
+msgid "Clipper or scissor cut."
+msgstr "Clipper oder Scherenschnitt."
+
+#: resources/assets/js/admin/utils/prefilledEvents.js:18
+msgid "Facial"
+msgstr "Gesichtsbehandlung"
+
+#: resources/assets/js/admin/utils/prefilledEvents.js:19
+msgid ""
+"Our facial regimen was created to target specific needs, increase skin "
+"health, and enhance your appearance."
+msgstr ""
+"Unsere Gesichtspflege wurde entwickelt, um spezifische Bedürfnisse zu "
+"erfüllen, die Gesundheit der Haut zu fördern und Ihr Aussehen zu verbessern."
+
+#: resources/assets/js/admin/utils/prefilledEvents.js:30
+msgid "Get your hair washed, cut and styled by our professional team."
+msgstr ""
+"Lassen Sie sich von unserem professionellen Team die Haare waschen, "
+"schneiden und stylen."
+
+#: resources/assets/js/admin/utils/prefilledEvents.js:40
+msgid "30 minute consultation"
+msgstr "30-minütige Beratung"
+
+#: resources/assets/js/admin/utils/prefilledEvents.js:41
+msgid "Initial introduction to get to know each other a little better."
+msgstr ""
+"Erstes Kennenlernen, um sich gegenseitig ein wenig besser kennen zu lernen."
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.startbooking.com/"
+msgstr "https://www.startbooking.com/"
+
+#. Description of the plugin/theme
+msgid ""
+"Integrate online booking service StartBooking.com. Including an appointment "
+"form for customers to book directly on your website and a widget to display "
+"open hours."
+msgstr ""
+"Integrieren Sie den Online-Buchungsdienst StartBooking.com. Einschließlich "
+"eines Terminformulars, über das Kunden direkt auf Ihrer Website buchen "
+"können, und eines Widgets zur Anzeige der Öffnungszeiten."
+
+#. Author URI of the plugin/theme
+msgid "https://www.startbooking.com"
+msgstr "https://www.startbooking.com"

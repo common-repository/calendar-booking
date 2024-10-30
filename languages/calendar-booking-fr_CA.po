@@ -1,0 +1,1388 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Start Booking\n"
+"POT-Creation-Date: 2023-04-21 07:09-0600\n"
+"PO-Revision-Date: 2023-04-21 07:17-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: start-booking.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#: admin/404.php:1
+msgid "Content not found."
+msgstr "Contenu non trouvé."
+
+#: admin/connected/header.php:26
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: admin/connected/header.php:29 inc/content.php:26 inc/copy.php:47
+#: inc/copy.php:83 inc/widgets/single-service.php:54
+#: public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:95
+msgid "Services"
+msgstr "Services"
+
+#: admin/connected/header.php:32 inc/content.php:43
+#: public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:111
+msgid "Classes"
+msgstr "Cours"
+
+#: admin/connected/header.php:35
+msgid "Form Editor"
+msgstr "Éditeur de formulaires"
+
+#: admin/connected/header.php:38
+msgid "Settings"
+msgstr "Paramètres"
+
+#: admin/connected/header.php:42
+msgid "Go to Start Booking"
+msgstr "Aller à Commencer la réservation"
+
+#: inc/admin-connect.php:52
+msgid "Processing"
+msgstr "En traitement"
+
+#: inc/admin-connect.php:56 inc/admin-connect.php:255 inc/partners/wpcom.php:92
+#: inc/partners/wpcom.php:96
+msgid "Invalid response from startbooking.com."
+msgstr "Réponse invalide de startbooking.com."
+
+#: inc/admin-connect.php:111 inc/admin-connect.php:179
+msgid "Invalid Credentials"
+msgstr "Informations d'identification non valides"
+
+#: inc/admin-connect.php:112 inc/admin-connect.php:180
+msgid "Invalid Password"
+msgstr "Mot de passe invalide"
+
+#: inc/admin-connect.php:119 inc/admin-connect.php:187
+msgid "Invalid Authentication."
+msgstr "Authentification non valide."
+
+#: inc/admin-connect.php:131 inc/admin-connect.php:210
+#: inc/admin-connect.php:251 inc/partners/wpcom.php:88
+msgid "Connection Established."
+msgstr "Connexion établie."
+
+#: inc/admin-connect.php:135 inc/admin-connect.php:214
+msgid "Invalid credentials. Contact Support at startbooking.com"
+msgstr ""
+"Informations d'identification invalides. Contactez le support à startbooking."
+"com"
+
+#: inc/admin-connect.php:471
+msgid "would like access to use Start Booking in the WordPress admin."
+msgstr ""
+"souhaite avoir accès à l'utilisation de Start Booking dans l'administration "
+"de WordPress."
+
+#: inc/admin-connect.php:473
+msgid "Click link to grant access, otherwise do nothing."
+msgstr "Cliquez sur le lien pour autoriser l'accès, sinon ne faites rien."
+
+#: inc/admin-connect.php:477
+msgid "requesting access to Start Booking"
+msgstr "demander l'accès à Start Booking"
+
+#: inc/admin-connect.php:480
+msgid "has been sent an email requesting access."
+msgstr "a reçu un courriel de demande d'accès."
+
+#: inc/admin-connect.php:482
+msgid "Unable to send email to request access."
+msgstr "Impossible d'envoyer un courriel pour demander l'accès."
+
+#: inc/admin-connect.php:504
+msgid "granted access."
+msgstr "accès accordé."
+
+#: inc/admin-connect.php:505
+msgid "has granted access to"
+msgstr "a accordé l'accès à"
+
+#: inc/admin-connect.php:511 inc/admin-connect.php:517
+msgid "Access granted to"
+msgstr "Accès accordé aux"
+
+#: inc/admin-connect.php:512
+msgid "You have granted access to"
+msgstr "Vous avez accordé l'accès à"
+
+#: inc/admin-connect.php:513
+msgid "If this is not your intention please contact Start Booking support."
+msgstr ""
+"Si ce n'est pas votre intention, veuillez contacter le service d'assistance "
+"de Start Booking."
+
+#: inc/admin-connect.php:529
+msgid "Unable to grant access to"
+msgstr "Impossible d'accorder l'accès à"
+
+#: inc/base.php:198
+msgid "Get started with online scheduling from"
+msgstr "Commencez avec la programmation en ligne de"
+
+#: inc/base.php:199
+msgid ""
+"Great news, your booking page is live! Activate your account to ensure you "
+"don't miss appointments."
+msgstr ""
+"Bonne nouvelle, votre page de réservation est en ligne ! Activez votre "
+"compte pour vous assurer de ne pas manquer de rendez-vous."
+
+#: inc/base.php:201
+msgid "Activate"
+msgstr "Activer"
+
+#: inc/base.php:202
+msgid "Continue setup"
+msgstr "Continuer le montage"
+
+#: inc/base.php:258
+msgid "Booking Page Created."
+msgstr "Page de réservation créée."
+
+#: inc/base.php:260
+msgid "Unable to create page."
+msgstr "Impossible de créer une page."
+
+#: inc/base.php:608 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+msgid "Loading"
+msgstr "Chargement"
+
+#: inc/base.php:707 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/time.js:12
+msgid "hour"
+msgstr "heure"
+
+#: inc/base.php:709 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/time.js:14
+msgid "hours"
+msgstr "heures"
+
+#: inc/base.php:713 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/time.js:18
+msgid "minute"
+msgstr "minute"
+
+#: inc/base.php:715 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/time.js:21
+msgid "minutes"
+msgstr "minutes"
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+#: inc/blocks.php:11 inc/routes.php:7
+msgid "Start Booking"
+msgstr "Début de la réservation"
+
+#: inc/content.php:3 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:72
+msgid "Select Service Type"
+msgstr "Sélectionner le type de service"
+
+#: inc/content.php:4 inc/widgets/single-service.php:56
+#: public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:73
+msgid "Select a Service"
+msgstr "Sélectionner un service"
+
+#: inc/content.php:5 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:74
+msgid "Select a Provider"
+msgstr "Sélectionner un fournisseur"
+
+#: inc/content.php:6 inc/content.php:41
+#: public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:75
+#: resources/assets/js/front-end/utils/translate.js:109
+msgid "Additional Options"
+msgstr "Options additionnels"
+
+#: inc/content.php:7 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:76
+msgid "Select"
+msgstr "Sélectionner"
+
+#: inc/content.php:8 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:77
+msgid "Selected"
+msgstr "Sélectionné"
+
+#: inc/content.php:9 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:78
+msgid "Select a Date & Time"
+msgstr "Sélectionner une date et une heure"
+
+#: inc/content.php:10 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:79
+msgid "Available times for"
+msgstr "Horaires disponibles pour"
+
+#: inc/content.php:11 inc/content.php:38
+#: public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:80
+msgid "Searching Availability"
+msgstr "Recherche de disponibilité"
+
+#: inc/content.php:12 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:81
+msgid "There are no available times for this date"
+msgstr "Il n'y a pas de temps disponible pour cette date"
+
+#: inc/content.php:13 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:82
+msgid "Morning"
+msgstr "Matin"
+
+#: inc/content.php:14 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:83
+msgid "Afternoon"
+msgstr "Après-midi"
+
+#: inc/content.php:15 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:84
+msgid "Evening"
+msgstr "Soir"
+
+#: inc/content.php:16 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:85
+msgid "Complete Appointment"
+msgstr "Compléter le rendez-vous"
+
+#: inc/content.php:17 inc/copy.php:18 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:86
+msgid "Email"
+msgstr "Courriel"
+
+#: inc/content.php:18 inc/copy.php:19 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:87
+msgid "First Name"
+msgstr "Prénom"
+
+#: inc/content.php:19 inc/copy.php:20 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:88
+msgid "Last Name"
+msgstr "Nom"
+
+#: inc/content.php:20 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:89
+msgid "Phone"
+msgstr "Téléphone"
+
+#: inc/content.php:21 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:90
+msgid "Submit"
+msgstr "Soumettre"
+
+#: inc/content.php:22 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:91
+msgid "Card Number"
+msgstr "Numéro de la carte"
+
+#: inc/content.php:23 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:92
+msgid "Expiration"
+msgstr "Expiration"
+
+#: inc/content.php:24 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:93
+msgid "Book and Pay Later"
+msgstr "Réserver et payer plus tard"
+
+#: inc/content.php:25 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:94
+msgid "Review Booking"
+msgstr "Révision de la réservation"
+
+#: inc/content.php:27 inc/content.php:44
+#: public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:96
+msgid "Addons"
+msgstr "Addons"
+
+#: inc/content.php:28 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:97
+msgid "Date & Time"
+msgstr "Date et heure"
+
+#: inc/content.php:29 inc/copy.php:29 inc/copy.php:75
+#: public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:98
+msgid "Duration"
+msgstr "Durée"
+
+#: inc/content.php:30 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:99
+msgid "Total"
+msgstr "Total"
+
+#: inc/content.php:31 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:100
+msgid "Thank you for booking!"
+msgstr "Merci de réserver !"
+
+#: inc/content.php:32 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:101
+msgid "We look forward to seeing you soon"
+msgstr "Nous nous réjouissons de vous voir bientôt"
+
+#: inc/content.php:33 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:102
+msgid "Return back"
+msgstr "Retourner"
+
+#: inc/content.php:34 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:103
+msgid "Day"
+msgstr "Jour"
+
+#: inc/content.php:35 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:104
+msgid "Range"
+msgstr "Gamme"
+
+#: inc/content.php:36 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:105
+msgid "There are no available classes for the selected dates"
+msgstr "Il n'y a pas de cours disponibles pour les dates sélectionnées"
+
+#: inc/content.php:37 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:106
+msgid "Filter"
+msgstr "Filtre"
+
+#: inc/content.php:39 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:107
+msgid "Remaining"
+msgstr "Restant"
+
+#: inc/content.php:40
+msgid "Sole Out"
+msgstr "Sole Out"
+
+#: inc/content.php:42 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:110
+msgid "Complete Booking"
+msgstr "Réservation complète"
+
+#: inc/content.php:45 inc/copy.php:22 inc/copy.php:71 inc/shortcodes.php:161
+#: public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:112
+msgid "Continue"
+msgstr "Continuer"
+
+#: inc/content.php:46 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:113
+msgid "Back"
+msgstr "Retour"
+
+#: inc/content.php:47 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:114
+msgid "Book Now"
+msgstr "Réserver maintenant"
+
+#: inc/content.php:48 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:115
+msgid ""
+"By clicking checkout you agree to our Terms of Service and Privacy Policy."
+msgstr ""
+"En cliquant sur \"checkout\", vous acceptez nos conditions de service et "
+"notre politique de confidentialité."
+
+#: inc/content.php:49 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:116
+msgid "home"
+msgstr "accueil"
+
+#: inc/content.php:50 inc/copy.php:79 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:117
+msgid "services"
+msgstr "services"
+
+#: inc/content.php:51 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:118
+msgid "classes"
+msgstr "classes"
+
+#: inc/content.php:52 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:119
+msgid "packages"
+msgstr "plans"
+
+#: inc/content.php:53 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:120
+msgid "login"
+msgstr "Connection"
+
+#: inc/content.php:54 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:121
+msgid "my account"
+msgstr "mon compte"
+
+#: inc/content.php:55 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:122
+msgid "about us"
+msgstr "à propos de nous"
+
+#: inc/content.php:56
+msgid "continue"
+msgstr "continuer"
+
+#: inc/content.php:57
+msgid "select"
+msgstr "sélectionner"
+
+#: inc/content.php:58 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:123
+msgid "remove"
+msgstr "supprimer"
+
+#: inc/content.php:59
+msgid "back"
+msgstr "retour"
+
+#: inc/content.php:60 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:124
+msgid "skip"
+msgstr "sauter"
+
+#: inc/content.php:61
+msgid "selected"
+msgstr "sélectionné"
+
+#: inc/content.php:62 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:125
+msgid "free"
+msgstr "gratuit"
+
+#: inc/content.php:63 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:126
+msgid "forgot password"
+msgstr "mot de passe oublié"
+
+#: inc/content.php:64 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:127
+msgid "remember me"
+msgstr "souviens-toi de moi"
+
+#: inc/content.php:65 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:128
+msgid "password"
+msgstr "mot de passe"
+
+#: inc/content.php:66 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:129
+msgid "next"
+msgstr "suivant"
+
+#: inc/content.php:67 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:130
+msgid "enter a valid address"
+msgstr "saisir une adresse valide"
+
+#: inc/content.php:68 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:131
+msgid "email address"
+msgstr "courriel"
+
+#: inc/content.php:69 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:132
+msgid "customer information"
+msgstr "informations sur les clients"
+
+#: inc/content.php:70 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:133
+msgid "customers"
+msgstr "clients"
+
+#: inc/content.php:71 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:134
+msgid "sign in to your account"
+msgstr "connectez-vous à votre compte"
+
+#: inc/content.php:72 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:135
+msgid "reset password"
+msgstr "réinitialiser mot de passe"
+
+#: inc/content.php:73 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:136
+msgid "enter your email and we'll send you a link to reset your password"
+msgstr ""
+"entrez votre email et nous vous enverrons un lien pour réinitialiser votre "
+"mot de passe"
+
+#: inc/content.php:74 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:137
+msgid "we have securely populated a profile that matches this email address"
+msgstr ""
+"nous avons établi en toute sécurité un profil correspondant à cette adresse "
+"électronique"
+
+#: inc/content.php:75 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:138
+msgid "booking"
+msgstr "réservation"
+
+#: inc/content.php:76 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:139
+msgid "cancel"
+msgstr "annuler"
+
+#: inc/content.php:77 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:140
+msgid "book again"
+msgstr "réserver à nouveau"
+
+#: inc/content.php:78 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:141
+msgid "booking cancelled"
+msgstr "réservation annulée"
+
+#: inc/content.php:79 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:142
+msgid "service"
+msgstr "service"
+
+#: inc/content.php:80 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:143
+msgid "class"
+msgstr "class"
+
+#: inc/content.php:81 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:144
+msgid "date"
+msgstr "date"
+
+#: inc/content.php:82 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:145
+msgid "zoom"
+msgstr "zoomer"
+
+#: inc/content.php:83 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:146
+msgid "join zoom"
+msgstr "rejoindre le zoom"
+
+#: inc/content.php:84 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:147
+msgid "charges"
+msgstr "charges"
+
+#: inc/content.php:85 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:148
+msgid "paid"
+msgstr "payé"
+
+#: inc/content.php:86 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:149
+msgid "view receipt"
+msgstr "voir le reçu"
+
+#: inc/content.php:87 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:150
+msgid "ending in"
+msgstr "se terminant par"
+
+#: inc/content.php:88 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:151
+msgid "user"
+msgstr "utilisateur"
+
+#: inc/content.php:89 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:152
+msgid "first name"
+msgstr "Prénom "
+
+#: inc/content.php:90 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:153
+msgid "last name"
+msgstr "Nom "
+
+#: inc/content.php:91 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:154
+msgid "mobile phone"
+msgstr "téléphone portable"
+
+#: inc/content.php:92 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:155
+msgid "password requirements"
+msgstr "exigences en matière de mot de passe"
+
+#: inc/content.php:93 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:156
+msgid "minimum 6 characters in length"
+msgstr "6 caractères au minimum"
+
+#: inc/content.php:94 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:157
+msgid "must contain at least one number"
+msgstr "doit contenir au moins un nombre"
+
+#: inc/content.php:95 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:158
+msgid "continue without registering"
+msgstr "continuer sans s'enregistrer"
+
+#: inc/content.php:96 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:159
+msgid "continue without email"
+msgstr "continuer sans email"
+
+#: inc/content.php:97 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:160
+msgid "checkout"
+msgstr "paiement"
+
+#: inc/copy.php:6
+msgid "Select a Date and Time"
+msgstr "Sélectionner une date et une heure"
+
+#: inc/copy.php:7
+msgid "Available Times for"
+msgstr "Horaires disponibles pour"
+
+#: inc/copy.php:8
+msgid "No appointments available on selected day."
+msgstr "Aucun rendez-vous disponible le jour choisi."
+
+#: inc/copy.php:9
+msgid "Looking for available appointments."
+msgstr "Recherche de rendez-vous disponibles."
+
+#: inc/copy.php:11
+msgid "Selected date is in the past."
+msgstr "La date sélectionnée se situe dans le passé."
+
+#: inc/copy.php:12
+msgid "Please select a date and time."
+msgstr "Veuillez sélectionner une date et une heure."
+
+#: inc/copy.php:16
+msgid "Your Details"
+msgstr "Vos coordonnées"
+
+#: inc/copy.php:17
+msgid "Secure Profile Loaded from StartBooking.com"
+msgstr "Profil sécurisé chargé par StartBooking.com"
+
+#: inc/copy.php:21
+msgid "Phone Number"
+msgstr "Numéro de téléphone"
+
+#: inc/copy.php:25
+msgid "Review & Confirm"
+msgstr "Réviser et confirmer"
+
+#: inc/copy.php:26
+msgid "Name"
+msgstr "Nom"
+
+#: inc/copy.php:27
+msgid "Date"
+msgstr "Date"
+
+#: inc/copy.php:28 inc/copy.php:85
+msgid "Time"
+msgstr "Heure"
+
+#: inc/copy.php:30
+msgid "Service(s)"
+msgstr "Service(s)"
+
+#: inc/copy.php:31
+msgid "Confirm Appointment"
+msgstr "Confirmer le rendez-vous"
+
+#: inc/copy.php:34
+msgid "Select Services"
+msgstr "Sélectionner les services"
+
+#: inc/copy.php:35
+msgid "Select Another Service"
+msgstr "Sélectionner un autre service"
+
+#: inc/copy.php:36
+msgid "Select a Service Type"
+msgstr "Sélectionnez un type de service"
+
+#: inc/copy.php:37
+msgid "Loading service types..."
+msgstr "Chargement des types de services..."
+
+#: inc/copy.php:39
+msgid "Please select a service to continue."
+msgstr "Veuillez sélectionner un service pour continuer."
+
+#: inc/copy.php:43
+msgid "Summary"
+msgstr "Résumé"
+
+#: inc/copy.php:44
+msgid "Payment Information"
+msgstr "Information de paiement"
+
+#: inc/copy.php:45 inc/copy.php:60 inc/copy.php:84
+msgid "Appointment"
+msgstr "Rendez-vous"
+
+#: inc/copy.php:46
+msgid "Service"
+msgstr "Service"
+
+#: inc/copy.php:48
+msgid "Total Amount Due"
+msgstr "Montant total dû"
+
+#: inc/copy.php:49
+msgid "Credit Card"
+msgstr "Carte de crédit"
+
+#: inc/copy.php:50
+msgid "Month / Year"
+msgstr "Mois / Année"
+
+#: inc/copy.php:51
+msgid "CVC"
+msgstr "CVC"
+
+#: inc/copy.php:52
+msgid "Postal Code"
+msgstr "Code postal"
+
+#: inc/copy.php:53
+msgid "Pay Now"
+msgstr "Payer maintenant"
+
+#: inc/copy.php:54
+msgid "Loading Secure Checkout"
+msgstr "Chargement du paiement sécurisé"
+
+#: inc/copy.php:57
+msgid "Thank You!"
+msgstr "Merci!"
+
+#: inc/copy.php:58
+msgid "We have confirmed your appointment on "
+msgstr "Nous avons confirmé votre rendez-vous le"
+
+#: inc/copy.php:59
+msgid "Customer"
+msgstr "Client"
+
+#: inc/copy.php:61
+msgid "Address"
+msgstr "Adresse"
+
+#: inc/copy.php:62
+msgid "We look forward to seeing you!"
+msgstr "Nous vous attendons avec impatience !"
+
+#: inc/copy.php:63
+msgid "Done"
+msgstr "Terminé"
+
+#: inc/copy.php:66
+msgid "Booking Currently Unavailable"
+msgstr "Réservation actuellement indisponible"
+
+#: inc/copy.php:67
+msgid ""
+"Booking appointments is currently unavailable. Please check again later."
+msgstr ""
+"La prise de rendez-vous est actuellement indisponible. Veuillez vérifier à "
+"nouveau plus tard."
+
+#: inc/copy.php:74
+msgid "Price"
+msgstr "Prix"
+
+#: inc/copy.php:76
+msgid "Minutes"
+msgstr "Minutes"
+
+#: inc/copy.php:86
+msgid "Details"
+msgstr "Détails"
+
+#: inc/copy.php:87
+msgid "Booked"
+msgstr "Réservé"
+
+#: inc/widgets/address.php:6 inc/widgets/address.php:8
+msgid "Start Booking Location Address"
+msgstr "Début de la réservation Adresse du lieu de réservation"
+
+#: inc/widgets/address.php:55 inc/widgets/classes.php:32
+#: inc/widgets/hours.php:50 inc/widgets/services.php:30
+#: inc/widgets/single-service.php:49
+msgid "Title"
+msgstr "Titre"
+
+#: inc/widgets/address.php:60
+msgid "Map Type"
+msgstr "Type de carte"
+
+#: inc/widgets/address.php:62
+msgid "Road Map"
+msgstr "Carte routière"
+
+#: inc/widgets/address.php:63
+msgid "Satellite"
+msgstr "Satellite"
+
+#: inc/widgets/address.php:68
+msgid "Map Zoom"
+msgstr "Zoom de la carte"
+
+#: inc/widgets/address.php:70
+msgid "No Zoom"
+msgstr "Pas de zoom"
+
+#: inc/widgets/address.php:71
+msgid "Level 1"
+msgstr "Niveau 1"
+
+#: inc/widgets/address.php:72
+msgid "Level 2"
+msgstr "Niveau 2"
+
+#: inc/widgets/address.php:73
+msgid "Level 3"
+msgstr "Niveau 3"
+
+#: inc/widgets/address.php:74
+msgid "Level 4"
+msgstr "Niveau 4"
+
+#: inc/widgets/address.php:79
+msgid "Marker Color"
+msgstr "Couleur du marqueur"
+
+#: inc/widgets/address.php:81
+msgid "Red"
+msgstr "Rouge"
+
+#: inc/widgets/address.php:82
+msgid "Blue"
+msgstr "Bleu"
+
+#: inc/widgets/address.php:83
+msgid "Green"
+msgstr "Vert"
+
+#: inc/widgets/address.php:87
+msgid ""
+"Location address is loaded from your account profile at StartBooking.com."
+msgstr ""
+"L'adresse de localisation est chargée à partir de votre profil de compte "
+"chez StartBooking.com."
+
+#: inc/widgets/address.php:87
+msgid "account"
+msgstr "compte"
+
+#: inc/widgets/address.php:87
+msgid "Update Address"
+msgstr "Mise à jour de l'adresse"
+
+#: inc/widgets/classes.php:6 inc/widgets/classes.php:8
+msgid "Start Booking Classes"
+msgstr "Commencer à réserver des cours"
+
+#: inc/widgets/classes.php:35
+msgid ""
+"Please use the Start Booking dashboard for class schedules and configuration."
+msgstr ""
+"Veuillez utiliser le tableau de bord Start Booking pour les horaires et la "
+"configuration des cours."
+
+#: inc/widgets/hours.php:6 inc/widgets/hours.php:8
+msgid "Start Booking Hours"
+msgstr "Début des heures de réservation"
+
+#: inc/widgets/hours.php:37
+msgid "Closed"
+msgstr "Fermé"
+
+#: inc/widgets/hours.php:54
+msgid "Hide Icon"
+msgstr "Cacher l'icône"
+
+#: inc/widgets/hours.php:57
+msgid ""
+"Your hours are loaded from your account availability at Start Booking.com."
+msgstr ""
+"Vos heures sont chargées à partir de la disponibilité de votre compte sur "
+"Start Booking.com."
+
+#: inc/widgets/hours.php:57
+msgid "account/availability"
+msgstr "compte/disponibilité"
+
+#: inc/widgets/hours.php:57
+msgid "Manage Availability Hours"
+msgstr "Gérer les heures de disponibilité"
+
+#: inc/widgets/services.php:6 inc/widgets/services.php:8
+msgid "Start Booking Services"
+msgstr "Commencer à réserver des services"
+
+#: inc/widgets/services.php:33
+msgid "To edit the booking form experience, please use the "
+msgstr ""
+"Pour modifier l'expérience du formulaire de réservation, veuillez utiliser "
+"le bouton"
+
+#: inc/widgets/services.php:33
+msgid "form editor"
+msgstr "éditeur de formulaires"
+
+#: inc/widgets/single-service.php:6 inc/widgets/single-service.php:8
+msgid "Start Booking Single Service"
+msgstr "Commencer à réserver un service unique"
+
+#: inc/widgets/single-service.php:68
+msgid "Service Details"
+msgstr "Détails du service"
+
+#: inc/widgets/single-service.php:70
+msgid "Show Details"
+msgstr "Afficher les détails"
+
+#: inc/widgets/single-service.php:71
+msgid "Skip Details"
+msgstr "Sauter les détails"
+
+#: public/js/admin/index.js:2 public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+msgid "+"
+msgstr "+"
+
+#: public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+msgid "Coupon"
+msgstr "Coupon"
+
+#: public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+msgid "Add Coupon"
+msgstr "Ajouter un code promo"
+
+#: public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+msgid "Discount"
+msgstr "Rabais"
+
+#: public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+msgid "Invalid Coupon"
+msgstr "Coupon non valide"
+
+#: public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+msgid "International"
+msgstr "International"
+
+#: public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+msgid "Country"
+msgstr "Pays"
+
+#: public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+msgid "Email is required"
+msgstr "Courriel requis"
+
+#: public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+msgid "First name is required"
+msgstr "Le prénom est requis"
+
+#: public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+msgid "Last name is required"
+msgstr "Le nom de famille est requis"
+
+#: public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+msgid "Phone is required"
+msgstr "Le téléphone est requis"
+
+#: public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+msgid "We have securely populated a profile that matches this email address"
+msgstr ""
+"Nous avons établi en toute sécurité un profil correspondant à cette adresse "
+"électronique"
+
+#: public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+msgid "Warning"
+msgstr "Avertissement"
+
+#: public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+msgid ""
+"Your site is loading the secure checkout form without a SSL certificate. SSL "
+"certificates keep your connection with the website secure."
+msgstr ""
+"Votre site charge le formulaire de paiement sécurisé sans certificat SSL. "
+"Les certificats SSL sécurisent votre connexion avec le site web."
+
+#: public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+msgid "Learn how to resolve this"
+msgstr "Apprenez à résoudre ce problème"
+
+#: public/js/flows/default-appointment.js:2 public/js/flows/single-service.js:2
+msgid "Remove"
+msgstr "Enlever"
+
+#: public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+msgid "Skip"
+msgstr "Passer"
+
+#: public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+msgid "Service Duration"
+msgstr "Durée du service"
+
+#: public/js/flows/default-appointment.js:2 public/js/flows/single-service.js:2
+msgid "Please select a date between"
+msgstr "Veuillez choisir une date entre"
+
+#: public/js/flows/default-appointment.js:2 public/js/flows/single-service.js:2
+msgid "and"
+msgstr "et"
+
+#: public/js/flows/default-appointment.js:2 public/js/flows/single-service.js:2
+msgid "Please select a date after"
+msgstr "Veuillez choisir une date après"
+
+#: public/js/flows/default-appointment.js:2 public/js/flows/single-service.js:2
+msgid "Please select a date before"
+msgstr "Veuillez choisir une date avant le"
+
+#: public/js/flows/default-appointment.js:2 public/js/flows/single-service.js:2
+msgid "Selected date is outside available options."
+msgstr "La date sélectionnée est en dehors des options disponibles."
+
+#: public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+msgid "Unable to prepare payment."
+msgstr "Impossible de préparer le paiement."
+
+#: public/js/flows/default-appointment.js:2 public/js/flows/single-service.js:2
+msgid "Processing Appointment"
+msgstr "Traitement du rendez-vous"
+
+#: public/js/flows/default-appointment.js:2 public/js/flows/single-service.js:2
+msgid "Service Selected"
+msgstr "Service sélectionné"
+
+#: public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+msgid "Online booking disabled"
+msgstr "Réservation en ligne désactivée"
+
+#: public/js/flows/default-appointment.js:2
+msgid "There are no services for this service type."
+msgstr "Il n'y a pas de services pour ce type de service."
+
+#: public/js/flows/default-appointment.js:2
+msgid "Go Back"
+msgstr "Revenir en arrière"
+
+#: public/js/flows/default-appointment.js:2
+msgid "Oops... Looks like you don't have any services."
+msgstr "Oups... On dirait que vous n'avez pas de services."
+
+#: public/js/flows/default-appointment.js:2
+msgid "Add Services"
+msgstr "Ajouter des services"
+
+#: public/js/flows/default-appointment.js:2
+msgid "A great online booking experience is coming soon..."
+msgstr ""
+"Une nouvelle expérience de réservation en ligne sera bientôt disponible..."
+
+#: public/js/flows/default-appointment.js:2
+#: public/js/flows/default-classes.js:2 public/js/flows/single-service.js:2
+#: resources/assets/js/front-end/utils/translate.js:108
+msgid "Sold Out"
+msgstr "Épuisé"
+
+#: public/js/flows/default-appointment.js:2
+msgid "Booking is disabled. Check back later."
+msgstr "La réservation est désactivée. Revenez plus tard."
+
+#: public/js/flows/default-classes.js:2
+msgid "All Day"
+msgstr "Toute la journée"
+
+#: public/js/flows/default-classes.js:2
+msgid "Joining..."
+msgstr "Rejoindre..."
+
+#: public/js/flows/default-classes.js:2
+msgid "Something went wrong."
+msgstr "Oups! Quelque chose ne va pas."
+
+#: public/js/flows/default-classes.js:2
+msgid "loading"
+msgstr "chargement"
+
+#: resources/assets/js/admin/actions/account/accountActions.js:173
+#: resources/assets/js/admin/actions/account/accountOptionActions.js:53
+#: resources/assets/js/admin/actions/appointmentActions.js:34
+#: resources/assets/js/admin/actions/appointmentActions.js:49
+#: resources/assets/js/admin/actions/appointmentActions.js:62
+#: resources/assets/js/admin/actions/appointmentActions.js:75
+#: resources/assets/js/admin/actions/appointmentActions.js:88
+#: resources/assets/js/admin/actions/appointmentActions.js:127
+#: resources/assets/js/admin/reducers/account/accountOptionsReducer.js:28
+#: resources/assets/js/admin/reducers/customFieldsReducer.js:22
+#: resources/assets/js/admin/reducers/customFieldsReducer.js:38
+#: resources/assets/js/admin/reducers/customFieldsReducer.js:53
+#: resources/assets/js/admin/reducers/customFieldsReducer.js:77
+#: resources/assets/js/admin/reducers/customFieldsReducer.js:101
+#: resources/assets/js/admin/reducers/editorReducer.js:45
+msgid "Saved"
+msgstr "Enregistré"
+
+#: resources/assets/js/admin/actions/chargeActions.js:34
+#: resources/assets/js/admin/actions/chargeActions.js:160
+msgid "Payment successful"
+msgstr "Paiement réussi"
+
+#: resources/assets/js/admin/actions/chargeActions.js:38
+msgid "Payment requires action"
+msgstr "Le paiement nécessite une action"
+
+#: resources/assets/js/admin/actions/chargeActions.js:163
+msgid "Payment error."
+msgstr "Erreur de paiement."
+
+#: resources/assets/js/admin/actions/upsellActions.js:43
+#: resources/assets/js/admin/actions/upsellActions.js:59
+#: resources/assets/js/admin/actions/upsellActions.js:75
+#: resources/assets/js/admin/actions/upsellActions.js:98
+#: resources/assets/js/admin/actions/upsellActions.js:110
+#: resources/assets/js/admin/actions/upsellActions.js:126
+#: resources/assets/js/admin/reducers/classScheduleReducer.js:51
+#: resources/assets/js/admin/reducers/classScheduleReducer.js:61
+msgid "Success"
+msgstr "Succès"
+
+#: resources/assets/js/admin/jquery/graph/graph.js:15
+msgid "Yesterday"
+msgstr "Hier"
+
+#: resources/assets/js/admin/jquery/graph/graph.js:16
+msgid "Today"
+msgstr "Aujourd’hui"
+
+#: resources/assets/js/admin/jquery/graph/graph.js:66
+msgid "Bookings"
+msgstr "Réserver"
+
+#: resources/assets/js/admin/reducers/classScheduleReducer.js:71
+msgid "Status updated"
+msgstr "Statut modifié"
+
+#: resources/assets/js/admin/reducers/classScheduleReducer.js:100
+msgid "Cancelled schedule"
+msgstr "Horaire annulé"
+
+#: resources/assets/js/admin/reducers/classScheduleReducer.js:125
+msgid "Deleted schedule"
+msgstr "Calendrier supprimé"
+
+#: resources/assets/js/admin/utils/customFields.js:5
+msgid "Single Line Text"
+msgstr "Texte sur une seule ligne"
+
+#: resources/assets/js/admin/utils/customFields.js:6
+msgid "Paragraph Text"
+msgstr "Texte du paragraphe"
+
+#: resources/assets/js/admin/utils/customFields.js:7
+msgid "Dropdown"
+msgstr "Déroulante"
+
+#: resources/assets/js/admin/utils/customFields.js:8
+msgid "Heading"
+msgstr "En-tête"
+
+#: resources/assets/js/admin/utils/customFields.js:9
+msgid "Line Separator"
+msgstr "Séparateur de ligne"
+
+#: resources/assets/js/admin/utils/prefilledEvents.js:7
+#: resources/assets/js/admin/utils/prefilledEvents.js:29
+msgid "Hair cut"
+msgstr "Coupe de cheveux"
+
+#: resources/assets/js/admin/utils/prefilledEvents.js:8
+msgid "Clipper or scissor cut."
+msgstr "Coupe à la tondeuse ou aux ciseaux."
+
+#: resources/assets/js/admin/utils/prefilledEvents.js:18
+msgid "Facial"
+msgstr "Visage"
+
+#: resources/assets/js/admin/utils/prefilledEvents.js:19
+msgid ""
+"Our facial regimen was created to target specific needs, increase skin "
+"health, and enhance your appearance."
+msgstr ""
+"Notre régime facial a été créé pour répondre à des besoins spécifiques, "
+"améliorer la santé de la peau et rehausser votre apparence."
+
+#: resources/assets/js/admin/utils/prefilledEvents.js:30
+msgid "Get your hair washed, cut and styled by our professional team."
+msgstr ""
+"Faites-vous laver, couper et coiffer les cheveux par notre équipe de "
+"professionnels."
+
+#: resources/assets/js/admin/utils/prefilledEvents.js:40
+msgid "30 minute consultation"
+msgstr "consultation de 30 minutes"
+
+#: resources/assets/js/admin/utils/prefilledEvents.js:41
+msgid "Initial introduction to get to know each other a little better."
+msgstr "Première présentation pour apprendre à se connaître un peu mieux."
+
+#: resources/assets/js/front-end/reducers/customerReducer.js:26
+msgid "Spam Detected"
+msgstr "Spam détecté"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.startbooking.com/"
+msgstr "https://www.startbooking.com/"
+
+#. Description of the plugin/theme
+msgid ""
+"Integrate online booking service StartBooking.com. Including an appointment "
+"form for customers to book directly on your website and a widget to display "
+"open hours."
+msgstr ""
+"Intégrez le service de réservation en ligne StartBooking.com. Incluant un "
+"formulaire de rendez-vous pour que les clients puissent réserver directement "
+"sur votre site web et un widget pour afficher les heures d'ouverture."
+
+#. Author URI of the plugin/theme
+msgid "https://www.startbooking.com"
+msgstr "https://www.startbooking.com"
